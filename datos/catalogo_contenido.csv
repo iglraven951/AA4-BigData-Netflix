@@ -1,0 +1,51 @@
+id,titulo,tipo,genero,anio,duracion_min,calificacion,idioma,pais
+1,La Casa de Papel,serie,drama,2017,55,8.5,espanol,Espana
+2,Stranger Things,serie,ciencia_ficcion,2016,50,8.7,ingles,USA
+3,El Juego del Calamar,serie,drama,2021,60,8.0,coreano,Corea
+4,Breaking Bad,serie,drama,2008,47,9.5,ingles,USA
+5,Narcos,serie,drama,2015,50,8.8,espanol,Colombia
+6,The Crown,serie,drama,2016,58,8.6,ingles,UK
+7,Ozark,serie,drama,2017,60,8.5,ingles,USA
+8,Black Mirror,serie,ciencia_ficcion,2011,60,8.8,ingles,UK
+9,Wednesday,serie,comedia,2022,45,8.1,ingles,USA
+10,You,serie,thriller,2018,45,7.7,ingles,USA
+11,Emily in Paris,serie,comedia,2020,30,6.9,ingles,Francia
+12,Lucifer,serie,fantasia,2016,42,8.1,ingles,USA
+13,Peaky Blinders,serie,drama,2013,60,8.8,ingles,UK
+14,The Witcher,serie,fantasia,2019,60,8.2,ingles,USA
+15,Bridgerton,serie,romance,2020,60,7.3,ingles,UK
+16,Dark,serie,ciencia_ficcion,2017,60,8.7,aleman,Alemania
+17,Elite,serie,drama,2018,50,7.5,espanol,Espana
+18,Lupin,serie,drama,2021,45,7.5,frances,Francia
+19,Arcane,serie,animacion,2021,40,9.0,ingles,USA
+20,The Queen Gambit,serie,drama,2020,60,8.6,ingles,USA
+21,Titanic,pelicula,romance,1997,195,7.9,ingles,USA
+22,El Padrino,pelicula,drama,1972,175,9.2,ingles,USA
+23,Inception,pelicula,ciencia_ficcion,2010,148,8.8,ingles,USA
+24,Pulp Fiction,pelicula,drama,1994,154,8.9,ingles,USA
+25,The Matrix,pelicula,ciencia_ficcion,1999,136,8.7,ingles,USA
+26,Forrest Gump,pelicula,drama,1994,142,8.8,ingles,USA
+27,El Senor de los Anillos,pelicula,fantasia,2001,178,8.9,ingles,Nueva_Zelanda
+28,Interstellar,pelicula,ciencia_ficcion,2014,169,8.6,ingles,USA
+29,Gladiator,pelicula,accion,2000,155,8.5,ingles,USA
+30,The Dark Knight,pelicula,accion,2008,152,9.0,ingles,USA
+31,Avatar,pelicula,ciencia_ficcion,2009,162,7.9,ingles,USA
+32,Jurassic Park,pelicula,aventura,1993,127,8.2,ingles,USA
+33,Toy Story,pelicula,animacion,1995,81,8.3,ingles,USA
+34,Coco,pelicula,animacion,2017,105,8.4,espanol,Mexico
+35,Roma,pelicula,drama,2018,135,7.7,espanol,Mexico
+36,Y tu mama tambien,pelicula,drama,2001,106,7.6,espanol,Mexico
+37,Amores Perros,pelicula,drama,2000,154,8.1,espanol,Mexico
+38,El Laberinto del Fauno,pelicula,fantasia,2006,118,8.2,espanol,Espana
+39,Parasite,pelicula,thriller,2019,132,8.5,coreano,Corea
+40,Oldboy,pelicula,thriller,2003,120,8.4,coreano,Corea
+41,Your Name,pelicula,animacion,2016,106,8.4,japones,Japon
+42,Spirited Away,pelicula,animacion,2001,125,8.6,japones,Japon
+43,Amelie,pelicula,comedia,2001,122,8.3,frances,Francia
+44,La Vida es Bella,pelicula,drama,1997,116,8.6,italiano,Italia
+45,Cinema Paradiso,pelicula,drama,1988,155,8.5,italiano,Italia
+46,Cidade de Deus,pelicula,drama,2002,130,8.6,portugues,Brasil
+47,El Secreto de sus Ojos,pelicula,thriller,2009,129,8.2,espanol,Argentina
+48,Relatos Salvajes,pelicula,comedia,2014,122,8.1,espanol,Argentina
+49,Sin Novedad en el Frente,pelicula,drama,2022,148,7.8,aleman,Alemania
+50,Dont Look Up,pelicula,comedia,2021,138,7.2,ingles,USA

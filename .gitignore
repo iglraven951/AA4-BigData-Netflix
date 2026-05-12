@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Spark outputs
+output/
+checkpoint/
+*.crc
+_SUCCESS
+part-*
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Java/Scala
+*.jar
+*.class
+target/
+
+# Node (if any)
+node_modules/
+
+# Results (generated at runtime)
+resultados/
+export/

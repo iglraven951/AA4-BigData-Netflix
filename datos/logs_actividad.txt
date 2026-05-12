@@ -1,0 +1,106 @@
+2024-01-15 08:23:45 INFO user=U001 action=LOGIN device=smart_tv ip=192.168.1.100 country=Mexico
+2024-01-15 08:24:12 INFO user=U001 action=SEARCH query="series drama" results=45
+2024-01-15 08:25:30 INFO user=U001 action=PLAY content_id=1 title="La Casa de Papel"
+2024-01-15 09:20:45 INFO user=U001 action=PAUSE content_id=1 time_watched=55min
+2024-01-15 09:21:00 INFO user=U001 action=LOGOUT device=smart_tv
+2024-01-15 10:15:22 INFO user=U002 action=LOGIN device=laptop ip=83.45.123.67 country=Espana
+2024-01-15 10:16:00 INFO user=U002 action=BROWSE category=thriller
+2024-01-15 10:17:30 INFO user=U002 action=PLAY content_id=3 title="El Juego del Calamar"
+2024-01-15 11:17:30 INFO user=U002 action=COMPLETE content_id=3 rating=4
+2024-01-15 11:18:00 INFO user=U002 action=LOGOUT device=laptop
+2024-01-15 14:30:00 INFO user=U003 action=LOGIN device=smart_tv ip=200.45.78.90 country=Argentina
+2024-01-15 14:31:15 INFO user=U003 action=SEARCH query="narcos colombia" results=12
+2024-01-15 14:32:00 INFO user=U003 action=PLAY content_id=5 title="Narcos"
+2024-01-15 15:22:00 INFO user=U003 action=COMPLETE content_id=5 rating=5
+2024-01-15 18:00:00 INFO user=U004 action=LOGIN device=celular ip=190.25.67.123 country=Colombia
+2024-01-15 18:01:30 INFO user=U004 action=SEARCH query="series romanticas" results=38
+2024-01-15 18:02:45 INFO user=U004 action=PLAY content_id=10 title="You"
+2024-01-15 18:32:45 ERROR user=U004 action=BUFFER_ERROR content_id=10 error="connection_slow"
+2024-01-15 18:33:00 INFO user=U004 action=STOP content_id=10 time_watched=30min
+2024-01-16 07:00:00 INFO user=U005 action=LOGIN device=tablet ip=181.65.43.21 country=Peru
+2024-01-16 07:02:00 INFO user=U005 action=SEARCH query="peliculas clasicas" results=67
+2024-01-16 07:03:30 INFO user=U005 action=PLAY content_id=21 title="Titanic"
+2024-01-16 10:18:30 INFO user=U005 action=COMPLETE content_id=21 rating=5
+2024-01-16 12:00:00 INFO user=U006 action=LOGIN device=smart_tv ip=186.79.45.88 country=Chile
+2024-01-16 12:01:45 INFO user=U006 action=BROWSE category=ciencia_ficcion
+2024-01-16 12:03:00 INFO user=U006 action=PLAY content_id=16 title="Dark"
+2024-01-16 13:03:00 INFO user=U006 action=COMPLETE content_id=16 rating=5
+2024-01-16 15:30:00 INFO user=U007 action=LOGIN device=celular ip=187.45.123.45 country=Mexico
+2024-01-16 15:31:30 INFO user=U007 action=SEARCH query="elite espana" results=8
+2024-01-16 15:32:00 INFO user=U007 action=PLAY content_id=17 title="Elite"
+2024-01-16 16:22:00 INFO user=U007 action=COMPLETE content_id=17 rating=4
+2024-01-16 19:00:00 INFO user=U008 action=LOGIN device=laptop ip=85.67.34.12 country=Espana
+2024-01-16 19:02:00 INFO user=U008 action=SEARCH query="inception nolan" results=5
+2024-01-16 19:03:30 INFO user=U008 action=PLAY content_id=23 title="Inception"
+2024-01-16 21:31:30 INFO user=U008 action=COMPLETE content_id=23 rating=5
+2024-01-17 08:00:00 INFO user=U009 action=LOGIN device=celular ip=201.34.56.78 country=Venezuela
+2024-01-17 08:01:30 INFO user=U009 action=SEARCH query="coco pelicula" results=3
+2024-01-17 08:02:00 INFO user=U009 action=PLAY content_id=34 title="Coco"
+2024-01-17 09:47:00 INFO user=U009 action=COMPLETE content_id=34 rating=5
+2024-01-17 10:30:00 INFO user=U010 action=LOGIN device=tablet ip=190.12.34.56 country=Ecuador
+2024-01-17 10:32:00 INFO user=U010 action=BROWSE category=drama
+2024-01-17 10:33:30 INFO user=U010 action=PLAY content_id=1 title="La Casa de Papel"
+2024-01-17 11:28:30 INFO user=U010 action=COMPLETE content_id=1 rating=4
+2024-01-17 14:00:00 INFO user=U011 action=LOGIN device=smart_tv ip=187.89.12.34 country=Mexico
+2024-01-17 14:01:30 INFO user=U011 action=SEARCH query="breaking bad" results=6
+2024-01-17 14:02:00 INFO user=U011 action=PLAY content_id=4 title="Breaking Bad"
+2024-01-17 14:49:00 INFO user=U011 action=COMPLETE content_id=4 rating=5
+2024-01-17 17:00:00 INFO user=U012 action=LOGIN device=laptop ip=190.67.89.12 country=Colombia
+2024-01-17 17:02:00 INFO user=U012 action=BROWSE category=ciencia_ficcion
+2024-01-17 17:03:30 INFO user=U012 action=PLAY content_id=8 title="Black Mirror"
+2024-01-17 18:03:30 INFO user=U012 action=COMPLETE content_id=8 rating=4
+2024-01-18 09:00:00 INFO user=U013 action=LOGIN device=celular ip=181.45.67.89 country=Peru
+2024-01-18 09:01:30 INFO user=U013 action=SEARCH query="arcane league" results=4
+2024-01-18 09:02:00 INFO user=U013 action=PLAY content_id=19 title="Arcane"
+2024-01-18 09:42:00 INFO user=U013 action=COMPLETE content_id=19 rating=5
+2024-01-18 12:00:00 INFO user=U014 action=LOGIN device=smart_tv ip=186.34.56.78 country=Chile
+2024-01-18 12:02:00 INFO user=U014 action=SEARCH query="batman dark knight" results=7
+2024-01-18 12:03:30 INFO user=U014 action=PLAY content_id=30 title="The Dark Knight"
+2024-01-18 14:35:30 INFO user=U014 action=COMPLETE content_id=30 rating=5
+2024-01-18 16:00:00 INFO user=U015 action=LOGIN device=tablet ip=200.89.12.34 country=Argentina
+2024-01-18 16:02:00 INFO user=U015 action=SEARCH query="peliculas argentinas" results=23
+2024-01-18 16:03:30 INFO user=U015 action=PLAY content_id=47 title="El Secreto de sus Ojos"
+2024-01-18 18:12:30 INFO user=U015 action=COMPLETE content_id=47 rating=5
+2024-01-19 08:00:00 ERROR system action=SERVER_RESTART reason="maintenance"
+2024-01-19 08:30:00 INFO system action=SERVER_ONLINE status="healthy"
+2024-01-19 09:00:00 INFO user=U016 action=LOGIN device=smart_tv ip=187.56.78.90 country=Mexico
+2024-01-19 09:02:00 INFO user=U016 action=SEARCH query="stranger things" results=9
+2024-01-19 09:03:30 INFO user=U016 action=PLAY content_id=2 title="Stranger Things"
+2024-01-19 09:53:30 INFO user=U016 action=COMPLETE content_id=2 rating=5
+2024-01-19 11:00:00 INFO user=U017 action=LOGIN device=celular ip=84.23.45.67 country=Espana
+2024-01-19 11:01:30 INFO user=U017 action=BROWSE category=comedia
+2024-01-19 11:02:00 INFO user=U017 action=PLAY content_id=11 title="Emily in Paris"
+2024-01-19 11:22:00 INFO user=U017 action=STOP content_id=11 time_watched=20min reason="not_interested"
+2024-01-19 14:00:00 INFO user=U018 action=LOGIN device=laptop ip=190.34.56.78 country=Colombia
+2024-01-19 14:02:00 INFO user=U018 action=SEARCH query="parasite korean" results=6
+2024-01-19 14:03:30 INFO user=U018 action=PLAY content_id=39 title="Parasite"
+2024-01-19 16:15:30 INFO user=U018 action=COMPLETE content_id=39 rating=5
+2024-01-19 18:00:00 INFO user=U019 action=LOGIN device=smart_tv ip=181.78.90.12 country=Peru
+2024-01-19 18:02:00 INFO user=U019 action=SEARCH query="studio ghibli" results=15
+2024-01-19 18:03:30 INFO user=U019 action=PLAY content_id=42 title="Spirited Away"
+2024-01-19 20:08:30 INFO user=U019 action=COMPLETE content_id=42 rating=5
+2024-01-20 10:00:00 INFO user=U020 action=LOGIN device=tablet ip=186.56.78.90 country=Chile
+2024-01-20 10:02:00 INFO user=U020 action=BROWSE category=thriller
+2024-01-20 10:03:30 INFO user=U020 action=PLAY content_id=3 title="El Juego del Calamar"
+2024-01-20 10:58:30 WARN user=U020 action=PAUSE content_id=3 time_watched=55min reason="explicit_content"
+2024-01-20 12:00:00 INFO user=U021 action=LOGIN device=celular ip=187.67.89.12 country=Mexico
+2024-01-20 12:01:30 INFO user=U021 action=SEARCH query="series nuevas 2024" results=89
+2024-01-20 12:02:00 ERROR user=U021 action=PLAY_ERROR content_id=50 error="content_unavailable"
+2024-01-20 12:03:00 INFO user=U021 action=PLAY content_id=9 title="Wednesday"
+2024-01-20 12:48:00 INFO user=U021 action=COMPLETE content_id=9 rating=4
+2024-01-20 15:00:00 INFO user=U022 action=LOGIN device=smart_tv ip=190.78.90.12 country=Ecuador
+2024-01-20 15:02:00 INFO user=U022 action=ADD_TO_LIST content_id=13 list="favorites"
+2024-01-20 15:03:30 INFO user=U022 action=PLAY content_id=13 title="Peaky Blinders"
+2024-01-20 16:03:30 INFO user=U022 action=COMPLETE content_id=13 rating=5
+2024-01-20 18:00:00 INFO user=U023 action=LOGIN device=laptop ip=200.45.67.89 country=Argentina
+2024-01-20 18:02:00 INFO user=U023 action=SEARCH query="matrix pelicula" results=8
+2024-01-20 18:03:30 INFO user=U023 action=PLAY content_id=25 title="The Matrix"
+2024-01-20 20:19:30 INFO user=U023 action=COMPLETE content_id=25 rating=4
+2024-01-21 08:00:00 INFO user=U024 action=LOGIN device=celular ip=201.56.78.90 country=Venezuela
+2024-01-21 08:01:30 INFO user=U024 action=BROWSE category=animacion
+2024-01-21 08:02:00 INFO user=U024 action=PLAY content_id=33 title="Toy Story"
+2024-01-21 09:23:00 INFO user=U024 action=COMPLETE content_id=33 rating=5
+2024-01-21 11:00:00 INFO user=U025 action=LOGIN device=smart_tv ip=190.23.45.67 country=Colombia
+2024-01-21 11:02:00 INFO user=U025 action=SEARCH query="the crown netflix" results=11
+2024-01-21 11:03:30 INFO user=U025 action=PLAY content_id=6 title="The Crown"
+2024-01-21 12:01:30 INFO user=U025 action=COMPLETE content_id=6 rating=4

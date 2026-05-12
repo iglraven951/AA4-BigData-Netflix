@@ -1,0 +1,41 @@
+rating_id,user_id,content_id,puntuacion,comentario,fecha
+R001,U001,1,5,Excelente serie muy emocionante,2024-01-16
+R002,U002,3,4,Muy buena pero algo violenta,2024-01-16
+R003,U003,5,5,Narcos es increible la recomiendo,2024-01-18
+R004,U004,10,3,Regular no me atrapo mucho,2024-01-19
+R005,U005,21,5,Clasico del cine romantico,2024-01-20
+R006,U006,16,5,Dark es una obra maestra,2024-01-21
+R007,U007,17,4,Elite es entretenida para jovenes,2024-01-16
+R008,U008,23,5,Inception te vuela la mente,2024-01-22
+R009,U009,34,5,Coco me hizo llorar hermosa pelicula,2024-01-23
+R010,U010,1,4,La Casa de Papel muy buena pero larga,2024-01-24
+R011,U011,4,5,Breaking Bad la mejor serie,2024-01-25
+R012,U012,8,4,Black Mirror te hace pensar,2024-01-26
+R013,U013,19,5,Arcane es arte visual increible,2024-01-27
+R014,U014,30,5,The Dark Knight mejor Batman,2024-01-28
+R015,U015,47,5,El Secreto de sus Ojos excelente,2024-01-29
+R016,U016,2,5,Stranger Things nostalgia pura,2024-01-30
+R017,U017,11,2,Emily in Paris muy superficial,2024-01-31
+R018,U018,39,5,Parasite merecido Oscar,2024-02-01
+R019,U019,42,5,Spirited Away magia de Ghibli,2024-02-02
+R020,U020,3,4,El Juego del Calamar muy intensa,2024-02-03
+R021,U001,13,5,Peaky Blinders adictiva,2024-02-04
+R022,U002,25,4,Matrix revoluciono el cine,2024-02-05
+R023,U003,28,5,Interstellar impresionante visual,2024-02-06
+R024,U004,33,5,Toy Story clasico de mi infancia,2024-02-07
+R025,U005,6,4,The Crown bien producida,2024-02-08
+R026,U006,7,5,Ozark tension constante,2024-02-09
+R027,U007,9,4,Wednesday divertida y gotica,2024-02-10
+R028,U008,12,3,Lucifer entretenida pero repetitiva,2024-02-11
+R029,U009,14,4,The Witcher buena fantasia,2024-02-12
+R030,U010,15,3,Bridgerton bonita pero predecible,2024-02-13
+R031,U011,18,4,Lupin entretenida y elegante,2024-02-14
+R032,U012,20,5,Queen Gambit adictiva,2024-02-15
+R033,U013,22,5,El Padrino obra maestra,2024-02-16
+R034,U014,24,5,Pulp Fiction dialogo increible,2024-02-17
+R035,U015,26,5,Forrest Gump emotiva,2024-02-18
+R036,U016,27,5,El Senor de los Anillos epica,2024-02-19
+R037,U017,29,4,Gladiator accion y drama,2024-02-20
+R038,U018,31,4,Avatar visual impresionante,2024-02-21
+R039,U019,32,4,Jurassic Park clasico de Spielberg,2024-02-22
+R040,U020,35,5,Roma cinematografia hermosa,2024-02-23

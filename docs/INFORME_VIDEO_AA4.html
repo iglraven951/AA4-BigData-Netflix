@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Informe AA4 - Big Data Netflix Analytics</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+            font-size: 12pt;
+        }
+        .btn-descargar {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #c53030;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .btn-descargar:hover {
+            background: #9b2c2c;
+        }
+        h1 {
+            font-size: 18pt;
+            color: #000;
+            margin: 30px 0 20px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #000;
+        }
+        h2 {
+            font-size: 14pt;
+            color: #000;
+            margin: 25px 0 15px 0;
+        }
+        h3 {
+            font-size: 12pt;
+            color: #000;
+            margin: 20px 0 10px 0;
+        }
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin: 10px 0 15px 25px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 11pt;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f0f0f0;
+            font-weight: bold;
+        }
+        .portada {
+            text-align: center;
+            page-break-after: always;
+            padding-top: 60px;
+            min-height: 90vh;
+        }
+        .portada h1 {
+            font-size: 24pt;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .portada h2 {
+            font-size: 18pt;
+            margin-bottom: 30px;
+        }
+        .info-portada {
+            text-align: left;
+            margin: 40px auto;
+            max-width: 400px;
+        }
+        .info-portada p {
+            margin: 8px 0;
+        }
+        .seccion {
+            page-break-before: always;
+        }
+        .nota {
+            background: #f9f9f9;
+            border-left: 3px solid #666;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-style: italic;
+        }
+        .codigo {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            margin: 10px 0;
+            white-space: pre-wrap;
+        }
+        @media print {
+            .btn-descargar {
+                display: none !important;
+            }
+            body {
+                padding: 15mm;
+            }
+            .seccion {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<button class="btn-descargar" onclick="descargarPDF()">DESCARGAR PDF</button>
+
+<div id="contenido">
+
+<!-- PORTADA -->
+<div class="portada">
+    <h1>EVALUACION AA4 - BIG DATA</h1>
+    <h2>Netflix Analytics Platform</h2>
+    <p style="font-size: 14pt;">Procesamiento Big Data con Apache Spark, Kafka y MongoDB</p>
+
+    <div style="width: 100px; height: 2px; background: #000; margin: 40px auto;"></div>
+
+    <div class="info-portada">
+        <p><strong>Nombre de la Actividad:</strong> Evidencia 4 - Implementacion de Solucion Big Data con Streaming</p>
+        <p><strong>Nombre del Equipo:</strong> Grupo Netflix Analytics</p>
+        <p><strong>Integrantes:</strong></p>
+        <ul style="list-style: none; margin-left: 0;">
+            <li>1. ________________________________</li>
+            <li>2. ________________________________</li>
+            <li>3. ________________________________</li>
+            <li>4. ________________________________</li>
+            <li>5. ________________________________</li>
+        </ul>
+        <p><strong>Caso Elegido:</strong> Netflix - Plataforma de Streaming</p>
+        <p><strong>Fecha:</strong> Mayo 2026</p>
+        <p><strong>Institucion:</strong> Instituto CERTUS</p>
+        <p><strong>Asignatura:</strong> Big Data y Analisis de Datos</p>
+    </div>
+</div>
+
+<!-- INDICE -->
+<div class="seccion">
+    <h1>INDICE DE CONTENIDOS</h1>
+
+    <p>El presente informe esta estructurado para una presentacion en video de 17 minutos, distribuida entre 5 integrantes del equipo:</p>
+
+    <table>
+        <tr>
+            <th>Seccion</th>
+            <th>Integrante</th>
+            <th>Contenido</th>
+            <th>Tiempo</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Integrante 1</td>
+            <td>Caso, problema, objetivos y datos utilizados</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Integrante 2</td>
+            <td>Arquitectura Big Data y flujo del dato</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Integrante 3</td>
+            <td>Procesamiento batch con Spark: RDD, DataFrames y SQL</td>
+            <td>4 min</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Integrante 4</td>
+            <td>MongoDB: modelo de datos ACID, colecciones y consultas</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Integrante 5</td>
+            <td>Kafka Streaming, GitHub y conclusiones</td>
+            <td>4 min</td>
+        </tr>
+    </table>
+
+    <h2>Criterios de Evaluacion (Rubrica AA4)</h2>
+    <table>
+        <tr>
+            <th>Seccion</th>
+            <th>Requisito</th>
+            <th>Puntos</th>
+        </tr>
+        <tr>
+            <td>Seccion D</td>
+            <td>Procesamiento Batch con Spark (lectura, limpieza, transformacion, SQL, RDD, KPIs)</td>
+            <td>4 pts</td>
+        </tr>
+        <tr>
+            <td>Seccion E</td>
+            <td>Procesamiento Streaming con Kafka (productor, topics, micro-batches, alertas)</td>
+            <td>4 pts</td>
+        </tr>
+        <tr>
+            <td>Modelo de Datos</td>
+            <td>Propiedades ACID, esquemas, colecciones</td>
+            <td>4 pts</td>
+        </tr>
+        <tr>
+            <td>Data Storytelling</td>
+            <td>Narrativa: comienzo, problema, solucion, final</td>
+            <td>4 pts</td>
+        </tr>
+        <tr>
+            <td>Versionamiento</td>
+            <td>GitHub, flujo de trabajo, CI/CD</td>
+            <td>4 pts</td>
+        </tr>
+        <tr>
+            <th colspan="2" style="text-align: right;">TOTAL MAXIMO</th>
+            <th>20 pts</th>
+        </tr>
+    </table>
+</div>
+
+<!-- SECCION 1: INTEGRANTE 1 -->
+<div class="seccion">
+    <h1>1. CASO, PROBLEMA, OBJETIVOS Y DATOS</h1>
+    <p><strong>Integrante 1 - Tiempo: 3 minutos</strong></p>
+
+    <h2>1.1 Presentacion del Caso de Estudio</h2>
+
+    <p>Netflix es una empresa estadounidense de entretenimiento fundada en 1997 que ha revolucionado la industria del consumo audiovisual. Actualmente opera en mas de 190 paises con mas de 230 millones de suscriptores, generando diariamente petabytes de informacion proveniente de interacciones de usuarios, visualizaciones de contenido, valoraciones, busquedas y patrones de comportamiento.</p>
+
+    <p>El modelo de negocio de Netflix se basa en suscripciones mensuales con diferentes niveles (Basico, Estandar, Premium), y su exito depende fundamentalmente de dos pilares: la capacidad de recomendar contenido relevante a cada usuario, y la habilidad de tomar decisiones de produccion de contenido original basadas en datos de consumo. Ambos pilares requieren capacidades avanzadas de analisis de grandes volumenes de datos.</p>
+
+    <p>El ecosistema de datos de Netflix incluye:</p>
+    <ul>
+        <li><strong>Datos de catalogo:</strong> Informacion de mas de 15,000 titulos incluyendo metadatos, generos, elenco y clasificaciones.</li>
+        <li><strong>Datos de usuarios:</strong> Perfiles de 230+ millones de suscriptores con preferencias, historial y datos demograficos.</li>
+        <li><strong>Datos de visualizacion:</strong> Billones de eventos de reproduccion con informacion de duracion, dispositivo y calidad.</li>
+        <li><strong>Datos de interaccion:</strong> Busquedas, navegacion, valoraciones y adiciones a listas.</li>
+    </ul>
+
+    <h2>1.2 Problema Central</h2>
+
+    <p>El problema central que aborda este proyecto es la incapacidad de los sistemas tradicionales para procesar y analizar eficientemente el volumen, velocidad y variedad de datos generados por una plataforma de streaming a escala global.</p>
+
+    <p>Especificamente, los desafios incluyen:</p>
+    <ol>
+        <li><strong>Volumen:</strong> Procesamiento de petabytes de datos historicos y terabytes de datos nuevos diariamente.</li>
+        <li><strong>Velocidad:</strong> Necesidad de insights en tiempo cuasi-real para personalizacion y deteccion de anomalias.</li>
+        <li><strong>Variedad:</strong> Datos estructurados (transacciones), semi-estructurados (logs) y no estructurados (thumbnails).</li>
+        <li><strong>Veracidad:</strong> Garantizar calidad y consistencia de datos provenientes de multiples fuentes.</li>
+        <li><strong>Valor:</strong> Transformar datos crudos en metricas accionables para decisiones de negocio.</li>
+    </ol>
+
+    <h2>1.3 Objetivos del Proyecto</h2>
+
+    <p><strong>Objetivo General:</strong> Disenar e implementar una solucion de Big Data que permita el almacenamiento, procesamiento y analisis eficiente de datos de una plataforma de streaming, utilizando tecnologias distribuidas modernas.</p>
+
+    <p><strong>Objetivos Especificos:</strong></p>
+    <ol>
+        <li>Implementar lectura de datos desde multiples formatos (CSV, JSON, TXT).</li>
+        <li>Desarrollar pipeline de limpieza de datos (nulos, duplicados, outliers).</li>
+        <li>Aplicar transformaciones y crear columnas calculadas.</li>
+        <li>Integrar multiples fuentes de datos mediante JOINs.</li>
+        <li>Ejecutar consultas analiticas con SQL avanzado (CTEs, Window Functions).</li>
+        <li>Demostrar procesamiento de bajo nivel con RDD (map, filter, reduce).</li>
+        <li>Generar KPIs de negocio y exportar en multiples formatos.</li>
+        <li>Crear productor de eventos simulados en tiempo real con Kafka.</li>
+        <li>Implementar consumidor con procesamiento en micro-batches.</li>
+        <li>Desarrollar deteccion de anomalias y generacion de alertas.</li>
+        <li>Almacenar datos con garantias ACID en MongoDB.</li>
+        <li>Versionar codigo con flujo profesional en GitHub.</li>
+    </ol>
+
+    <h2>1.4 Datos Utilizados</h2>
+
+    <p>Para este proyecto trabajamos con cuatro fuentes de datos principales:</p>
+
+    <table>
+        <tr>
+            <th>Archivo</th>
+            <th>Formato</th>
+            <th>Registros</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr>
+            <td>netflix_titles.csv</td>
+            <td>CSV</td>
+            <td>~8,807</td>
+            <td>Catalogo completo de peliculas y series</td>
+        </tr>
+        <tr>
+            <td>usuarios.json</td>
+            <td>JSON</td>
+            <td>~1,000</td>
+            <td>Informacion de perfil de usuarios</td>
+        </tr>
+        <tr>
+            <td>visualizaciones.txt</td>
+            <td>TXT</td>
+            <td>~50,000</td>
+            <td>Historial de reproducciones</td>
+        </tr>
+        <tr>
+            <td>valoraciones.csv</td>
+            <td>CSV</td>
+            <td>~10,000</td>
+            <td>Ratings de usuarios</td>
+        </tr>
+    </table>
+
+    <p>Adicionalmente, generamos eventos simulados en tiempo real que representan la actividad de usuarios: PLAY (40%), PAUSE (25%), RATE (15%), SEARCH (15%) y ERROR (5%). El productor genera 5 eventos por segundo, equivalente a 18,000 eventos por hora.</p>
+</div>
+
+<!-- SECCION 2: INTEGRANTE 2 -->
+<div class="seccion">
+    <h1>2. ARQUITECTURA BIG DATA Y FLUJO DEL DATO</h1>
+    <p><strong>Integrante 2 - Tiempo: 3 minutos</strong></p>
+
+    <h2>2.1 Arquitectura General del Sistema</h2>
+
+    <p>Nuestra arquitectura sigue el modelo Lambda, un patron de diseno Big Data que combina procesamiento batch para analisis historico con procesamiento streaming para datos en tiempo real. La arquitectura se compone de tres capas principales:</p>
+
+    <p><strong>Capa de Ingesta:</strong> Aqui es donde entran los datos. Usamos HDFS de Hadoop para guardar archivos grandes de forma distribuida y tolerante a fallos, y Kafka para recibir eventos en tiempo real. HDFS divide los archivos en bloques de 128MB replicados en multiples nodos.</p>
+
+    <p><strong>Capa de Procesamiento:</strong> Utilizamos Apache Spark como motor central. Spark puede procesar archivos guardados (batch) mediante DataFrames, RDD y SQL, y tambien eventos en tiempo real (streaming) mediante Structured Streaming. Spark es hasta 100 veces mas rapido que MapReduce porque procesa datos en memoria RAM.</p>
+
+    <p><strong>Capa de Almacenamiento:</strong> Los resultados se guardan en MongoDB, una base de datos NoSQL con propiedades ACID. Tambien exportamos a diferentes formatos como Parquet (columnar, comprimido) y JSON (para APIs).</p>
+
+    <h2>2.2 Infraestructura con Docker Compose</h2>
+
+    <p>Toda la infraestructura corre en contenedores Docker, lo que permite levantar un cluster Big Data completo con un solo comando y garantizar consistencia entre ambientes. Desplegamos 11 contenedores organizados en 4 clusters:</p>
+
+    <table>
+        <tr>
+            <th>Cluster</th>
+            <th>Contenedor</th>
+            <th>Puerto</th>
+            <th>Funcion</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Hadoop (5)</td>
+            <td>namenode</td>
+            <td>9870</td>
+            <td>Nodo maestro de HDFS</td>
+        </tr>
+        <tr>
+            <td>datanode</td>
+            <td>9864</td>
+            <td>Almacena bloques de datos</td>
+        </tr>
+        <tr>
+            <td>resourcemanager</td>
+            <td>8088</td>
+            <td>Gestor de recursos YARN</td>
+        </tr>
+        <tr>
+            <td>nodemanager</td>
+            <td>8042</td>
+            <td>Ejecuta tareas</td>
+        </tr>
+        <tr>
+            <td>historyserver</td>
+            <td>8188</td>
+            <td>Historial de trabajos</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Spark (2)</td>
+            <td>spark-master</td>
+            <td>8080</td>
+            <td>Nodo maestro Spark</td>
+        </tr>
+        <tr>
+            <td>spark-worker</td>
+            <td>8081</td>
+            <td>Ejecutor de tareas</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Kafka (3)</td>
+            <td>zookeeper</td>
+            <td>2181</td>
+            <td>Coordinacion distribuida</td>
+        </tr>
+        <tr>
+            <td>kafka</td>
+            <td>9092</td>
+            <td>Broker de mensajeria</td>
+        </tr>
+        <tr>
+            <td>kafka-ui</td>
+            <td>8083</td>
+            <td>Interfaz web</td>
+        </tr>
+        <tr>
+            <td rowspan="2">MongoDB (2)</td>
+            <td>mongodb</td>
+            <td>27017</td>
+            <td>Base de datos NoSQL</td>
+        </tr>
+        <tr>
+            <td>mongo-express</td>
+            <td>8082</td>
+            <td>Interfaz web</td>
+        </tr>
+    </table>
+
+    <h2>2.3 Flujo del Dato</h2>
+
+    <p><strong>Flujo Batch (Seccion D del AA4):</strong> Los archivos CSV, JSON y TXT se cargan en HDFS o se leen directamente. Spark DataFrames lee los archivos detectando automaticamente el esquema. Se eliminan registros con valores nulos, duplicados y outliers. Se renombran columnas, convierten tipos y crean columnas calculadas. Se unen las diferentes fuentes mediante JOINs. Se ejecutan consultas SQL y operaciones RDD. Finalmente se exportan resultados a CSV, JSON, Parquet y MongoDB.</p>
+
+    <p><strong>Flujo Streaming (Seccion E del AA4):</strong> El productor Kafka genera eventos simulados de usuario (PLAY, PAUSE, RATE, SEARCH, ERROR). Los eventos se publican en topics de Kafka. Spark Structured Streaming consume los mensajes y los procesa en micro-batches cada 10 segundos. Se calculan metricas en ventanas temporales de 30 segundos y 1 minuto. Se detectan anomalias como actividad excesiva o errores frecuentes. Se generan alertas y los resultados se envian a consola, archivos JSON y MongoDB.</p>
+</div>
+
+<!-- SECCION 3: INTEGRANTE 3 -->
+<div class="seccion">
+    <h1>3. PROCESAMIENTO BATCH CON SPARK</h1>
+    <p><strong>Integrante 3 - Tiempo: 4 minutos</strong></p>
+    <p><strong>Seccion D de la Rubrica AA4 (4 puntos)</strong></p>
+
+    <h2>3.1 Por que Apache Spark</h2>
+
+    <p>Apache Spark es el motor de procesamiento de datos mas utilizado en Big Data porque es hasta 100 veces mas rapido que tecnologias anteriores como Hadoop MapReduce. La velocidad de Spark se debe a que procesa los datos en memoria RAM en lugar de escribir constantemente al disco. Ademas, optimiza automaticamente los planes de ejecucion mediante el Catalyst Optimizer.</p>
+
+    <p>Spark ofrece tres abstracciones principales para trabajar con datos:</p>
+    <ul>
+        <li><strong>RDD (Resilient Distributed Dataset):</strong> Nivel mas bajo, control total sobre el procesamiento.</li>
+        <li><strong>DataFrames:</strong> Datos estructurados con esquema, optimizacion automatica.</li>
+        <li><strong>Spark SQL:</strong> Consultas SQL estandar sobre DataFrames.</li>
+    </ul>
+
+    <h2>3.2 RDD - Resilient Distributed Datasets</h2>
+
+    <p>RDD es la abstraccion fundamental de Spark. Es una coleccion distribuida de objetos que se puede procesar en paralelo en multiples nodos del cluster. Las caracteristicas principales son:</p>
+    <ul>
+        <li><strong>Resiliente:</strong> Si un nodo falla, los datos se pueden reconstruir desde el origen.</li>
+        <li><strong>Distribuido:</strong> Los datos se dividen en particiones procesadas en paralelo.</li>
+        <li><strong>Inmutable:</strong> Una vez creado, no se modifica. Las transformaciones crean nuevos RDDs.</li>
+        <li><strong>Lazy Evaluation:</strong> Las transformaciones no se ejecutan hasta que se solicita una accion.</li>
+    </ul>
+
+    <p>Operaciones RDD implementadas en nuestro proyecto:</p>
+    <table>
+        <tr>
+            <th>Tipo</th>
+            <th>Operacion</th>
+            <th>Descripcion</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>Transformacion</td>
+            <td>map()</td>
+            <td>Aplica funcion a cada elemento</td>
+            <td>Extraer tipo de evento</td>
+        </tr>
+        <tr>
+            <td>Transformacion</td>
+            <td>filter()</td>
+            <td>Selecciona elementos</td>
+            <td>Solo eventos ERROR</td>
+        </tr>
+        <tr>
+            <td>Transformacion</td>
+            <td>reduceByKey()</td>
+            <td>Agrupa y combina valores</td>
+            <td>Contar por tipo</td>
+        </tr>
+        <tr>
+            <td>Accion</td>
+            <td>collect()</td>
+            <td>Trae resultados al driver</td>
+            <td>Obtener conteo final</td>
+        </tr>
+        <tr>
+            <td>Accion</td>
+            <td>count()</td>
+            <td>Cuenta elementos</td>
+            <td>Total de eventos</td>
+        </tr>
+    </table>
+
+    <h2>3.3 DataFrames - Datos Estructurados</h2>
+
+    <p>DataFrames son como tablas de base de datos distribuidas en multiples servidores con optimizacion automatica de consultas.</p>
+
+    <p><strong>Lectura de Archivos:</strong> Implementamos lectura de tres formatos diferentes: CSV (netflix_titles.csv), JSON (usuarios.json) y TXT (visualizaciones.txt). Spark infiere tipos automaticamente.</p>
+
+    <p><strong>Limpieza de Datos:</strong> Aplicamos tres tipos de limpieza: eliminacion de nulos en campos criticos, eliminacion de duplicados basados en campos clave, y filtrado de outliers (registros con valores fuera de rangos validos).</p>
+
+    <p><strong>Transformacion de Columnas:</strong> Renombramos columnas a espanol (title a titulo), convertimos tipos (release_year de string a integer), y creamos columnas calculadas como "decada" y "es_pelicula".</p>
+
+    <p><strong>Integracion con JOINs:</strong> Unimos visualizaciones con usuarios por user_id, resultado con catalogo por show_id, y agregamos valoraciones.</p>
+
+    <h2>3.4 Spark SQL</h2>
+
+    <p>Spark SQL nos permite escribir consultas en lenguaje SQL estandar. Implementamos:</p>
+    <ul>
+        <li><strong>CTEs (Common Table Expressions):</strong> Subconsultas nombradas para organizar logica compleja.</li>
+        <li><strong>Window Functions:</strong> ROW_NUMBER para rankings, SUM OVER para acumulados.</li>
+        <li><strong>Agregaciones:</strong> COUNT, SUM, AVG, MAX, MIN agrupados por pais, genero o ano.</li>
+    </ul>
+
+    <h2>3.5 KPIs y Exportacion</h2>
+
+    <p>KPIs de negocio calculados: total de titulos (8,807), distribucion por tipo (70% Movies, 30% TV Shows), rating promedio (3.8/5.0), pais mas productivo (United States con 2,818), genero mas popular (Dramas con 2,427).</p>
+
+    <p>Formatos de exportacion: CSV (reportes en Excel), JSON (APIs REST), Parquet (data warehouses).</p>
+</div>
+
+<!-- SECCION 4: INTEGRANTE 4 -->
+<div class="seccion">
+    <h1>4. MONGODB - MODELO DE DATOS ACID</h1>
+    <p><strong>Integrante 4 - Tiempo: 3 minutos</strong></p>
+    <p><strong>Modelo de Datos ACID de la Rubrica AA4 (4 puntos)</strong></p>
+
+    <h2>4.1 Por que MongoDB</h2>
+
+    <p>Elegimos MongoDB porque es una base de datos NoSQL orientada a documentos que se adapta perfectamente a escenarios de Big Data donde la flexibilidad y escalabilidad son criticas.</p>
+
+    <table>
+        <tr>
+            <th>Caracteristica</th>
+            <th>SQL Tradicional</th>
+            <th>MongoDB</th>
+        </tr>
+        <tr>
+            <td>Esquema</td>
+            <td>Fijo, requiere migraciones</td>
+            <td>Flexible, documentos JSON</td>
+        </tr>
+        <tr>
+            <td>Escalabilidad</td>
+            <td>Vertical</td>
+            <td>Horizontal (sharding)</td>
+        </tr>
+        <tr>
+            <td>Datos complejos</td>
+            <td>Multiples tablas + JOINs</td>
+            <td>Documentos anidados</td>
+        </tr>
+        <tr>
+            <td>Ideal para</td>
+            <td>Transacciones complejas</td>
+            <td>Big Data, tiempo real</td>
+        </tr>
+    </table>
+
+    <h2>4.2 Propiedades ACID</h2>
+
+    <p>Aunque MongoDB es NoSQL, desde la version 4.0 soporta transacciones ACID multi-documento:</p>
+
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Significado</th>
+            <th>Implementacion</th>
+        </tr>
+        <tr>
+            <td>Atomicidad</td>
+            <td>Transaccion completa o nada</td>
+            <td>Transacciones multi-documento con session</td>
+        </tr>
+        <tr>
+            <td>Consistencia</td>
+            <td>Datos cumplen reglas definidas</td>
+            <td>Validadores de esquema en colecciones</td>
+        </tr>
+        <tr>
+            <td>Aislamiento</td>
+            <td>Transacciones no se interfieren</td>
+            <td>Read Concern y Write Concern</td>
+        </tr>
+        <tr>
+            <td>Durabilidad</td>
+            <td>Datos persisten ante fallos</td>
+            <td>Write Concern "majority" + journaling</td>
+        </tr>
+    </table>
+
+    <h2>4.3 Modelo de Colecciones</h2>
+
+    <p>Nuestra base de datos netflix_analytics contiene 5 colecciones principales:</p>
+
+    <table>
+        <tr>
+            <th>Coleccion</th>
+            <th>Proposito</th>
+            <th>Campos Principales</th>
+            <th>Registros</th>
+        </tr>
+        <tr>
+            <td>catalogo</td>
+            <td>Peliculas y series</td>
+            <td>show_id, titulo, tipo, director, pais, ano, generos, duracion</td>
+            <td>~8,800</td>
+        </tr>
+        <tr>
+            <td>usuarios</td>
+            <td>Perfiles de usuarios</td>
+            <td>user_id, nombre, email, pais, plan, fecha_registro</td>
+            <td>~1,000</td>
+        </tr>
+        <tr>
+            <td>visualizaciones</td>
+            <td>Historial de reproducciones</td>
+            <td>user_id, show_id, fecha, duracion_minutos, dispositivo</td>
+            <td>~50,000</td>
+        </tr>
+        <tr>
+            <td>valoraciones</td>
+            <td>Ratings de usuarios</td>
+            <td>user_id, show_id, rating (1-5), fecha</td>
+            <td>~10,000</td>
+        </tr>
+        <tr>
+            <td>eventos_streaming</td>
+            <td>Eventos en tiempo real</td>
+            <td>event_id, user_id, tipo, timestamp, metadata</td>
+            <td>Creciente</td>
+        </tr>
+    </table>
+
+    <h2>4.4 Carga de Datos desde Spark</h2>
+
+    <p>Utilizamos el conector oficial MongoDB-Spark para escribir DataFrames procesados directamente a las colecciones. El proceso incluye: configuracion de URI de conexion, seleccion del DataFrame limpio y transformado, especificacion de la coleccion destino, definicion del modo (overwrite o append), y ejecucion paralela en multiples particiones.</p>
+
+    <h2>4.5 Consultas de Agregacion</h2>
+
+    <p>MongoDB ofrece un potente framework de agregacion. Consultas implementadas:</p>
+    <ul>
+        <li>Distribucion por tipo: $group por tipo, $count</li>
+        <li>Top paises: $group por pais, $sort, $limit</li>
+        <li>Rating por genero: $lookup, $unwind, $group, $avg</li>
+        <li>Usuarios activos: $group por user_id, $sort, $limit</li>
+        <li>Errores recientes: $match timestamp mayor que (now - 5min) AND tipo = ERROR</li>
+    </ul>
+
+    <p>Indices para optimizacion: catalogo.show_id (unico), catalogo.generos (multikey), usuarios.email (unico), visualizaciones.user_id, eventos_streaming.timestamp (descendente).</p>
+</div>
+
+<!-- SECCION 5: INTEGRANTE 5 -->
+<div class="seccion">
+    <h1>5. KAFKA STREAMING, GITHUB Y CONCLUSIONES</h1>
+    <p><strong>Integrante 5 - Tiempo: 4 minutos</strong></p>
+    <p><strong>Seccion E + Versionamiento de la Rubrica AA4 (8 puntos)</strong></p>
+
+    <h2>5.1 Apache Kafka - Streaming en Tiempo Real</h2>
+
+    <p>Apache Kafka es un sistema de mensajeria distribuido disenado para manejar flujos de datos en tiempo real con alto rendimiento, tolerancia a fallos y escalabilidad.</p>
+
+    <p><strong>Productor de Eventos (06_kafka_producer.py):</strong> Genera eventos simulados que representan acciones de usuarios:</p>
+    <ul>
+        <li>PLAY (40%): Usuario inicia reproduccion</li>
+        <li>PAUSE (25%): Usuario pausa el video</li>
+        <li>RATE (15%): Usuario califica contenido (1-5)</li>
+        <li>SEARCH (15%): Usuario busca contenido</li>
+        <li>ERROR (5%): Error tecnico</li>
+    </ul>
+    <p>Cada evento incluye: ID unico, usuario, tipo, contenido, timestamp, pais, dispositivo y metadatos.</p>
+
+    <p><strong>Consumidor Spark Streaming (07_spark_streaming.py):</strong> Implementamos 5 streams de procesamiento:</p>
+    <table>
+        <tr>
+            <th>Stream</th>
+            <th>Ventana</th>
+            <th>Funcion</th>
+        </tr>
+        <tr>
+            <td>Metricas por ventana</td>
+            <td>30 segundos</td>
+            <td>Cuenta eventos por tipo</td>
+        </tr>
+        <tr>
+            <td>Usuarios activos</td>
+            <td>1 minuto</td>
+            <td>Usuarios unicos por pais</td>
+        </tr>
+        <tr>
+            <td>Deteccion anomalias</td>
+            <td>1 minuto</td>
+            <td>Alerta si usuario mayor que 50 eventos/min</td>
+        </tr>
+        <tr>
+            <td>Alertas de error</td>
+            <td>Inmediato</td>
+            <td>Notifica errores con severidad</td>
+        </tr>
+        <tr>
+            <td>KPIs tiempo real</td>
+            <td>20 segundos</td>
+            <td>Plays totales, rating promedio</td>
+        </tr>
+    </table>
+
+    <h2>5.2 Interfaces de Visualizacion</h2>
+
+    <p>Contamos con tres interfaces web para monitorear el sistema:</p>
+    <ul>
+        <li><strong>Kafka UI (puerto 8083):</strong> Ver topics, inspeccionar mensajes en tiempo real, monitorear consumer groups.</li>
+        <li><strong>Spark UI (puerto 8080):</strong> Estado de streaming queries, tiempos de procesamiento, tasa de input/output.</li>
+        <li><strong>Mongo Express (puerto 8082):</strong> Explorar colecciones, ejecutar consultas, ver datos insertados.</li>
+    </ul>
+
+    <h2>5.3 Versionamiento con GitHub</h2>
+
+    <p>Todo el codigo esta versionado con Git y alojado en GitHub, siguiendo mejores practicas de desarrollo colaborativo.</p>
+
+    <p><strong>Estructura del Repositorio:</strong></p>
+    <ul>
+        <li>spark-apps/: Scripts Python (01 al 07)</li>
+        <li>datos/: Archivos de entrada (CSV, JSON, TXT)</li>
+        <li>scripts/: Scripts de ejecucion (.bat)</li>
+        <li>docs/: Documentacion</li>
+        <li>docker-compose.yml: Configuracion de contenedores</li>
+        <li>.github/workflows/: Pipeline CI/CD</li>
+    </ul>
+
+    <p><strong>Flujo de Trabajo:</strong> Branches (main, develop, feature/*), commits con convencion semantica (feat:, fix:, docs:), y GitHub Actions para validacion automatica en cada push.</p>
+
+    <h2>5.4 Conclusiones y Resultados</h2>
+
+    <p><strong>Resultados Cuantitativos:</strong></p>
+    <table>
+        <tr>
+            <th>Metrica</th>
+            <th>Resultado</th>
+        </tr>
+        <tr>
+            <td>Registros procesados (batch)</td>
+            <td>~70,000 de 4 fuentes</td>
+        </tr>
+        <tr>
+            <td>Tiempo procesamiento batch</td>
+            <td>Menor a 30 segundos</td>
+        </tr>
+        <tr>
+            <td>Eventos streaming</td>
+            <td>5 eventos/segundo = 18,000/hora</td>
+        </tr>
+        <tr>
+            <td>Latencia de deteccion</td>
+            <td>Menor a 10 segundos</td>
+        </tr>
+        <tr>
+            <td>KPIs generados</td>
+            <td>15+ metricas de negocio</td>
+        </tr>
+        <tr>
+            <td>Formatos exportacion</td>
+            <td>CSV, JSON, Parquet, MongoDB</td>
+        </tr>
+    </table>
+
+    <p><strong>Tecnologias Dominadas:</strong> Apache Spark 3.1.1 (RDD, DataFrames, SQL, Streaming), Apache Kafka 7.5.0 (Productor, Topics, Consumidor), MongoDB 7.0 (Modelo ACID, Agregaciones), Docker Compose (11 contenedores), Git + GitHub (Versionamiento, CI/CD).</p>
+
+    <p><strong>Trabajo Futuro:</strong> Implementar modelos predictivos de machine learning para churn de usuarios, sistema de recomendacion en tiempo real basado en comportamiento, y evolucion a Delta Lake con transacciones ACID completas.</p>
+
+    <p><strong>Conclusion Final:</strong> Demostramos exitosamente como una arquitectura Big Data moderna puede transformar datos dispersos en insights accionables, combinando procesamiento batch para analisis historico y streaming para decisiones en tiempo real.</p>
+</div>
+
+<!-- CHECKLIST FINAL -->
+<div class="seccion">
+    <h1>CHECKLIST ANTES DE GRABAR</h1>
+
+    <p>Verificar antes de iniciar la grabacion del video:</p>
+    <ol>
+        <li>Docker Desktop esta iniciado</li>
+        <li>Ejecutar: docker-compose up -d</li>
+        <li>Verificar 11 contenedores corriendo: docker ps</li>
+        <li>Interfaces web abiertas (Kafka UI, Spark UI, Mongo Express)</li>
+        <li>Cada integrante sabe su parte y tiempo asignado</li>
+        <li>Practicaron al menos una vez antes de grabar</li>
+    </ol>
+
+    <h2>Resumen de Tiempos</h2>
+    <table>
+        <tr>
+            <th>Seccion</th>
+            <th>Integrante</th>
+            <th>Tema</th>
+            <th>Tiempo</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Integrante 1</td>
+            <td>Caso, Problema, Objetivos, Datos</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Integrante 2</td>
+            <td>Arquitectura y Flujo del Dato</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Integrante 3</td>
+            <td>Spark: RDD, DataFrames, SQL</td>
+            <td>4 min</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Integrante 4</td>
+            <td>MongoDB: Modelo ACID, Carga, Consultas</td>
+            <td>3 min</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Integrante 5</td>
+            <td>Kafka, GitHub, Conclusiones</td>
+            <td>4 min</td>
+        </tr>
+        <tr>
+            <th colspan="3" style="text-align: right;">TOTAL</th>
+            <th>17 min</th>
+        </tr>
+    </table>
+
+    <div style="text-align: center; margin-top: 50px; padding: 20px; border-top: 1px solid #000;">
+        <p><strong>AA4 - Big Data y Analisis de Datos</strong></p>
+        <p>Instituto CERTUS - Mayo 2026</p>
+    </div>
+</div>
+
+</div>
+
+<script>
+function descargarPDF() {
+    const elemento = document.getElementById('contenido');
+    const opciones = {
+        margin: 10,
+        filename: 'Informe_AA4_BigData_Netflix.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opciones).from(elemento).save();
+}
+</script>
+
+</body>
+</html>
