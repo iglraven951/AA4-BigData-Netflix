@@ -1,0 +1,501 @@
+content_id,titulo,tipo,genero,año,duracion_min,rating_promedio,temporadas,pais_origen,idioma,clasificacion,fecha_agregado
+CNT00001,The Last Kingdom 1,Pelicula,Horror,2018,107,4.47,0,France,Japones,G,2023-04-24
+CNT00002,The Dynasty,Serie,Horror,2018,46,4.2,4,Italy,Japones,R,2021-03-27
+CNT00003,Family Matters 3,Serie,Drama,2017,52,3.85,5,Spain,Ingles,PG-13,2020-07-28
+CNT00004,Shadow Games,Pelicula,Documentary,2024,123,4.61,0,Italy,Aleman,NC-17,2020-09-12
+CNT00005,Modern Life 5,Serie,Fantasy,2024,58,4.72,4,Italy,Español,G,2023-09-16
+CNT00006,Secret Garden,Pelicula,Comedy,2018,102,3.76,0,Brazil,Frances,PG,2022-01-28
+CNT00007,Legal Eagles 7,Serie,Mystery,2016,49,4.27,4,Spain,Aleman,R,2021-07-06
+CNT00008,Dark Waters 8,Pelicula,Drama,2018,94,4.61,0,Chile,Frances,G,2021-03-08
+CNT00009,Legal Eagles 9,Serie,Thriller,2022,34,3.53,4,Italy,Japones,NC-17,2021-06-22
+CNT00010,Comedy Hour 10,Serie,Action,2023,45,3.18,1,Korea,Español,PG,2023-07-09
+CNT00011,Night Watch 11,Pelicula,Crime,2016,139,3.76,0,Brazil,Japones,PG-13,2023-02-07
+CNT00012,Dark Waters 12,Pelicula,Fantasy,2023,124,4.54,0,Peru,Español,PG-13,2022-06-09
+CNT00013,The Return,Pelicula,Mystery,2019,154,4.52,0,UK,Español,PG-13,2024-09-19
+CNT00014,Breaking Dawn 14,Pelicula,Action,2023,157,4.84,0,Germany,Frances,R,2020-02-09
+CNT00015,The Forgotten 15,Pelicula,Sci-Fi,2018,97,3.48,0,Germany,Español,G,2024-02-07
+CNT00016,Modern Life 16,Serie,Animation,2017,34,4.32,3,Colombia,Japones,NC-17,2022-05-16
+CNT00017,Deep Blue 17,Pelicula,Mystery,2018,129,3.8,0,France,Frances,R,2022-11-25
+CNT00018,Dark Secrets,Serie,Comedy,2020,30,4.18,4,Germany,Ingles,G,2020-05-25
+CNT00019,Lost in Time,Pelicula,Drama,2020,99,4.03,0,Colombia,Aleman,PG,2023-01-09
+CNT00020,The Last Stand 20,Pelicula,Crime,2024,150,3.49,0,Brazil,Aleman,PG,2020-07-12
+CNT00021,Dark Waters 21,Pelicula,Thriller,2021,149,4.73,0,Mexico,Español,G,2022-04-04
+CNT00022,Dark Secrets,Serie,Horror,2023,44,3.28,3,Colombia,Aleman,PG,2024-11-25
+CNT00023,The Return 23,Pelicula,Animation,2016,96,4.3,0,UK,Español,G,2024-03-23
+CNT00024,The Hidden Truth 24,Pelicula,Romance,2018,141,4.8,0,Spain,Aleman,G,2022-03-10
+CNT00025,Action Heroes,Serie,Mystery,2023,51,4.44,3,Argentina,Frances,PG,2020-04-29
+CNT00026,The Last Stand 26,Pelicula,Drama,2024,151,4.01,0,Korea,Japones,PG,2020-04-26
+CNT00027,The Hidden Truth,Pelicula,Comedy,2018,141,3.24,0,Germany,Ingles,NC-17,2023-05-02
+CNT00028,Golden Age,Pelicula,Fantasy,2024,162,4.05,0,Colombia,Ingles,PG-13,2021-05-03
+CNT00029,Comedy Hour,Serie,Fantasy,2019,44,3.63,2,Mexico,Aleman,NC-17,2023-02-27
+CNT00030,Echoes of Tomorrow 30,Pelicula,Animation,2019,106,4.87,0,USA,Ingles,PG-13,2021-08-06
+CNT00031,The Return 31,Pelicula,Mystery,2019,168,4.97,0,Japan,Japones,G,2023-09-29
+CNT00032,Dark Secrets 32,Serie,Action,2019,33,4.78,3,Colombia,Frances,NC-17,2021-03-07
+CNT00033,Legal Eagles 33,Serie,Sci-Fi,2023,45,3.5,1,USA,Aleman,PG-13,2020-03-31
+CNT00034,City of Dreams 34,Pelicula,Fantasy,2019,110,4.48,0,UK,Aleman,NC-17,2020-01-20
+CNT00035,Echoes of Tomorrow 35,Pelicula,Mystery,2017,159,3.07,0,Peru,Japones,NC-17,2020-10-30
+CNT00036,The Office Club,Serie,Documentary,2015,58,3.72,4,France,Español,PG-13,2024-05-16
+CNT00037,The Office Club 37,Serie,Horror,2017,55,4.62,7,Mexico,Ingles,PG-13,2024-05-21
+CNT00038,Tech World,Serie,Mystery,2016,42,4.74,8,Argentina,Ingles,R,2021-12-17
+CNT00039,Tech World,Serie,Fantasy,2018,42,3.66,2,Japan,Frances,PG-13,2023-08-06
+CNT00040,Documentary Series 40,Serie,Drama,2016,58,4.94,3,Germany,Frances,G,2020-08-10
+CNT00041,Sci-Fi Adventures 41,Serie,Documentary,2021,49,4.97,2,Chile,Japones,PG,2021-06-05
+CNT00042,Broken Promises 42,Pelicula,Animation,2023,177,4.44,0,Italy,Ingles,PG-13,2022-06-02
+CNT00043,Dark Waters 43,Pelicula,Crime,2020,174,4.7,0,Italy,Frances,NC-17,2021-09-25
+CNT00044,Historical Tales 44,Serie,Sci-Fi,2023,34,3.38,7,France,Ingles,NC-17,2023-03-11
+CNT00045,Comedy Hour 45,Serie,Drama,2019,39,3.42,6,Brazil,Aleman,R,2023-10-15
+CNT00046,Northern Lights 46,Pelicula,Mystery,2017,174,3.17,0,UK,Japones,PG-13,2020-07-10
+CNT00047,Dark Waters 47,Pelicula,Horror,2017,93,3.09,0,Brazil,Japones,G,2022-07-21
+CNT00048,Legal Eagles 48,Serie,Thriller,2022,42,3.49,1,Japan,Español,R,2021-03-24
+CNT00049,Night Watch 49,Pelicula,Animation,2022,96,4.11,0,Korea,Español,R,2020-09-30
+CNT00050,Romance Stories 50,Serie,Crime,2020,60,4.51,8,Germany,Japones,R,2024-08-28
+CNT00051,Medical Center 51,Serie,Romance,2022,38,4.5,5,Japan,Japones,R,2023-07-07
+CNT00052,The Final Chapter 52,Pelicula,Mystery,2019,120,3.54,0,Peru,Japones,G,2020-10-10
+CNT00053,Lost in Time 53,Pelicula,Action,2018,98,3.83,0,Peru,Japones,R,2022-05-01
+CNT00054,Midnight Sun 54,Pelicula,Thriller,2024,179,3.04,0,Japan,Japones,R,2022-09-03
+CNT00055,The Forgotten,Pelicula,Thriller,2021,158,4.5,0,UK,Japones,PG,2022-09-26
+CNT00056,The Final Chapter 56,Pelicula,Drama,2021,133,4.34,0,Japan,Aleman,PG,2024-09-17
+CNT00057,The Office Club 57,Serie,Animation,2015,59,3.79,1,USA,Aleman,PG,2024-11-10
+CNT00058,Medical Center,Serie,Thriller,2020,36,3.91,6,Japan,Aleman,PG-13,2024-03-20
+CNT00059,Family Matters 59,Serie,Romance,2015,53,4.08,6,Argentina,Español,G,2024-03-24
+CNT00060,Lost in Time,Pelicula,Drama,2024,109,3.48,0,Brazil,Español,NC-17,2021-03-22
+CNT00061,Family Matters 61,Serie,Action,2024,49,4.93,2,Japan,Ingles,PG-13,2020-08-09
+CNT00062,Beyond the Horizon 62,Pelicula,Thriller,2021,115,3.15,0,Italy,Ingles,G,2023-11-28
+CNT00063,Dark Secrets 63,Serie,Crime,2015,41,4.07,6,USA,Japones,PG-13,2020-01-26
+CNT00064,Mystery Files,Serie,Documentary,2022,52,3.31,3,Italy,Japones,PG-13,2023-06-15
+CNT00065,Action Heroes 65,Serie,Mystery,2024,38,3.64,4,Korea,Español,PG-13,2024-12-10
+CNT00066,Tech World 66,Serie,Crime,2024,51,3.76,1,Brazil,Frances,PG,2022-09-25
+CNT00067,The Forgotten 67,Pelicula,Documentary,2019,166,4.4,0,Colombia,Japones,G,2022-11-24
+CNT00068,Echoes of Tomorrow,Pelicula,Thriller,2022,161,4.52,0,Italy,Aleman,R,2022-07-06
+CNT00069,Echoes of Tomorrow,Pelicula,Thriller,2018,129,4.33,0,Peru,Aleman,NC-17,2022-12-23
+CNT00070,Drama Queens 70,Serie,Animation,2020,41,4.41,5,Colombia,Frances,PG,2020-09-04
+CNT00071,City of Dreams,Pelicula,Animation,2017,114,3.43,0,Brazil,Frances,NC-17,2024-04-05
+CNT00072,Dark Secrets 72,Serie,Sci-Fi,2018,41,3.36,1,Italy,Japones,PG,2021-07-15
+CNT00073,Dark Paradise 73,Pelicula,Mystery,2017,171,4.74,0,Brazil,Español,G,2023-03-21
+CNT00074,Mystery Files 74,Serie,Documentary,2017,60,3.1,8,USA,Español,R,2022-10-04
+CNT00075,Rising Storm 75,Pelicula,Drama,2017,109,4.62,0,Colombia,Español,PG,2020-08-30
+CNT00076,Tech World 76,Serie,Thriller,2022,59,3.89,7,Colombia,Japones,NC-17,2020-05-03
+CNT00077,Secret Garden,Pelicula,Horror,2019,174,3.16,0,Argentina,Ingles,NC-17,2020-06-02
+CNT00078,The Last Kingdom 78,Pelicula,Mystery,2024,150,3.58,0,Argentina,Frances,PG-13,2023-12-10
+CNT00079,Modern Life 79,Serie,Sci-Fi,2024,51,4.61,4,Chile,Español,NC-17,2021-04-05
+CNT00080,The Final Chapter 80,Pelicula,Comedy,2015,111,4.59,0,Germany,Japones,PG-13,2022-06-18
+CNT00081,The Return 81,Pelicula,Mystery,2021,124,4.0,0,Brazil,Aleman,G,2023-05-09
+CNT00082,Wild Hearts 82,Pelicula,Crime,2019,93,3.18,0,France,Japones,NC-17,2020-02-12
+CNT00083,The Dynasty 83,Serie,Action,2022,46,4.3,5,Spain,Japones,R,2023-07-24
+CNT00084,Modern Life 84,Serie,Thriller,2020,40,4.34,3,Peru,Aleman,R,2021-08-13
+CNT00085,Documentary Series,Serie,Comedy,2020,38,3.65,7,Korea,Japones,G,2023-09-08
+CNT00086,Drama Queens,Serie,Animation,2020,49,4.51,8,Japan,Español,PG,2021-06-30
+CNT00087,Beyond the Horizon 87,Pelicula,Mystery,2022,105,3.06,0,France,Japones,PG,2023-12-24
+CNT00088,Beyond the Horizon 88,Pelicula,Animation,2021,101,3.45,0,Korea,Español,R,2020-08-28
+CNT00089,Eternal Flame 89,Pelicula,Sci-Fi,2023,180,3.55,0,Korea,Aleman,R,2021-05-14
+CNT00090,Documentary Series,Serie,Horror,2024,46,4.49,3,Korea,Español,PG-13,2024-05-01
+CNT00091,Historical Tales 91,Serie,Animation,2019,56,3.01,5,Korea,Japones,NC-17,2023-09-13
+CNT00092,The Office Club 92,Serie,Romance,2020,40,4.1,7,Brazil,Frances,PG,2023-11-29
+CNT00093,Rising Storm 93,Pelicula,Thriller,2015,130,4.49,0,Italy,Aleman,R,2023-09-21
+CNT00094,Eternal Flame 94,Pelicula,Action,2023,165,3.66,0,USA,Aleman,G,2022-12-13
+CNT00095,Crime Stories 95,Serie,Thriller,2017,32,3.94,5,Peru,Japones,R,2023-08-23
+CNT00096,City of Dreams 96,Pelicula,Animation,2021,130,4.25,0,Japan,Aleman,NC-17,2020-03-14
+CNT00097,Lost in Time 97,Pelicula,Sci-Fi,2018,101,3.87,0,USA,Español,R,2020-12-06
+CNT00098,Crime Stories,Serie,Drama,2019,41,3.75,3,Argentina,Japones,R,2023-03-05
+CNT00099,The Hidden Truth,Pelicula,Crime,2021,169,4.37,0,Brazil,Japones,PG,2021-04-20
+CNT00100,Family Matters 100,Serie,Fantasy,2015,58,4.61,5,France,Japones,PG,2020-05-31
+CNT00101,Sci-Fi Adventures 101,Serie,Sci-Fi,2021,52,3.5,5,Argentina,Aleman,R,2020-08-06
+CNT00102,Shadow Games 102,Pelicula,Crime,2019,179,3.59,0,Korea,Aleman,PG-13,2020-01-17
+CNT00103,Golden Age 103,Pelicula,Sci-Fi,2018,167,4.6,0,Argentina,Ingles,NC-17,2021-05-28
+CNT00104,The Outsider,Pelicula,Fantasy,2015,129,4.58,0,Mexico,Japones,PG-13,2024-02-08
+CNT00105,Echoes of Tomorrow 105,Pelicula,Documentary,2021,112,3.4,0,Japan,Japones,PG-13,2022-12-23
+CNT00106,Medical Center,Serie,Romance,2019,53,4.74,2,Brazil,Español,PG,2024-03-24
+CNT00107,Dark Waters 107,Pelicula,Thriller,2023,136,3.18,0,Chile,Español,PG-13,2023-01-03
+CNT00108,The Return 108,Pelicula,Mystery,2019,164,3.76,0,France,Frances,G,2023-10-14
+CNT00109,Eternal Flame,Pelicula,Animation,2020,168,3.44,0,USA,Aleman,PG-13,2023-08-22
+CNT00110,Dark Secrets,Serie,Drama,2019,45,3.23,4,UK,Ingles,R,2022-07-18
+CNT00111,Documentary Series 111,Serie,Mystery,2017,58,3.83,2,Korea,Aleman,NC-17,2022-04-15
+CNT00112,The Dynasty 112,Serie,Horror,2022,44,4.9,6,USA,Frances,NC-17,2023-08-13
+CNT00113,The Dynasty 113,Serie,Horror,2016,60,4.7,8,USA,Ingles,NC-17,2020-02-13
+CNT00114,Night Watch 114,Pelicula,Action,2024,116,3.14,0,Japan,Japones,PG,2023-04-15
+CNT00115,Lost in Time 115,Pelicula,Action,2024,90,3.55,0,Spain,Ingles,NC-17,2021-05-28
+CNT00116,Silent Waters 116,Pelicula,Drama,2017,91,3.72,0,Japan,Ingles,NC-17,2021-10-25
+CNT00117,The Hidden Truth,Pelicula,Action,2021,157,3.23,0,USA,Aleman,R,2024-05-12
+CNT00118,Romance Stories 118,Serie,Romance,2023,37,4.89,1,Italy,Japones,PG-13,2022-07-27
+CNT00119,Dark Paradise 119,Pelicula,Thriller,2021,177,3.22,0,Italy,Aleman,G,2020-06-14
+CNT00120,The Office Club,Serie,Sci-Fi,2024,50,4.17,6,Chile,Japones,NC-17,2021-08-26
+CNT00121,Romance Stories 121,Serie,Comedy,2016,57,4.31,4,Chile,Aleman,PG,2022-04-27
+CNT00122,Action Heroes 122,Serie,Mystery,2016,40,3.85,5,Peru,Ingles,R,2020-05-17
+CNT00123,Echoes of Tomorrow,Pelicula,Comedy,2020,106,4.11,0,Germany,Japones,NC-17,2021-11-06
+CNT00124,Wild Hearts 124,Pelicula,Fantasy,2021,96,4.94,0,Germany,Frances,PG-13,2020-07-31
+CNT00125,Breaking Dawn 125,Pelicula,Horror,2016,134,4.69,0,Peru,Español,PG-13,2023-03-21
+CNT00126,Night Watch 126,Pelicula,Animation,2024,168,4.35,0,UK,Español,NC-17,2023-09-09
+CNT00127,Crime Stories,Serie,Mystery,2019,59,3.68,1,Spain,Ingles,NC-17,2023-09-08
+CNT00128,Modern Life,Serie,Fantasy,2015,32,4.49,4,Chile,Aleman,R,2021-11-29
+CNT00129,The Forgotten 129,Pelicula,Documentary,2024,166,3.17,0,Mexico,Ingles,PG,2024-03-25
+CNT00130,Dark Waters,Pelicula,Romance,2021,152,4.21,0,Chile,Frances,PG,2024-03-26
+CNT00131,The Forgotten 131,Pelicula,Sci-Fi,2024,152,4.05,0,Colombia,Español,PG,2022-03-20
+CNT00132,The Last Kingdom,Pelicula,Horror,2017,122,3.58,0,USA,Español,R,2024-03-09
+CNT00133,Medical Center,Serie,Animation,2018,46,4.12,6,USA,Aleman,G,2022-06-12
+CNT00134,The Return 134,Pelicula,Documentary,2024,144,4.15,0,Italy,Aleman,PG-13,2020-08-23
+CNT00135,Crime Stories 135,Serie,Action,2024,44,4.66,6,USA,Aleman,G,2021-05-13
+CNT00136,Comedy Hour 136,Serie,Thriller,2019,53,3.68,6,Japan,Ingles,G,2022-11-11
+CNT00137,Northern Lights 137,Pelicula,Documentary,2020,172,4.63,0,Argentina,Español,PG,2021-06-08
+CNT00138,The Hidden Truth 138,Pelicula,Fantasy,2016,112,4.9,0,France,Aleman,R,2024-03-25
+CNT00139,Historical Tales 139,Serie,Fantasy,2020,34,3.88,8,Brazil,Frances,PG-13,2023-04-26
+CNT00140,The Forgotten 140,Pelicula,Sci-Fi,2022,147,3.08,0,Peru,Frances,G,2023-08-13
+CNT00141,Golden Age 141,Pelicula,Thriller,2022,164,4.11,0,Japan,Español,R,2024-07-16
+CNT00142,City of Dreams 142,Pelicula,Animation,2017,97,3.9,0,Japan,Frances,G,2022-10-30
+CNT00143,Dark Paradise,Pelicula,Romance,2022,157,4.05,0,Spain,Frances,PG-13,2021-08-02
+CNT00144,Drama Queens 144,Serie,Fantasy,2024,31,4.58,6,USA,Frances,G,2023-02-16
+CNT00145,Street Life,Serie,Fantasy,2024,57,3.3,2,Germany,Ingles,PG-13,2021-09-27
+CNT00146,The Office Club 146,Serie,Comedy,2019,47,3.75,6,Korea,Ingles,NC-17,2020-07-10
+CNT00147,Romance Stories 147,Serie,Documentary,2019,35,4.9,6,Japan,Aleman,PG,2021-04-08
+CNT00148,Breaking Dawn,Pelicula,Comedy,2023,159,4.67,0,UK,Español,PG-13,2024-11-29
+CNT00149,Golden Age 149,Pelicula,Action,2017,178,4.54,0,Japan,Ingles,R,2020-03-30
+CNT00150,Sci-Fi Adventures 150,Serie,Horror,2022,49,3.57,8,Argentina,Japones,PG,2021-09-25
+CNT00151,Legal Eagles 151,Serie,Crime,2022,44,4.54,7,UK,Japones,R,2020-11-27
+CNT00152,Night Watch 152,Pelicula,Sci-Fi,2015,172,3.96,0,Peru,Japones,G,2023-12-27
+CNT00153,Beyond the Horizon,Pelicula,Action,2019,147,4.81,0,Spain,Aleman,G,2021-03-30
+CNT00154,Sci-Fi Adventures 154,Serie,Thriller,2015,42,4.0,4,Chile,Español,PG-13,2021-04-04
+CNT00155,City of Dreams 155,Pelicula,Mystery,2020,108,3.28,0,Colombia,Aleman,PG,2024-04-03
+CNT00156,Action Heroes 156,Serie,Comedy,2015,38,3.43,3,UK,Japones,NC-17,2022-05-16
+CNT00157,Secret Garden,Pelicula,Sci-Fi,2016,96,3.48,0,France,Japones,R,2020-05-08
+CNT00158,Eternal Flame 158,Pelicula,Drama,2023,163,3.48,0,Spain,Frances,R,2020-01-04
+CNT00159,Tech World 159,Serie,Action,2016,46,4.95,2,UK,Japones,NC-17,2024-05-29
+CNT00160,Shadow Games 160,Pelicula,Drama,2021,137,3.51,0,Mexico,Frances,G,2021-12-07
+CNT00161,The Last Stand 161,Pelicula,Comedy,2024,132,3.27,0,Peru,Japones,PG-13,2024-07-24
+CNT00162,Secret Garden 162,Pelicula,Mystery,2022,170,3.36,0,Spain,Español,R,2020-03-16
+CNT00163,Legal Eagles,Serie,Horror,2015,40,4.87,7,Korea,Japones,R,2021-06-02
+CNT00164,Secret Garden 164,Pelicula,Sci-Fi,2020,96,4.73,0,Peru,Frances,G,2024-06-25
+CNT00165,Drama Queens 165,Serie,Mystery,2022,58,4.91,6,Spain,Aleman,R,2022-01-22
+CNT00166,Modern Life 166,Serie,Comedy,2021,49,4.99,3,UK,Frances,PG-13,2020-07-29
+CNT00167,City of Dreams 167,Pelicula,Sci-Fi,2022,167,4.44,0,Spain,Aleman,PG-13,2022-07-04
+CNT00168,The Last Stand 168,Pelicula,Documentary,2024,145,3.55,0,Japan,Español,G,2023-10-06
+CNT00169,Sci-Fi Adventures 169,Serie,Mystery,2017,60,3.06,8,Mexico,Ingles,G,2021-04-28
+CNT00170,Sci-Fi Adventures 170,Serie,Crime,2015,49,3.31,8,Peru,Frances,R,2024-04-11
+CNT00171,Rising Storm,Pelicula,Documentary,2021,130,4.3,0,Argentina,Español,G,2024-02-15
+CNT00172,Eternal Flame 172,Pelicula,Animation,2016,123,4.55,0,Italy,Aleman,PG,2023-06-07
+CNT00173,Mystery Files,Serie,Action,2016,44,3.35,8,USA,Frances,PG-13,2023-12-24
+CNT00174,Deep Blue 174,Pelicula,Sci-Fi,2017,180,4.85,0,France,Ingles,PG-13,2022-11-07
+CNT00175,Silent Waters 175,Pelicula,Action,2018,153,3.05,0,UK,Japones,PG-13,2022-08-15
+CNT00176,Golden Age 176,Pelicula,Comedy,2019,140,5.0,0,Italy,Aleman,NC-17,2022-04-21
+CNT00177,Modern Life,Serie,Documentary,2016,44,3.93,6,Spain,Japones,NC-17,2021-01-07
+CNT00178,Wild Hearts 178,Pelicula,Drama,2016,156,3.31,0,Spain,Ingles,PG-13,2023-12-23
+CNT00179,The Forgotten 179,Pelicula,Animation,2019,100,3.5,0,France,Japones,PG-13,2020-09-13
+CNT00180,Documentary Series,Serie,Fantasy,2017,48,4.88,3,Spain,Japones,NC-17,2021-11-22
+CNT00181,The Last Kingdom,Pelicula,Fantasy,2024,123,4.3,0,Japan,Japones,R,2023-06-19
+CNT00182,Eternal Flame 182,Pelicula,Animation,2019,172,4.91,0,Brazil,Ingles,R,2021-09-01
+CNT00183,Modern Life 183,Serie,Action,2022,43,3.97,4,Peru,Japones,PG,2021-10-02
+CNT00184,Sci-Fi Adventures 184,Serie,Action,2020,46,4.12,6,Argentina,Aleman,G,2021-07-01
+CNT00185,Tech World,Serie,Drama,2019,60,3.77,7,Argentina,Ingles,PG-13,2023-03-29
+CNT00186,Legal Eagles 186,Serie,Romance,2023,44,4.0,5,Brazil,Español,G,2022-03-16
+CNT00187,Tech World,Serie,Documentary,2015,31,3.56,8,Colombia,Japones,G,2024-10-01
+CNT00188,Wild Hearts,Pelicula,Sci-Fi,2020,141,3.73,0,Chile,Español,NC-17,2023-02-24
+CNT00189,The Forgotten 189,Pelicula,Comedy,2021,154,3.9,0,UK,Frances,NC-17,2023-10-25
+CNT00190,Breaking Dawn 190,Pelicula,Thriller,2020,133,4.12,0,Peru,Ingles,PG,2023-05-18
+CNT00191,Romance Stories,Serie,Drama,2017,52,3.67,8,UK,Aleman,PG,2023-05-26
+CNT00192,City of Dreams 192,Pelicula,Documentary,2017,140,4.98,0,Italy,Frances,NC-17,2021-11-19
+CNT00193,Street Life 193,Serie,Drama,2020,40,4.35,7,Germany,Frances,G,2023-05-07
+CNT00194,Family Matters 194,Serie,Crime,2024,37,4.44,8,Spain,Japones,NC-17,2024-05-05
+CNT00195,The Office Club 195,Serie,Horror,2015,48,4.9,2,Argentina,Español,R,2021-10-04
+CNT00196,The Office Club 196,Serie,Horror,2021,46,4.55,8,Korea,Español,PG,2022-11-28
+CNT00197,Deep Blue 197,Pelicula,Fantasy,2022,157,3.75,0,Spain,Aleman,NC-17,2021-12-02
+CNT00198,Family Matters 198,Serie,Horror,2018,38,4.12,4,Colombia,Frances,PG,2023-11-14
+CNT00199,Historical Tales 199,Serie,Animation,2019,39,3.24,7,Chile,Frances,PG,2021-08-17
+CNT00200,Beyond the Horizon 200,Pelicula,Comedy,2020,146,4.31,0,Italy,Aleman,PG,2021-02-17
+CNT00201,Documentary Series 201,Serie,Action,2016,49,4.48,4,Argentina,Español,NC-17,2021-04-07
+CNT00202,Dark Paradise,Pelicula,Documentary,2022,102,4.36,0,Spain,Español,NC-17,2020-11-19
+CNT00203,Mystery Files 203,Serie,Horror,2019,40,3.57,1,Japan,Español,NC-17,2021-04-20
+CNT00204,The Hidden Truth 204,Pelicula,Action,2015,140,4.58,0,Spain,Frances,G,2020-01-19
+CNT00205,Dark Secrets 205,Serie,Documentary,2019,44,4.98,8,Spain,Japones,R,2021-07-12
+CNT00206,Night Watch,Pelicula,Action,2022,172,3.51,0,Spain,Español,PG-13,2024-06-07
+CNT00207,Legal Eagles,Serie,Fantasy,2021,56,3.86,6,USA,Aleman,G,2021-01-13
+CNT00208,Eternal Flame 208,Pelicula,Horror,2015,123,3.77,0,Brazil,Frances,PG-13,2021-09-10
+CNT00209,The Final Chapter 209,Pelicula,Mystery,2018,97,4.34,0,Brazil,Frances,PG,2022-04-10
+CNT00210,Dark Secrets 210,Serie,Sci-Fi,2020,49,3.44,3,Brazil,Ingles,R,2024-03-11
+CNT00211,Drama Queens 211,Serie,Romance,2023,55,4.33,4,Japan,Ingles,NC-17,2024-11-23
+CNT00212,Northern Lights 212,Pelicula,Mystery,2020,99,4.83,0,USA,Español,NC-17,2022-11-01
+CNT00213,Rising Storm 213,Pelicula,Action,2020,156,3.88,0,France,Ingles,NC-17,2022-09-28
+CNT00214,Northern Lights 214,Pelicula,Drama,2022,106,4.03,0,Brazil,Japones,G,2023-02-18
+CNT00215,Street Life 215,Serie,Thriller,2019,56,3.01,4,Germany,Español,G,2022-05-17
+CNT00216,Modern Life 216,Serie,Drama,2016,59,3.94,5,Chile,Ingles,PG,2024-04-17
+CNT00217,Sci-Fi Adventures 217,Serie,Thriller,2022,57,4.83,7,Chile,Español,NC-17,2020-09-29
+CNT00218,Dark Secrets,Serie,Animation,2021,46,3.25,4,Korea,Español,G,2021-09-03
+CNT00219,Documentary Series 219,Serie,Thriller,2018,37,3.92,3,Colombia,Ingles,G,2020-03-06
+CNT00220,Crime Stories,Serie,Comedy,2016,49,3.07,1,Argentina,Español,R,2022-06-17
+CNT00221,Deep Blue,Pelicula,Drama,2017,154,4.99,0,Argentina,Japones,PG-13,2023-03-28
+CNT00222,Tech World 222,Serie,Action,2023,37,3.83,5,Mexico,Japones,NC-17,2024-12-06
+CNT00223,The Outsider 223,Pelicula,Animation,2022,96,4.94,0,France,Aleman,NC-17,2021-10-14
+CNT00224,Drama Queens,Serie,Thriller,2017,54,4.08,4,Korea,Ingles,PG-13,2024-10-22
+CNT00225,Night Watch 225,Pelicula,Drama,2023,142,4.94,0,UK,Japones,PG,2022-03-06
+CNT00226,The Final Chapter,Pelicula,Fantasy,2016,147,4.69,0,USA,Japones,PG,2020-04-15
+CNT00227,Comedy Hour 227,Serie,Crime,2015,57,3.15,4,Brazil,Ingles,PG-13,2021-09-12
+CNT00228,Midnight Sun 228,Pelicula,Mystery,2016,151,4.83,0,Italy,Japones,PG,2022-03-23
+CNT00229,Deep Blue 229,Pelicula,Sci-Fi,2021,149,4.07,0,Peru,Frances,PG-13,2022-01-06
+CNT00230,Action Heroes,Serie,Mystery,2022,54,4.68,4,Peru,Frances,R,2020-04-03
+CNT00231,The Last Stand,Pelicula,Sci-Fi,2023,164,4.16,0,Chile,Frances,PG,2021-02-05
+CNT00232,Tech World 232,Serie,Horror,2022,47,4.31,6,Colombia,Aleman,R,2022-08-01
+CNT00233,The Last Stand 233,Pelicula,Action,2017,159,3.98,0,UK,Español,NC-17,2020-03-10
+CNT00234,Dark Waters,Pelicula,Drama,2021,107,4.69,0,Argentina,Español,PG,2020-01-19
+CNT00235,Northern Lights 235,Pelicula,Drama,2024,171,4.33,0,Germany,Aleman,R,2020-02-02
+CNT00236,Deep Blue 236,Pelicula,Drama,2015,157,4.44,0,UK,Frances,G,2022-10-25
+CNT00237,Medical Center,Serie,Comedy,2023,34,3.48,5,Korea,Frances,PG-13,2024-06-16
+CNT00238,Modern Life 238,Serie,Thriller,2022,48,3.49,4,Colombia,Español,G,2020-07-10
+CNT00239,Comedy Hour 239,Serie,Romance,2015,50,3.02,3,USA,Aleman,R,2023-08-13
+CNT00240,Dark Secrets 240,Serie,Drama,2018,36,4.8,8,Colombia,Español,G,2023-11-02
+CNT00241,Documentary Series 241,Serie,Drama,2017,59,4.7,1,Argentina,Japones,PG,2024-03-20
+CNT00242,Modern Life,Serie,Crime,2018,48,4.67,7,France,Japones,PG-13,2022-02-25
+CNT00243,Night Watch 243,Pelicula,Mystery,2016,154,4.49,0,Peru,Español,G,2022-06-14
+CNT00244,Echoes of Tomorrow 244,Pelicula,Crime,2024,140,4.94,0,Peru,Español,PG-13,2024-05-23
+CNT00245,Mystery Files,Serie,Animation,2021,43,3.37,7,USA,Japones,PG-13,2024-06-22
+CNT00246,Broken Promises,Pelicula,Sci-Fi,2017,138,4.42,0,France,Ingles,R,2021-10-10
+CNT00247,Dark Secrets,Serie,Sci-Fi,2022,41,4.52,2,Spain,Español,PG,2022-06-01
+CNT00248,Documentary Series 248,Serie,Thriller,2016,30,3.18,2,Germany,Japones,PG-13,2024-11-03
+CNT00249,Crime Stories,Serie,Thriller,2016,53,4.8,4,Germany,Japones,PG,2023-11-04
+CNT00250,Medical Center,Serie,Sci-Fi,2019,45,3.29,3,Chile,Frances,R,2021-09-05
+CNT00251,Modern Life 251,Serie,Horror,2022,49,4.23,8,USA,Ingles,PG-13,2020-01-14
+CNT00252,Historical Tales 252,Serie,Thriller,2020,44,3.67,3,Colombia,Frances,NC-17,2023-11-24
+CNT00253,Eternal Flame 253,Pelicula,Thriller,2020,127,4.47,0,France,Aleman,NC-17,2024-05-20
+CNT00254,City of Dreams 254,Pelicula,Thriller,2020,104,4.86,0,Argentina,Japones,NC-17,2021-01-03
+CNT00255,The Last Stand 255,Pelicula,Mystery,2018,146,4.6,0,Korea,Español,R,2023-10-10
+CNT00256,The Office Club 256,Serie,Horror,2019,51,3.31,7,Japan,Aleman,G,2022-07-08
+CNT00257,Comedy Hour 257,Serie,Mystery,2021,47,3.07,6,Italy,Japones,NC-17,2023-07-30
+CNT00258,Silent Waters 258,Pelicula,Fantasy,2020,111,4.29,0,Mexico,Japones,R,2024-03-21
+CNT00259,Drama Queens,Serie,Comedy,2019,37,4.02,4,Brazil,Frances,R,2022-08-06
+CNT00260,The Forgotten 260,Pelicula,Romance,2016,127,3.83,0,USA,Español,PG,2021-12-14
+CNT00261,Historical Tales 261,Serie,Horror,2023,45,3.7,2,Brazil,Aleman,PG-13,2020-05-17
+CNT00262,The Dynasty 262,Serie,Comedy,2015,57,3.69,2,France,Ingles,PG,2022-11-22
+CNT00263,Deep Blue,Pelicula,Animation,2021,149,3.46,0,Chile,Ingles,PG,2023-08-04
+CNT00264,Comedy Hour,Serie,Crime,2018,44,4.18,7,Mexico,Ingles,PG,2021-07-24
+CNT00265,Rising Storm,Pelicula,Animation,2017,136,3.65,0,Brazil,Español,PG-13,2023-10-05
+CNT00266,Romance Stories 266,Serie,Documentary,2024,42,4.22,2,Peru,Frances,R,2023-06-18
+CNT00267,Dark Waters 267,Pelicula,Sci-Fi,2024,165,3.17,0,Spain,Frances,G,2021-05-03
+CNT00268,Dark Secrets,Serie,Mystery,2017,46,3.78,3,Germany,Aleman,R,2021-01-15
+CNT00269,Documentary Series 269,Serie,Fantasy,2017,47,3.33,5,Spain,Ingles,PG-13,2024-09-20
+CNT00270,The Dynasty 270,Serie,Drama,2022,34,3.39,7,UK,Japones,R,2022-04-17
+CNT00271,Drama Queens 271,Serie,Romance,2022,35,3.17,1,Japan,Ingles,PG-13,2020-03-07
+CNT00272,Tech World 272,Serie,Action,2022,48,4.49,8,UK,Japones,G,2023-03-18
+CNT00273,The Final Chapter 273,Pelicula,Documentary,2023,95,4.52,0,Brazil,Japones,PG,2022-05-20
+CNT00274,The Last Stand 274,Pelicula,Horror,2019,94,3.9,0,Peru,Español,R,2024-11-07
+CNT00275,Secret Garden 275,Pelicula,Horror,2024,178,3.7,0,Italy,Japones,R,2020-12-05
+CNT00276,Night Watch,Pelicula,Horror,2015,162,3.7,0,Colombia,Japones,NC-17,2020-12-10
+CNT00277,Street Life,Serie,Sci-Fi,2023,58,4.36,2,Spain,Aleman,G,2021-07-21
+CNT00278,Broken Promises 278,Pelicula,Horror,2017,131,4.66,0,Japan,Aleman,R,2020-10-18
+CNT00279,Drama Queens 279,Serie,Comedy,2016,42,4.03,5,Italy,Frances,R,2022-09-26
+CNT00280,Crime Stories 280,Serie,Mystery,2016,53,4.94,6,Korea,Español,NC-17,2022-03-25
+CNT00281,Wild Hearts 281,Pelicula,Romance,2019,131,4.66,0,Peru,Japones,NC-17,2020-09-24
+CNT00282,Historical Tales 282,Serie,Drama,2015,33,4.25,8,Mexico,Español,PG,2022-06-22
+CNT00283,Crime Stories 283,Serie,Thriller,2018,52,4.82,5,Spain,Frances,G,2023-09-02
+CNT00284,Family Matters,Serie,Fantasy,2017,31,3.79,5,Italy,Ingles,R,2023-09-04
+CNT00285,Broken Promises,Pelicula,Horror,2022,99,3.27,0,Argentina,Japones,R,2020-01-20
+CNT00286,Broken Promises 286,Pelicula,Comedy,2021,178,3.26,0,USA,Ingles,R,2020-07-01
+CNT00287,Silent Waters 287,Pelicula,Sci-Fi,2017,138,4.55,0,Japan,Ingles,PG,2020-05-20
+CNT00288,Golden Age 288,Pelicula,Romance,2020,117,4.26,0,Spain,Aleman,NC-17,2023-11-07
+CNT00289,Legal Eagles,Serie,Comedy,2017,54,3.25,7,Peru,Aleman,PG-13,2024-06-08
+CNT00290,Lost in Time,Pelicula,Comedy,2018,160,4.2,0,Italy,Japones,PG-13,2024-05-14
+CNT00291,Dark Waters 291,Pelicula,Horror,2023,167,4.02,0,Italy,Aleman,PG-13,2023-08-16
+CNT00292,Night Watch 292,Pelicula,Horror,2022,139,3.23,0,Brazil,Japones,G,2022-12-17
+CNT00293,The Forgotten 293,Pelicula,Action,2021,162,3.84,0,UK,Ingles,R,2024-04-26
+CNT00294,The Last Kingdom 294,Pelicula,Drama,2019,117,3.08,0,Mexico,Aleman,NC-17,2021-08-09
+CNT00295,Drama Queens 295,Serie,Comedy,2023,47,4.23,5,USA,Frances,G,2022-11-13
+CNT00296,Night Watch,Pelicula,Documentary,2021,165,4.27,0,Korea,Español,PG-13,2023-12-01
+CNT00297,Tech World,Serie,Comedy,2021,33,3.91,1,Colombia,Ingles,G,2020-01-26
+CNT00298,Broken Promises,Pelicula,Romance,2020,156,4.03,0,Korea,Frances,PG,2022-01-31
+CNT00299,The Last Stand 299,Pelicula,Sci-Fi,2016,93,3.67,0,Chile,Frances,NC-17,2020-05-10
+CNT00300,Modern Life 300,Serie,Animation,2020,31,4.0,3,Peru,Ingles,PG-13,2024-05-02
+CNT00301,Rising Storm 301,Pelicula,Comedy,2018,155,3.01,0,Korea,Español,PG,2020-04-04
+CNT00302,Sci-Fi Adventures 302,Serie,Action,2017,59,4.92,1,UK,Aleman,PG,2021-10-21
+CNT00303,Wild Hearts 303,Pelicula,Documentary,2019,99,4.14,0,USA,Japones,G,2021-01-02
+CNT00304,Night Watch 304,Pelicula,Drama,2021,98,4.75,0,Korea,Frances,PG-13,2021-11-01
+CNT00305,Deep Blue 305,Pelicula,Documentary,2018,127,4.13,0,Colombia,Japones,PG,2022-08-08
+CNT00306,Mystery Files 306,Serie,Horror,2023,54,4.59,3,Mexico,Aleman,G,2021-04-22
+CNT00307,Crime Stories 307,Serie,Drama,2021,57,4.48,5,USA,Ingles,NC-17,2021-05-02
+CNT00308,Mystery Files 308,Serie,Action,2019,32,3.09,4,Korea,Japones,R,2023-12-06
+CNT00309,Action Heroes 309,Serie,Comedy,2024,33,4.01,7,USA,Japones,NC-17,2020-05-07
+CNT00310,The Office Club,Serie,Sci-Fi,2020,59,4.6,6,Peru,Aleman,PG-13,2021-04-23
+CNT00311,Midnight Sun,Pelicula,Crime,2016,109,3.21,0,Brazil,Aleman,PG-13,2022-04-12
+CNT00312,Deep Blue 312,Pelicula,Horror,2022,129,3.93,0,Korea,Español,G,2020-11-18
+CNT00313,The Dynasty,Serie,Documentary,2017,32,4.42,6,Chile,Japones,G,2023-10-18
+CNT00314,Family Matters 314,Serie,Action,2015,60,3.81,8,UK,Japones,PG,2020-07-12
+CNT00315,Dark Secrets 315,Serie,Action,2016,30,3.12,4,Spain,Ingles,R,2022-02-01
+CNT00316,Rising Storm 316,Pelicula,Comedy,2015,98,3.4,0,France,Aleman,PG,2020-07-07
+CNT00317,Dark Secrets,Serie,Romance,2015,35,4.85,7,Korea,Aleman,R,2020-03-01
+CNT00318,Drama Queens,Serie,Horror,2017,38,3.56,3,Mexico,Japones,NC-17,2023-06-17
+CNT00319,The Outsider,Pelicula,Thriller,2023,151,3.12,0,Colombia,Aleman,PG,2022-05-08
+CNT00320,The Outsider 320,Pelicula,Animation,2018,170,4.99,0,UK,Español,R,2024-05-20
+CNT00321,Mystery Files 321,Serie,Romance,2020,59,4.13,6,Chile,Frances,PG,2020-02-23
+CNT00322,Tech World,Serie,Sci-Fi,2015,55,4.98,6,Japan,Japones,PG,2020-11-22
+CNT00323,Lost in Time 323,Pelicula,Sci-Fi,2023,97,4.53,0,Argentina,Japones,R,2021-12-27
+CNT00324,The Hidden Truth,Pelicula,Documentary,2020,165,3.06,0,Italy,Frances,NC-17,2023-02-28
+CNT00325,Rising Storm 325,Pelicula,Romance,2023,129,3.35,0,Mexico,Español,G,2021-04-21
+CNT00326,The Last Kingdom 326,Pelicula,Drama,2020,168,3.4,0,Spain,Frances,PG,2024-07-01
+CNT00327,The Dynasty,Serie,Crime,2017,54,3.22,6,USA,Frances,R,2023-04-15
+CNT00328,City of Dreams 328,Pelicula,Action,2017,145,4.58,0,Brazil,Frances,PG,2023-12-19
+CNT00329,Tech World 329,Serie,Action,2021,39,4.47,5,Spain,Ingles,G,2023-12-08
+CNT00330,The Dynasty,Serie,Documentary,2024,37,4.28,2,Brazil,Ingles,PG-13,2024-03-06
+CNT00331,Lost in Time 331,Pelicula,Documentary,2017,171,4.77,0,USA,Frances,R,2020-01-24
+CNT00332,Legal Eagles,Serie,Comedy,2020,38,4.57,1,Mexico,Aleman,R,2024-02-09
+CNT00333,Medical Center 333,Serie,Romance,2021,41,4.09,2,Korea,Aleman,NC-17,2023-08-26
+CNT00334,The Hidden Truth 334,Pelicula,Drama,2019,92,3.64,0,USA,Español,PG-13,2020-12-14
+CNT00335,Medical Center 335,Serie,Animation,2016,40,4.19,8,Italy,Español,R,2023-08-31
+CNT00336,Golden Age 336,Pelicula,Action,2015,102,3.66,0,Argentina,Aleman,NC-17,2024-01-18
+CNT00337,Street Life,Serie,Comedy,2015,42,4.14,8,Spain,Español,PG-13,2020-01-08
+CNT00338,Modern Life,Serie,Fantasy,2024,45,3.4,1,Argentina,Ingles,PG-13,2020-06-16
+CNT00339,Dark Secrets 339,Serie,Thriller,2022,45,4.79,5,USA,Japones,R,2021-01-13
+CNT00340,Comedy Hour 340,Serie,Romance,2015,38,3.88,5,Argentina,Frances,NC-17,2020-05-06
+CNT00341,Secret Garden 341,Pelicula,Comedy,2016,175,3.69,0,UK,Aleman,NC-17,2021-04-10
+CNT00342,Shadow Games 342,Pelicula,Thriller,2023,177,4.73,0,Brazil,Japones,PG,2022-09-02
+CNT00343,Modern Life 343,Serie,Mystery,2015,46,4.14,3,USA,Aleman,PG,2020-12-08
+CNT00344,Night Watch,Pelicula,Drama,2021,100,4.98,0,Chile,Ingles,PG,2024-09-04
+CNT00345,Historical Tales 345,Serie,Comedy,2016,42,4.11,6,Korea,Frances,NC-17,2022-07-27
+CNT00346,Night Watch 346,Pelicula,Crime,2023,143,3.23,0,Spain,Ingles,NC-17,2023-04-19
+CNT00347,Silent Waters 347,Pelicula,Comedy,2019,158,4.76,0,Chile,Frances,R,2023-09-03
+CNT00348,Mystery Files,Serie,Sci-Fi,2021,34,4.24,7,Mexico,Aleman,PG-13,2023-11-15
+CNT00349,Dark Paradise 349,Pelicula,Sci-Fi,2020,92,3.68,0,Japan,Frances,PG-13,2021-07-28
+CNT00350,Dark Secrets 350,Serie,Horror,2017,39,4.95,8,Japan,Frances,PG-13,2024-02-01
+CNT00351,Modern Life,Serie,Horror,2021,53,3.97,6,Korea,Español,NC-17,2024-06-08
+CNT00352,Echoes of Tomorrow 352,Pelicula,Animation,2021,107,4.56,0,UK,Japones,G,2020-12-21
+CNT00353,Midnight Sun 353,Pelicula,Horror,2015,148,3.1,0,Peru,Ingles,PG-13,2022-01-24
+CNT00354,Romance Stories 354,Serie,Comedy,2015,37,3.74,8,Spain,Aleman,NC-17,2023-02-03
+CNT00355,Sci-Fi Adventures,Serie,Sci-Fi,2016,39,3.05,1,Spain,Japones,PG,2024-10-21
+CNT00356,The Outsider,Pelicula,Horror,2019,173,3.82,0,Mexico,Español,R,2020-09-27
+CNT00357,Golden Age 357,Pelicula,Horror,2019,167,4.61,0,Colombia,Frances,R,2022-02-10
+CNT00358,Action Heroes,Serie,Romance,2019,51,4.04,7,Germany,Español,G,2022-11-13
+CNT00359,Documentary Series 359,Serie,Crime,2019,39,4.37,8,USA,Frances,PG-13,2023-08-04
+CNT00360,Family Matters,Serie,Mystery,2019,36,3.3,4,Mexico,Japones,R,2023-09-14
+CNT00361,The Office Club 361,Serie,Fantasy,2022,39,3.52,7,Chile,Aleman,G,2023-04-09
+CNT00362,City of Dreams 362,Pelicula,Horror,2023,171,4.57,0,France,Frances,NC-17,2021-09-06
+CNT00363,Dark Waters 363,Pelicula,Action,2019,102,3.94,0,Italy,Frances,NC-17,2024-04-11
+CNT00364,Dark Waters 364,Pelicula,Fantasy,2016,118,3.71,0,Italy,Frances,R,2024-06-02
+CNT00365,Sci-Fi Adventures,Serie,Sci-Fi,2022,57,3.24,1,Korea,Japones,NC-17,2023-06-25
+CNT00366,Eternal Flame 366,Pelicula,Animation,2016,177,3.76,0,Colombia,Aleman,G,2024-11-18
+CNT00367,Breaking Dawn 367,Pelicula,Documentary,2021,162,4.79,0,Brazil,Ingles,PG-13,2024-11-01
+CNT00368,Secret Garden,Pelicula,Documentary,2017,130,4.27,0,Mexico,Aleman,PG-13,2021-03-04
+CNT00369,Rising Storm 369,Pelicula,Romance,2016,106,4.23,0,France,Aleman,R,2022-05-28
+CNT00370,Comedy Hour,Serie,Animation,2018,53,3.75,1,Peru,Japones,PG,2020-02-06
+CNT00371,The Outsider 371,Pelicula,Horror,2020,129,3.26,0,Chile,Japones,NC-17,2021-09-18
+CNT00372,Echoes of Tomorrow 372,Pelicula,Sci-Fi,2019,148,4.46,0,Germany,Japones,PG-13,2022-06-07
+CNT00373,City of Dreams 373,Pelicula,Romance,2020,114,3.33,0,Japan,Aleman,G,2021-04-12
+CNT00374,The Last Stand 374,Pelicula,Horror,2015,165,4.01,0,USA,Frances,G,2022-02-07
+CNT00375,Documentary Series 375,Serie,Crime,2015,51,3.22,1,Mexico,Español,R,2022-06-28
+CNT00376,Dark Secrets 376,Serie,Romance,2017,36,4.39,1,Colombia,Aleman,G,2023-09-18
+CNT00377,The Office Club 377,Serie,Comedy,2023,53,4.24,5,USA,Español,R,2021-02-10
+CNT00378,Secret Garden,Pelicula,Animation,2018,135,4.41,0,Colombia,Ingles,G,2023-01-27
+CNT00379,Legal Eagles 379,Serie,Romance,2020,37,3.01,2,USA,Japones,R,2020-11-01
+CNT00380,Secret Garden 380,Pelicula,Mystery,2016,122,4.29,0,Brazil,Frances,PG-13,2022-08-08
+CNT00381,Silent Waters 381,Pelicula,Drama,2019,136,4.6,0,Peru,Aleman,G,2020-07-13
+CNT00382,The Last Kingdom 382,Pelicula,Fantasy,2017,132,3.72,0,Brazil,Japones,PG-13,2024-12-04
+CNT00383,The Forgotten 383,Pelicula,Action,2016,141,3.8,0,Brazil,Frances,R,2023-11-13
+CNT00384,Drama Queens 384,Serie,Action,2016,34,4.39,1,Korea,Ingles,G,2022-05-02
+CNT00385,Action Heroes,Serie,Thriller,2020,49,3.06,3,Brazil,Aleman,G,2024-12-22
+CNT00386,Action Heroes,Serie,Sci-Fi,2020,30,4.41,4,France,Frances,NC-17,2022-12-07
+CNT00387,Wild Hearts 387,Pelicula,Horror,2022,134,4.33,0,France,Aleman,PG,2024-09-14
+CNT00388,The Last Kingdom 388,Pelicula,Action,2023,150,4.7,0,Korea,Ingles,G,2024-03-18
+CNT00389,Historical Tales,Serie,Sci-Fi,2015,46,3.45,7,Chile,Ingles,G,2022-07-29
+CNT00390,Action Heroes,Serie,Romance,2022,40,3.24,8,Italy,Español,G,2022-04-06
+CNT00391,The Dynasty 391,Serie,Drama,2016,55,4.21,5,UK,Japones,PG,2023-09-02
+CNT00392,Historical Tales 392,Serie,Drama,2018,57,3.91,8,Italy,Frances,R,2020-08-21
+CNT00393,Secret Garden 393,Pelicula,Drama,2020,135,4.66,0,Japan,Frances,NC-17,2022-12-05
+CNT00394,Dark Secrets,Serie,Action,2022,34,4.64,7,USA,Frances,NC-17,2021-02-05
+CNT00395,Silent Waters 395,Pelicula,Thriller,2018,148,4.65,0,Argentina,Frances,G,2024-03-30
+CNT00396,The Dynasty 396,Serie,Fantasy,2024,33,4.54,8,Brazil,Japones,NC-17,2020-10-02
+CNT00397,Crime Stories 397,Serie,Drama,2023,59,3.87,8,UK,Ingles,NC-17,2020-12-21
+CNT00398,Silent Waters 398,Pelicula,Crime,2024,131,4.01,0,Chile,Aleman,NC-17,2023-11-19
+CNT00399,The Final Chapter 399,Pelicula,Documentary,2019,147,4.61,0,Spain,Aleman,NC-17,2023-12-04
+CNT00400,Documentary Series 400,Serie,Mystery,2023,50,3.43,4,Germany,Frances,PG-13,2023-10-09
+CNT00401,Broken Promises 401,Pelicula,Action,2023,159,4.39,0,Peru,Español,PG-13,2023-02-25
+CNT00402,Drama Queens 402,Serie,Animation,2019,58,4.69,1,UK,Español,G,2022-02-19
+CNT00403,Dark Paradise 403,Pelicula,Horror,2019,110,4.97,0,France,Frances,PG,2024-09-15
+CNT00404,Broken Promises 404,Pelicula,Horror,2023,94,3.72,0,Brazil,Español,NC-17,2024-11-12
+CNT00405,The Last Stand 405,Pelicula,Thriller,2018,155,4.57,0,Japan,Frances,G,2022-02-20
+CNT00406,Drama Queens 406,Serie,Fantasy,2020,60,4.1,1,Italy,Frances,PG,2023-06-24
+CNT00407,Tech World 407,Serie,Mystery,2020,54,4.18,4,Japan,Ingles,PG-13,2022-07-08
+CNT00408,Dark Waters,Pelicula,Action,2023,105,3.75,0,Chile,Frances,NC-17,2021-06-25
+CNT00409,The Hidden Truth 409,Pelicula,Sci-Fi,2015,132,3.93,0,Spain,Español,PG,2021-10-22
+CNT00410,Secret Garden 410,Pelicula,Crime,2019,152,4.58,0,UK,Frances,G,2024-05-24
+CNT00411,Romance Stories,Serie,Action,2023,32,4.57,3,Chile,Japones,NC-17,2022-04-06
+CNT00412,The Forgotten,Pelicula,Horror,2020,132,3.72,0,Argentina,Japones,NC-17,2022-08-30
+CNT00413,Silent Waters 413,Pelicula,Romance,2018,172,4.23,0,Germany,Ingles,G,2023-10-29
+CNT00414,Comedy Hour 414,Serie,Comedy,2021,38,4.08,5,Mexico,Japones,PG-13,2022-11-19
+CNT00415,Mystery Files,Serie,Fantasy,2018,40,4.03,2,Spain,Japones,NC-17,2020-01-16
+CNT00416,Midnight Sun 416,Pelicula,Horror,2021,103,3.41,0,Korea,Aleman,G,2024-03-09
+CNT00417,The Last Kingdom 417,Pelicula,Documentary,2015,101,3.15,0,Spain,Frances,NC-17,2020-05-24
+CNT00418,The Final Chapter 418,Pelicula,Romance,2021,145,3.63,0,Chile,Español,NC-17,2020-01-13
+CNT00419,Secret Garden 419,Pelicula,Drama,2016,135,4.86,0,USA,Frances,PG-13,2023-05-27
+CNT00420,Beyond the Horizon 420,Pelicula,Romance,2021,140,4.64,0,Mexico,Aleman,PG,2022-12-28
+CNT00421,Breaking Dawn 421,Pelicula,Animation,2019,171,3.29,0,France,Frances,G,2023-02-07
+CNT00422,Silent Waters,Pelicula,Crime,2024,140,4.07,0,USA,Frances,PG,2024-03-12
+CNT00423,Legal Eagles 423,Serie,Fantasy,2023,34,3.32,4,Germany,Frances,PG,2020-08-22
+CNT00424,Dark Waters 424,Pelicula,Drama,2023,149,4.29,0,USA,Frances,G,2021-05-28
+CNT00425,Midnight Sun 425,Pelicula,Romance,2020,135,3.26,0,France,Ingles,G,2021-08-06
+CNT00426,Midnight Sun 426,Pelicula,Romance,2020,168,4.32,0,Italy,Japones,PG,2023-03-04
+CNT00427,Historical Tales 427,Serie,Action,2015,40,3.49,4,Italy,Aleman,PG-13,2024-09-16
+CNT00428,The Office Club 428,Serie,Documentary,2022,44,3.89,5,Brazil,Japones,G,2020-12-25
+CNT00429,The Final Chapter 429,Pelicula,Action,2023,115,3.53,0,France,Español,G,2020-02-08
+CNT00430,Rising Storm 430,Pelicula,Crime,2018,94,4.1,0,UK,Japones,R,2023-09-01
+CNT00431,The Forgotten 431,Pelicula,Crime,2019,107,3.93,0,UK,Español,R,2022-01-15
+CNT00432,Dark Waters,Pelicula,Crime,2017,155,3.28,0,Spain,Ingles,NC-17,2023-03-04
+CNT00433,The Last Stand 433,Pelicula,Documentary,2015,118,4.52,0,Argentina,Español,PG-13,2022-01-26
+CNT00434,Dark Paradise 434,Pelicula,Animation,2020,139,3.94,0,Brazil,Español,G,2023-08-21
+CNT00435,Dark Secrets 435,Serie,Animation,2019,56,4.48,3,Chile,Aleman,PG-13,2023-04-18
+CNT00436,Northern Lights,Pelicula,Horror,2023,141,3.71,0,Korea,Frances,R,2024-06-11
+CNT00437,Crime Stories 437,Serie,Action,2022,35,3.46,5,Argentina,Ingles,PG,2020-11-18
+CNT00438,Dark Secrets 438,Serie,Thriller,2020,53,3.23,8,Brazil,Ingles,NC-17,2020-11-26
+CNT00439,Crime Stories,Serie,Action,2024,48,3.32,1,Germany,Ingles,G,2020-12-06
+CNT00440,Medical Center 440,Serie,Thriller,2024,48,4.28,5,USA,Ingles,R,2023-05-27
+CNT00441,Mystery Files,Serie,Thriller,2024,34,4.59,3,Germany,Japones,PG-13,2020-12-09
+CNT00442,Action Heroes 442,Serie,Comedy,2018,42,3.77,2,Mexico,Ingles,NC-17,2024-10-26
+CNT00443,The Office Club 443,Serie,Action,2022,58,4.23,1,Japan,Japones,NC-17,2024-03-20
+CNT00444,Echoes of Tomorrow 444,Pelicula,Action,2024,159,4.66,0,Japan,Aleman,NC-17,2022-05-11
+CNT00445,The Dynasty 445,Serie,Thriller,2018,60,4.6,7,Peru,Japones,NC-17,2020-07-19
+CNT00446,The Office Club,Serie,Horror,2016,39,4.2,7,Colombia,Ingles,G,2023-12-23
+CNT00447,Rising Storm 447,Pelicula,Animation,2015,138,4.31,0,Italy,Frances,R,2022-01-11
+CNT00448,Breaking Dawn 448,Pelicula,Crime,2019,123,4.71,0,Chile,Japones,PG-13,2023-06-07
+CNT00449,Comedy Hour 449,Serie,Thriller,2023,55,4.12,3,Peru,Japones,NC-17,2022-09-17
+CNT00450,Street Life 450,Serie,Mystery,2021,53,3.28,2,Italy,Ingles,R,2024-05-22
+CNT00451,Silent Waters,Pelicula,Thriller,2020,160,4.23,0,France,Español,PG,2022-03-07
+CNT00452,Night Watch,Pelicula,Action,2022,166,3.87,0,USA,Frances,PG,2022-01-29
+CNT00453,Golden Age,Pelicula,Thriller,2021,168,4.31,0,Colombia,Japones,G,2024-05-03
+CNT00454,The Outsider 454,Pelicula,Drama,2018,174,4.86,0,UK,Frances,PG,2020-03-09
+CNT00455,Golden Age,Pelicula,Drama,2020,120,4.31,0,Spain,Español,PG-13,2024-05-15
+CNT00456,Sci-Fi Adventures 456,Serie,Thriller,2024,36,4.04,2,USA,Japones,PG-13,2024-01-27
+CNT00457,Sci-Fi Adventures 457,Serie,Sci-Fi,2018,49,4.93,8,Chile,Japones,G,2021-06-18
+CNT00458,Wild Hearts 458,Pelicula,Animation,2016,154,3.59,0,USA,Japones,PG-13,2024-11-29
+CNT00459,Action Heroes 459,Serie,Crime,2022,54,3.49,6,Japan,Aleman,R,2023-04-16
+CNT00460,Eternal Flame,Pelicula,Comedy,2021,171,4.58,0,Argentina,Ingles,PG-13,2022-04-24
+CNT00461,Romance Stories 461,Serie,Mystery,2019,37,3.57,7,France,Frances,G,2023-02-09
+CNT00462,Eternal Flame 462,Pelicula,Horror,2024,124,3.37,0,Italy,Ingles,R,2024-02-18
+CNT00463,Lost in Time 463,Pelicula,Sci-Fi,2018,119,3.41,0,Argentina,Japones,PG-13,2020-11-15
+CNT00464,Silent Waters 464,Pelicula,Fantasy,2022,168,3.01,0,Korea,Japones,G,2024-10-02
+CNT00465,Sci-Fi Adventures 465,Serie,Romance,2024,57,3.55,3,Japan,Japones,PG-13,2022-03-25
+CNT00466,Secret Garden 466,Pelicula,Drama,2023,144,3.96,0,UK,Español,NC-17,2021-12-12
+CNT00467,Medical Center 467,Serie,Comedy,2023,44,3.63,1,Mexico,Ingles,R,2023-04-04
+CNT00468,City of Dreams 468,Pelicula,Sci-Fi,2017,160,3.53,0,Colombia,Aleman,NC-17,2021-12-03
+CNT00469,Medical Center 469,Serie,Horror,2021,52,4.5,6,Korea,Aleman,PG-13,2022-07-12
+CNT00470,Rising Storm,Pelicula,Crime,2018,102,4.44,0,Japan,Ingles,NC-17,2022-06-04
+CNT00471,Legal Eagles,Serie,Mystery,2017,45,4.61,3,Chile,Aleman,PG,2024-10-05
+CNT00472,Mystery Files 472,Serie,Animation,2024,31,3.8,3,Mexico,Ingles,PG-13,2022-09-02
+CNT00473,The Return 473,Pelicula,Sci-Fi,2020,136,4.12,0,Japan,Frances,PG-13,2020-02-10
+CNT00474,Dark Secrets 474,Serie,Fantasy,2024,36,4.15,3,Japan,Frances,PG-13,2021-10-27
+CNT00475,Action Heroes 475,Serie,Thriller,2024,39,3.93,3,Korea,Ingles,PG-13,2022-05-13
+CNT00476,Modern Life,Serie,Documentary,2018,40,3.63,5,Italy,Frances,NC-17,2023-08-13
+CNT00477,Family Matters 477,Serie,Documentary,2024,46,4.93,7,Spain,Ingles,G,2020-09-13
+CNT00478,Dark Waters,Pelicula,Mystery,2016,116,3.33,0,USA,Español,G,2024-12-04
+CNT00479,Documentary Series,Serie,Thriller,2023,54,4.99,2,Colombia,Japones,PG,2020-06-21
+CNT00480,Street Life,Serie,Mystery,2019,44,4.25,3,UK,Ingles,G,2020-03-12
+CNT00481,Historical Tales 481,Serie,Romance,2023,59,3.54,8,Spain,Japones,PG,2023-04-25
+CNT00482,Drama Queens 482,Serie,Fantasy,2023,39,4.82,8,UK,Ingles,G,2022-06-23
+CNT00483,Sci-Fi Adventures 483,Serie,Action,2019,30,3.0,3,Peru,Frances,R,2022-12-31
+CNT00484,Broken Promises 484,Pelicula,Romance,2019,91,4.53,0,Japan,Frances,NC-17,2021-04-18
+CNT00485,Deep Blue 485,Pelicula,Thriller,2023,145,3.79,0,Spain,Aleman,R,2021-03-27
+CNT00486,Modern Life 486,Serie,Horror,2023,54,4.6,5,Colombia,Japones,PG-13,2022-04-25
+CNT00487,Echoes of Tomorrow,Pelicula,Sci-Fi,2016,171,3.91,0,Brazil,Frances,NC-17,2022-10-04
+CNT00488,City of Dreams,Pelicula,Drama,2023,92,3.37,0,USA,Frances,PG-13,2020-09-13
+CNT00489,Crime Stories,Serie,Action,2015,45,3.43,7,Colombia,Aleman,PG-13,2022-08-07
+CNT00490,City of Dreams,Pelicula,Action,2015,124,4.55,0,USA,Japones,R,2021-01-06
+CNT00491,The Final Chapter 491,Pelicula,Drama,2016,121,3.77,0,Brazil,Ingles,G,2021-02-11
+CNT00492,Dark Secrets 492,Serie,Horror,2022,42,4.36,5,Peru,Ingles,G,2024-03-05
+CNT00493,The Final Chapter 493,Pelicula,Sci-Fi,2018,136,4.78,0,Korea,Ingles,G,2021-04-28
+CNT00494,Historical Tales,Serie,Sci-Fi,2024,33,3.79,4,Mexico,Español,NC-17,2024-05-23
+CNT00495,The Office Club 495,Serie,Comedy,2018,35,4.0,6,Japan,Español,G,2021-12-29
+CNT00496,Broken Promises 496,Pelicula,Comedy,2017,152,3.47,0,UK,Frances,R,2024-02-10
+CNT00497,The Last Kingdom 497,Pelicula,Documentary,2017,122,4.8,0,Brazil,Aleman,NC-17,2021-08-26
+CNT00498,Legal Eagles 498,Serie,Animation,2020,40,4.46,5,Korea,Japones,NC-17,2020-11-24
+CNT00499,Northern Lights,Pelicula,Sci-Fi,2019,159,3.73,0,Mexico,Japones,R,2024-02-11
+CNT00500,The Last Kingdom 500,Pelicula,Documentary,2024,120,3.64,0,USA,Japones,R,2021-01-23

@@ -1,0 +1,1001 @@
+user_id,nombre,email,edad,pais,plan,fecha_registro,dispositivo_preferido,idioma_preferido,perfiles,activo
+USR00001,Lucia Flores,user1@email.com,49,Japan,Premium,2019-09-24,Desktop,Ingles,3,False
+USR00002,Elena Hernandez,user2@email.com,25,USA,Premium,2018-10-01,Smart TV,Español,2,True
+USR00003,Juan Rodriguez,user3@email.com,49,Argentina,Basico,2018-05-11,Desktop,Ingles,4,True
+USR00004,Ana Hernandez,user4@email.com,32,Germany,Premium,2018-10-18,Smart TV,Español,4,True
+USR00005,Diego Flores,user5@email.com,21,Peru,Premium,2022-08-31,Tablet,Español,5,True
+USR00006,Lucia Garcia,user6@email.com,64,USA,Estandar,2018-11-16,Mobile,Español,1,True
+USR00007,Lucia Perez,user7@email.com,30,Argentina,Premium,2020-10-15,Desktop,Español,5,False
+USR00008,David Rodriguez,user8@email.com,67,France,Premium,2022-01-06,Gaming Console,Ingles,4,True
+USR00009,Maria Martinez,user9@email.com,53,Chile,Premium,2021-10-14,Gaming Console,Español,5,False
+USR00010,Isabel Hernandez,user10@email.com,38,UK,Estandar,2022-03-03,Laptop,Ingles,3,True
+USR00011,Miguel Ramirez,user11@email.com,31,Chile,Premium,2020-11-06,Tablet,Ingles,4,False
+USR00012,Ana Rivera,user12@email.com,20,Colombia,Premium,2018-03-08,Desktop,Español,3,True
+USR00013,Laura Lopez,user13@email.com,31,Korea,Estandar,2018-03-30,Gaming Console,Ingles,5,True
+USR00014,Carlos Garcia,user14@email.com,47,Peru,Basico,2019-07-21,Tablet,Ingles,5,True
+USR00015,Juan Gonzalez,user15@email.com,69,Colombia,Basico,2024-05-25,Laptop,Español,1,True
+USR00016,Carmen Sanchez,user16@email.com,29,Brazil,Premium,2024-06-18,Smart TV,Ingles,1,False
+USR00017,Carlos Garcia,user17@email.com,67,Peru,Estandar,2022-11-14,Laptop,Español,2,True
+USR00018,Elena Flores,user18@email.com,42,Mexico,Estandar,2023-11-18,Smart TV,Ingles,5,True
+USR00019,Pedro Ramirez,user19@email.com,62,Argentina,Basico,2018-07-26,Gaming Console,Ingles,4,True
+USR00020,Juan Perez,user20@email.com,36,Japan,Estandar,2019-08-30,Mobile,Ingles,1,False
+USR00021,Miguel Rivera,user21@email.com,21,UK,Estandar,2020-12-11,Smart TV,Ingles,5,False
+USR00022,Carmen Rivera,user22@email.com,26,Japan,Basico,2023-05-24,Desktop,Español,4,False
+USR00023,Elena Torres,user23@email.com,30,UK,Premium,2023-11-18,Mobile,Español,1,True
+USR00024,Carmen Perez,user24@email.com,38,France,Premium,2019-01-02,Smart TV,Ingles,4,True
+USR00025,Pedro Lopez,user25@email.com,38,Peru,Premium,2018-04-10,Tablet,Español,3,False
+USR00026,Miguel Martinez,user26@email.com,46,Mexico,Basico,2020-03-28,Gaming Console,Ingles,2,True
+USR00027,Carlos Rivera,user27@email.com,21,Argentina,Premium,2019-08-28,Tablet,Español,3,True
+USR00028,Laura Sanchez,user28@email.com,48,Mexico,Estandar,2020-05-06,Gaming Console,Español,2,True
+USR00029,Lucia Sanchez,user29@email.com,57,Italy,Basico,2018-03-17,Laptop,Español,3,True
+USR00030,Ana Gonzalez,user30@email.com,30,Japan,Premium,2024-12-06,Tablet,Español,4,True
+USR00031,Carlos Perez,user31@email.com,60,Colombia,Premium,2022-01-15,Smart TV,Español,3,False
+USR00032,Juan Perez,user32@email.com,50,Italy,Basico,2021-07-16,Laptop,Español,2,True
+USR00033,Lucia Sanchez,user33@email.com,53,Italy,Basico,2018-06-12,Mobile,Ingles,3,False
+USR00034,Sofia Rivera,user34@email.com,28,Mexico,Estandar,2021-12-12,Tablet,Ingles,2,True
+USR00035,Carmen Garcia,user35@email.com,58,Colombia,Estandar,2018-05-01,Desktop,Ingles,2,True
+USR00036,Pedro Perez,user36@email.com,60,Spain,Basico,2022-04-15,Desktop,Español,4,True
+USR00037,Miguel Martinez,user37@email.com,45,Colombia,Premium,2021-09-10,Laptop,Español,2,True
+USR00038,Miguel Ramirez,user38@email.com,61,Japan,Basico,2019-07-20,Tablet,Español,4,True
+USR00039,Elena Torres,user39@email.com,28,Peru,Basico,2024-04-01,Desktop,Español,2,True
+USR00040,Jose Martinez,user40@email.com,64,Mexico,Estandar,2022-08-23,Laptop,Ingles,4,True
+USR00041,Maria Lopez,user41@email.com,24,Spain,Basico,2018-04-18,Desktop,Ingles,5,True
+USR00042,Miguel Lopez,user42@email.com,32,France,Basico,2022-01-11,Smart TV,Ingles,2,False
+USR00043,David Flores,user43@email.com,41,Spain,Estandar,2023-07-06,Laptop,Español,2,True
+USR00044,Juan Garcia,user44@email.com,44,Japan,Basico,2021-01-10,Laptop,Español,2,True
+USR00045,Carlos Martinez,user45@email.com,46,Korea,Premium,2023-06-30,Gaming Console,Ingles,4,True
+USR00046,Sofia Perez,user46@email.com,67,Mexico,Premium,2022-04-08,Gaming Console,Ingles,4,True
+USR00047,Lucia Rodriguez,user47@email.com,46,Brazil,Basico,2020-10-03,Desktop,Ingles,1,False
+USR00048,Lucia Flores,user48@email.com,21,Argentina,Estandar,2022-12-06,Laptop,Ingles,3,False
+USR00049,Maria Perez,user49@email.com,36,Germany,Basico,2023-10-19,Mobile,Ingles,4,True
+USR00050,David Ramirez,user50@email.com,25,Spain,Premium,2024-02-17,Mobile,Ingles,4,True
+USR00051,Diego Garcia,user51@email.com,29,Brazil,Premium,2020-04-07,Laptop,Español,3,True
+USR00052,David Flores,user52@email.com,63,Japan,Basico,2019-05-22,Smart TV,Español,4,True
+USR00053,Carlos Ramirez,user53@email.com,63,Chile,Premium,2023-09-27,Desktop,Español,4,False
+USR00054,Ana Martinez,user54@email.com,39,Germany,Premium,2019-09-07,Mobile,Español,2,True
+USR00055,Sofia Gonzalez,user55@email.com,37,Italy,Estandar,2021-03-28,Gaming Console,Español,1,True
+USR00056,Juan Garcia,user56@email.com,57,Japan,Estandar,2018-02-20,Laptop,Ingles,4,True
+USR00057,Miguel Sanchez,user57@email.com,33,Argentina,Premium,2023-05-03,Laptop,Ingles,4,True
+USR00058,Miguel Torres,user58@email.com,18,Argentina,Premium,2021-02-13,Desktop,Español,1,True
+USR00059,Maria Garcia,user59@email.com,59,Peru,Basico,2019-08-19,Smart TV,Ingles,3,True
+USR00060,Ana Rodriguez,user60@email.com,44,Spain,Basico,2021-03-10,Desktop,Español,4,True
+USR00061,Isabel Garcia,user61@email.com,23,Japan,Estandar,2021-08-15,Tablet,Ingles,1,False
+USR00062,Jose Ramirez,user62@email.com,22,Colombia,Estandar,2019-07-06,Smart TV,Ingles,3,False
+USR00063,Lucia Lopez,user63@email.com,62,Argentina,Premium,2018-08-27,Smart TV,Español,4,True
+USR00064,Sofia Torres,user64@email.com,38,Colombia,Premium,2024-06-13,Desktop,Ingles,2,False
+USR00065,Lucia Rivera,user65@email.com,58,Brazil,Estandar,2020-01-07,Desktop,Español,3,True
+USR00066,Ana Rodriguez,user66@email.com,19,Brazil,Premium,2019-04-29,Gaming Console,Español,5,False
+USR00067,Sofia Garcia,user67@email.com,39,Peru,Premium,2020-05-19,Smart TV,Español,3,True
+USR00068,Carmen Rodriguez,user68@email.com,37,Colombia,Premium,2024-03-02,Tablet,Español,1,True
+USR00069,Pedro Perez,user69@email.com,64,Germany,Premium,2018-04-30,Mobile,Español,3,True
+USR00070,Isabel Flores,user70@email.com,48,Brazil,Basico,2019-07-11,Laptop,Español,4,True
+USR00071,Diego Perez,user71@email.com,65,Mexico,Premium,2021-05-11,Desktop,Ingles,5,True
+USR00072,Juan Torres,user72@email.com,61,Peru,Estandar,2018-09-29,Mobile,Ingles,1,True
+USR00073,Sofia Flores,user73@email.com,52,Korea,Basico,2024-05-27,Desktop,Ingles,2,True
+USR00074,Jose Gonzalez,user74@email.com,63,Korea,Estandar,2018-05-10,Tablet,Ingles,1,False
+USR00075,Isabel Lopez,user75@email.com,41,Brazil,Estandar,2020-06-04,Desktop,Ingles,2,True
+USR00076,Pedro Garcia,user76@email.com,67,Argentina,Basico,2022-12-23,Desktop,Español,4,True
+USR00077,Juan Hernandez,user77@email.com,48,Italy,Premium,2021-06-25,Tablet,Español,1,True
+USR00078,Juan Rivera,user78@email.com,20,Brazil,Estandar,2023-11-10,Smart TV,Español,3,True
+USR00079,Elena Torres,user79@email.com,23,Peru,Estandar,2018-07-08,Smart TV,Ingles,1,True
+USR00080,Elena Lopez,user80@email.com,38,Argentina,Basico,2021-03-19,Tablet,Ingles,4,True
+USR00081,Laura Martinez,user81@email.com,28,Colombia,Basico,2018-03-04,Desktop,Español,2,True
+USR00082,Lucia Hernandez,user82@email.com,35,Spain,Premium,2021-03-06,Desktop,Español,2,True
+USR00083,Laura Torres,user83@email.com,39,UK,Estandar,2018-07-27,Mobile,Español,4,True
+USR00084,Carlos Perez,user84@email.com,21,USA,Estandar,2022-05-25,Mobile,Ingles,5,True
+USR00085,Laura Hernandez,user85@email.com,70,Argentina,Premium,2023-12-26,Smart TV,Ingles,5,True
+USR00086,Carlos Rivera,user86@email.com,47,USA,Estandar,2021-06-25,Gaming Console,Ingles,4,True
+USR00087,Juan Martinez,user87@email.com,57,Colombia,Estandar,2022-05-25,Mobile,Ingles,3,False
+USR00088,Diego Garcia,user88@email.com,22,Brazil,Basico,2021-12-10,Laptop,Ingles,2,True
+USR00089,Carmen Hernandez,user89@email.com,56,Germany,Basico,2023-09-12,Smart TV,Ingles,1,True
+USR00090,Lucia Flores,user90@email.com,22,Japan,Estandar,2023-12-23,Laptop,Ingles,5,False
+USR00091,Juan Torres,user91@email.com,33,UK,Basico,2023-05-30,Laptop,Español,3,True
+USR00092,Jose Rivera,user92@email.com,55,Chile,Estandar,2024-05-12,Tablet,Español,2,True
+USR00093,David Rivera,user93@email.com,54,Korea,Estandar,2019-04-14,Desktop,Ingles,3,True
+USR00094,Jose Sanchez,user94@email.com,29,Colombia,Estandar,2018-10-13,Desktop,Español,5,False
+USR00095,Pedro Sanchez,user95@email.com,59,France,Basico,2019-01-06,Mobile,Español,5,True
+USR00096,Carmen Martinez,user96@email.com,60,Spain,Estandar,2023-12-17,Tablet,Ingles,5,False
+USR00097,Juan Lopez,user97@email.com,61,Peru,Estandar,2024-05-24,Gaming Console,Ingles,4,True
+USR00098,Carlos Torres,user98@email.com,18,Germany,Premium,2022-07-14,Mobile,Ingles,1,True
+USR00099,Isabel Ramirez,user99@email.com,21,Mexico,Premium,2024-04-12,Tablet,Español,3,True
+USR00100,Juan Perez,user100@email.com,62,Germany,Estandar,2021-07-27,Gaming Console,Ingles,4,False
+USR00101,Sofia Ramirez,user101@email.com,31,France,Basico,2023-04-30,Mobile,Español,5,False
+USR00102,Jose Hernandez,user102@email.com,44,Spain,Estandar,2019-05-30,Mobile,Español,1,True
+USR00103,Maria Rivera,user103@email.com,49,France,Estandar,2019-07-11,Smart TV,Español,4,False
+USR00104,Isabel Rivera,user104@email.com,56,Chile,Premium,2020-01-07,Laptop,Ingles,5,False
+USR00105,Sofia Hernandez,user105@email.com,32,Spain,Estandar,2024-10-12,Smart TV,Ingles,2,True
+USR00106,Sofia Ramirez,user106@email.com,54,Peru,Basico,2018-06-05,Desktop,Ingles,3,True
+USR00107,Miguel Sanchez,user107@email.com,62,USA,Basico,2023-11-27,Tablet,Ingles,5,True
+USR00108,Lucia Torres,user108@email.com,23,Argentina,Estandar,2018-11-16,Gaming Console,Ingles,5,True
+USR00109,Isabel Hernandez,user109@email.com,52,Japan,Basico,2023-04-05,Laptop,Ingles,5,True
+USR00110,Sofia Hernandez,user110@email.com,69,Colombia,Estandar,2019-11-18,Smart TV,Ingles,5,True
+USR00111,Ana Flores,user111@email.com,48,Germany,Basico,2024-06-04,Smart TV,Ingles,5,True
+USR00112,Laura Sanchez,user112@email.com,23,Spain,Premium,2018-11-11,Tablet,Ingles,2,True
+USR00113,Laura Gonzalez,user113@email.com,18,Italy,Basico,2024-10-09,Mobile,Español,4,True
+USR00114,Carmen Martinez,user114@email.com,34,Japan,Premium,2020-08-25,Laptop,Español,5,True
+USR00115,Pedro Rodriguez,user115@email.com,27,Germany,Basico,2023-07-25,Laptop,Ingles,2,False
+USR00116,David Flores,user116@email.com,28,Argentina,Premium,2021-11-14,Smart TV,Ingles,1,True
+USR00117,Maria Sanchez,user117@email.com,43,Brazil,Estandar,2023-05-05,Gaming Console,Español,4,False
+USR00118,Diego Gonzalez,user118@email.com,27,UK,Estandar,2018-02-18,Tablet,Ingles,4,True
+USR00119,Lucia Flores,user119@email.com,20,USA,Premium,2021-12-20,Laptop,Ingles,3,True
+USR00120,Laura Rodriguez,user120@email.com,34,France,Premium,2022-05-22,Laptop,Español,5,True
+USR00121,Lucia Hernandez,user121@email.com,61,Italy,Basico,2021-07-07,Desktop,Español,1,True
+USR00122,Ana Perez,user122@email.com,24,UK,Basico,2023-01-01,Tablet,Español,3,True
+USR00123,Juan Garcia,user123@email.com,19,Germany,Basico,2018-08-21,Desktop,Español,5,True
+USR00124,David Rodriguez,user124@email.com,23,Korea,Premium,2019-06-17,Laptop,Español,1,True
+USR00125,Laura Gonzalez,user125@email.com,47,France,Basico,2023-02-01,Tablet,Ingles,3,True
+USR00126,Maria Rodriguez,user126@email.com,35,Japan,Basico,2022-04-17,Laptop,Ingles,1,True
+USR00127,Jose Gonzalez,user127@email.com,29,Brazil,Basico,2023-07-08,Mobile,Ingles,2,False
+USR00128,Carlos Martinez,user128@email.com,52,Japan,Estandar,2020-06-13,Desktop,Español,4,True
+USR00129,Carlos Garcia,user129@email.com,22,USA,Premium,2020-10-23,Laptop,Español,4,True
+USR00130,Elena Flores,user130@email.com,18,Mexico,Premium,2022-05-19,Tablet,Español,3,False
+USR00131,Miguel Garcia,user131@email.com,50,Italy,Estandar,2023-05-13,Laptop,Ingles,1,True
+USR00132,Ana Perez,user132@email.com,62,Korea,Estandar,2019-05-12,Desktop,Ingles,3,True
+USR00133,Sofia Garcia,user133@email.com,58,France,Basico,2022-02-05,Desktop,Ingles,1,False
+USR00134,Carmen Gonzalez,user134@email.com,59,Argentina,Basico,2024-03-21,Smart TV,Ingles,2,True
+USR00135,David Perez,user135@email.com,24,France,Premium,2022-01-11,Laptop,Español,4,True
+USR00136,Maria Garcia,user136@email.com,30,Mexico,Premium,2024-08-25,Mobile,Ingles,4,True
+USR00137,Carmen Ramirez,user137@email.com,59,Colombia,Estandar,2023-12-28,Laptop,Español,1,True
+USR00138,Ana Hernandez,user138@email.com,68,Italy,Basico,2022-07-19,Smart TV,Español,5,False
+USR00139,Elena Ramirez,user139@email.com,27,Italy,Premium,2020-08-12,Smart TV,Español,2,False
+USR00140,Elena Garcia,user140@email.com,48,Germany,Basico,2020-09-21,Gaming Console,Español,1,True
+USR00141,Elena Garcia,user141@email.com,37,Korea,Basico,2023-02-12,Desktop,Español,5,True
+USR00142,Jose Rodriguez,user142@email.com,25,Brazil,Premium,2024-11-26,Mobile,Español,2,False
+USR00143,Pedro Rivera,user143@email.com,61,Chile,Estandar,2019-05-10,Gaming Console,Español,3,True
+USR00144,Carmen Garcia,user144@email.com,55,Spain,Estandar,2018-09-16,Smart TV,Ingles,2,False
+USR00145,Maria Rivera,user145@email.com,41,UK,Basico,2022-12-02,Mobile,Español,2,True
+USR00146,Carmen Flores,user146@email.com,57,Chile,Basico,2018-03-06,Laptop,Español,1,True
+USR00147,Maria Rodriguez,user147@email.com,63,France,Premium,2021-03-08,Laptop,Ingles,2,True
+USR00148,Maria Flores,user148@email.com,35,UK,Estandar,2022-08-15,Mobile,Español,5,True
+USR00149,Miguel Martinez,user149@email.com,63,Brazil,Premium,2018-12-27,Gaming Console,Ingles,3,False
+USR00150,Ana Ramirez,user150@email.com,33,Argentina,Basico,2023-12-12,Smart TV,Ingles,5,True
+USR00151,Diego Flores,user151@email.com,60,Argentina,Estandar,2018-08-06,Mobile,Español,2,False
+USR00152,Diego Martinez,user152@email.com,28,France,Basico,2018-08-10,Gaming Console,Ingles,3,True
+USR00153,Sofia Gonzalez,user153@email.com,39,Germany,Estandar,2018-06-27,Smart TV,Español,5,True
+USR00154,Maria Garcia,user154@email.com,49,UK,Basico,2018-10-18,Mobile,Ingles,5,True
+USR00155,Sofia Lopez,user155@email.com,65,France,Estandar,2020-07-31,Smart TV,Ingles,2,True
+USR00156,Juan Rivera,user156@email.com,44,Korea,Basico,2022-03-19,Mobile,Español,4,False
+USR00157,Ana Perez,user157@email.com,27,Argentina,Premium,2023-02-07,Mobile,Ingles,3,True
+USR00158,Diego Rivera,user158@email.com,30,France,Estandar,2021-01-09,Mobile,Ingles,2,True
+USR00159,David Torres,user159@email.com,21,Colombia,Basico,2019-04-01,Laptop,Ingles,4,True
+USR00160,Carmen Hernandez,user160@email.com,32,Colombia,Premium,2019-10-05,Gaming Console,Español,5,True
+USR00161,Carlos Perez,user161@email.com,51,Brazil,Basico,2024-08-20,Laptop,Ingles,3,True
+USR00162,David Perez,user162@email.com,65,Korea,Basico,2020-10-12,Tablet,Ingles,5,True
+USR00163,Isabel Torres,user163@email.com,27,Germany,Basico,2022-09-08,Smart TV,Español,4,True
+USR00164,Sofia Ramirez,user164@email.com,43,Brazil,Premium,2019-02-06,Laptop,Ingles,2,True
+USR00165,Lucia Garcia,user165@email.com,62,Italy,Estandar,2020-06-11,Mobile,Ingles,3,True
+USR00166,Elena Rodriguez,user166@email.com,19,Brazil,Premium,2021-06-02,Mobile,Ingles,5,True
+USR00167,Diego Sanchez,user167@email.com,67,Spain,Premium,2022-07-19,Mobile,Ingles,4,True
+USR00168,Jose Flores,user168@email.com,22,Chile,Premium,2021-09-25,Desktop,Español,3,False
+USR00169,Carmen Gonzalez,user169@email.com,62,Germany,Premium,2024-06-14,Mobile,Español,5,True
+USR00170,David Garcia,user170@email.com,50,France,Estandar,2018-07-31,Smart TV,Ingles,3,False
+USR00171,Miguel Garcia,user171@email.com,41,Peru,Basico,2024-04-07,Gaming Console,Español,5,True
+USR00172,Maria Hernandez,user172@email.com,33,UK,Basico,2023-05-14,Gaming Console,Español,2,True
+USR00173,Pedro Gonzalez,user173@email.com,50,France,Estandar,2021-02-09,Smart TV,Español,3,True
+USR00174,Diego Sanchez,user174@email.com,50,UK,Basico,2023-04-10,Gaming Console,Ingles,4,True
+USR00175,Carmen Flores,user175@email.com,62,Japan,Basico,2020-02-11,Laptop,Español,1,False
+USR00176,Isabel Martinez,user176@email.com,36,USA,Basico,2019-11-06,Tablet,Español,2,False
+USR00177,Maria Lopez,user177@email.com,51,France,Basico,2021-04-15,Laptop,Español,4,True
+USR00178,Sofia Sanchez,user178@email.com,65,France,Basico,2021-04-09,Mobile,Español,1,True
+USR00179,Jose Ramirez,user179@email.com,59,Peru,Estandar,2024-06-28,Tablet,Ingles,4,False
+USR00180,Diego Gonzalez,user180@email.com,54,Spain,Estandar,2019-12-05,Tablet,Español,4,True
+USR00181,Laura Garcia,user181@email.com,27,Peru,Estandar,2023-02-11,Mobile,Español,5,True
+USR00182,Maria Martinez,user182@email.com,63,Italy,Premium,2019-09-21,Mobile,Español,1,True
+USR00183,Pedro Torres,user183@email.com,26,Brazil,Estandar,2022-02-23,Mobile,Español,5,True
+USR00184,Elena Hernandez,user184@email.com,40,Spain,Estandar,2023-01-11,Desktop,Español,5,True
+USR00185,Carlos Garcia,user185@email.com,43,Brazil,Basico,2023-02-20,Tablet,Español,1,True
+USR00186,Elena Rivera,user186@email.com,36,Brazil,Estandar,2024-06-07,Gaming Console,Español,5,False
+USR00187,Pedro Rivera,user187@email.com,25,Italy,Estandar,2018-06-14,Mobile,Español,3,True
+USR00188,Sofia Torres,user188@email.com,32,Brazil,Estandar,2019-01-14,Tablet,Español,5,True
+USR00189,Miguel Ramirez,user189@email.com,32,Japan,Estandar,2020-03-12,Smart TV,Español,5,False
+USR00190,Elena Flores,user190@email.com,23,UK,Estandar,2020-03-07,Laptop,Ingles,5,True
+USR00191,Isabel Flores,user191@email.com,41,Chile,Basico,2022-10-18,Tablet,Ingles,3,True
+USR00192,Laura Hernandez,user192@email.com,40,Colombia,Estandar,2024-04-16,Smart TV,Español,4,False
+USR00193,Carmen Sanchez,user193@email.com,36,Spain,Premium,2022-10-03,Gaming Console,Ingles,2,True
+USR00194,Maria Lopez,user194@email.com,37,Brazil,Premium,2021-10-05,Smart TV,Ingles,1,True
+USR00195,Sofia Flores,user195@email.com,35,Chile,Basico,2024-03-26,Laptop,Español,2,True
+USR00196,Jose Perez,user196@email.com,36,UK,Estandar,2018-06-22,Tablet,Ingles,4,False
+USR00197,Juan Garcia,user197@email.com,68,Mexico,Basico,2020-12-11,Tablet,Ingles,1,True
+USR00198,Sofia Martinez,user198@email.com,49,Italy,Premium,2020-09-29,Smart TV,Español,3,False
+USR00199,Carlos Torres,user199@email.com,65,Peru,Premium,2023-05-23,Desktop,Ingles,3,False
+USR00200,David Rodriguez,user200@email.com,41,UK,Premium,2024-06-14,Smart TV,Ingles,2,True
+USR00201,Maria Hernandez,user201@email.com,47,Italy,Basico,2022-01-03,Mobile,Español,3,True
+USR00202,Sofia Flores,user202@email.com,40,Mexico,Estandar,2021-04-09,Desktop,Español,5,True
+USR00203,Carmen Flores,user203@email.com,29,Japan,Basico,2024-09-18,Mobile,Ingles,3,True
+USR00204,Laura Flores,user204@email.com,62,Italy,Estandar,2019-01-28,Desktop,Ingles,2,True
+USR00205,Maria Ramirez,user205@email.com,36,Peru,Estandar,2022-08-15,Tablet,Español,1,True
+USR00206,Maria Ramirez,user206@email.com,32,Korea,Basico,2024-04-07,Desktop,Español,4,False
+USR00207,Isabel Rodriguez,user207@email.com,25,Korea,Basico,2018-03-13,Laptop,Ingles,3,True
+USR00208,Maria Sanchez,user208@email.com,56,UK,Estandar,2019-12-07,Gaming Console,Ingles,1,True
+USR00209,Juan Martinez,user209@email.com,62,Spain,Premium,2020-07-17,Tablet,Español,2,True
+USR00210,Carlos Perez,user210@email.com,62,Japan,Basico,2018-11-15,Smart TV,Ingles,4,True
+USR00211,Juan Rodriguez,user211@email.com,20,Japan,Premium,2023-10-05,Desktop,Español,4,True
+USR00212,Isabel Gonzalez,user212@email.com,20,USA,Estandar,2018-02-12,Smart TV,Español,5,True
+USR00213,Miguel Lopez,user213@email.com,29,France,Estandar,2018-04-30,Smart TV,Español,3,True
+USR00214,Pedro Martinez,user214@email.com,50,Japan,Premium,2024-11-15,Mobile,Español,1,True
+USR00215,Lucia Lopez,user215@email.com,63,Argentina,Estandar,2019-12-05,Desktop,Español,1,True
+USR00216,Isabel Ramirez,user216@email.com,63,Brazil,Estandar,2024-08-11,Mobile,Ingles,1,True
+USR00217,Jose Hernandez,user217@email.com,42,Chile,Basico,2023-10-08,Mobile,Ingles,1,True
+USR00218,Carlos Sanchez,user218@email.com,25,UK,Basico,2023-07-24,Tablet,Ingles,5,True
+USR00219,Carlos Hernandez,user219@email.com,49,USA,Estandar,2021-03-07,Laptop,Ingles,4,True
+USR00220,Lucia Perez,user220@email.com,36,Korea,Estandar,2020-02-13,Smart TV,Ingles,3,True
+USR00221,Ana Flores,user221@email.com,49,France,Basico,2022-06-12,Laptop,Español,1,True
+USR00222,Sofia Perez,user222@email.com,62,Germany,Basico,2019-11-23,Smart TV,Ingles,2,True
+USR00223,Juan Torres,user223@email.com,43,USA,Basico,2022-10-06,Gaming Console,Ingles,3,True
+USR00224,Carmen Flores,user224@email.com,43,Peru,Estandar,2024-10-06,Laptop,Ingles,5,True
+USR00225,Maria Sanchez,user225@email.com,24,USA,Estandar,2023-06-28,Laptop,Español,2,True
+USR00226,Carlos Rivera,user226@email.com,21,Korea,Basico,2023-08-03,Gaming Console,Español,2,False
+USR00227,Miguel Flores,user227@email.com,38,Spain,Estandar,2024-12-22,Desktop,Español,1,False
+USR00228,Carmen Sanchez,user228@email.com,30,Colombia,Premium,2023-08-02,Laptop,Ingles,5,True
+USR00229,Carmen Ramirez,user229@email.com,52,Mexico,Basico,2022-10-29,Smart TV,Ingles,4,True
+USR00230,Jose Perez,user230@email.com,46,Brazil,Basico,2018-05-15,Mobile,Ingles,2,False
+USR00231,Sofia Martinez,user231@email.com,37,Italy,Estandar,2023-06-20,Smart TV,Ingles,5,False
+USR00232,Diego Ramirez,user232@email.com,28,UK,Basico,2022-05-23,Tablet,Ingles,5,False
+USR00233,Miguel Flores,user233@email.com,40,Japan,Estandar,2021-08-05,Smart TV,Español,5,True
+USR00234,Maria Hernandez,user234@email.com,40,Japan,Premium,2024-07-19,Smart TV,Ingles,4,True
+USR00235,Sofia Hernandez,user235@email.com,40,Chile,Estandar,2018-08-20,Gaming Console,Español,2,True
+USR00236,Elena Gonzalez,user236@email.com,55,USA,Premium,2018-09-26,Tablet,Español,3,True
+USR00237,Ana Ramirez,user237@email.com,38,Mexico,Estandar,2022-09-27,Desktop,Ingles,3,True
+USR00238,David Sanchez,user238@email.com,55,Mexico,Estandar,2022-03-28,Desktop,Ingles,3,True
+USR00239,Carmen Sanchez,user239@email.com,24,Italy,Premium,2020-04-23,Tablet,Ingles,5,True
+USR00240,Maria Torres,user240@email.com,37,Peru,Estandar,2020-04-06,Laptop,Español,5,True
+USR00241,Laura Gonzalez,user241@email.com,21,Colombia,Premium,2022-07-05,Mobile,Español,5,True
+USR00242,Miguel Hernandez,user242@email.com,35,USA,Premium,2023-12-16,Laptop,Ingles,2,True
+USR00243,Carmen Rodriguez,user243@email.com,59,Korea,Estandar,2023-08-30,Tablet,Ingles,5,True
+USR00244,Juan Perez,user244@email.com,43,Colombia,Premium,2023-10-12,Laptop,Español,1,True
+USR00245,Miguel Sanchez,user245@email.com,31,France,Premium,2023-03-30,Tablet,Ingles,5,True
+USR00246,Lucia Lopez,user246@email.com,41,Brazil,Basico,2020-09-11,Mobile,Ingles,4,False
+USR00247,Pedro Rodriguez,user247@email.com,58,Argentina,Estandar,2020-12-29,Tablet,Español,3,True
+USR00248,Sofia Lopez,user248@email.com,25,Spain,Basico,2018-04-24,Mobile,Ingles,4,False
+USR00249,Lucia Perez,user249@email.com,45,France,Basico,2020-04-07,Mobile,Ingles,2,True
+USR00250,Laura Gonzalez,user250@email.com,60,UK,Basico,2018-06-22,Gaming Console,Ingles,1,True
+USR00251,Jose Rodriguez,user251@email.com,38,Germany,Estandar,2018-09-18,Laptop,Ingles,1,False
+USR00252,Jose Rivera,user252@email.com,26,Argentina,Basico,2024-05-27,Gaming Console,Español,5,True
+USR00253,Diego Rodriguez,user253@email.com,33,Germany,Basico,2021-07-07,Tablet,Ingles,2,False
+USR00254,Juan Martinez,user254@email.com,24,Spain,Basico,2021-01-29,Laptop,Ingles,3,True
+USR00255,Diego Ramirez,user255@email.com,41,Italy,Basico,2021-07-20,Desktop,Ingles,4,True
+USR00256,Laura Martinez,user256@email.com,41,Brazil,Premium,2022-02-15,Tablet,Español,5,True
+USR00257,Jose Rivera,user257@email.com,60,Japan,Basico,2020-09-08,Tablet,Ingles,3,True
+USR00258,Isabel Flores,user258@email.com,25,UK,Basico,2022-12-18,Laptop,Español,4,True
+USR00259,Laura Rodriguez,user259@email.com,70,Japan,Basico,2021-05-03,Mobile,Español,4,True
+USR00260,Isabel Flores,user260@email.com,44,Japan,Basico,2021-01-27,Smart TV,Ingles,4,False
+USR00261,Isabel Hernandez,user261@email.com,63,Chile,Basico,2019-10-19,Gaming Console,Ingles,5,True
+USR00262,Pedro Perez,user262@email.com,56,Italy,Premium,2021-08-31,Laptop,Español,1,True
+USR00263,Elena Sanchez,user263@email.com,68,France,Basico,2018-01-13,Laptop,Español,3,True
+USR00264,Miguel Rodriguez,user264@email.com,25,Spain,Basico,2023-10-17,Gaming Console,Español,5,False
+USR00265,Carmen Hernandez,user265@email.com,46,Brazil,Premium,2019-07-01,Tablet,Español,5,True
+USR00266,Carmen Gonzalez,user266@email.com,30,USA,Estandar,2022-02-14,Mobile,Ingles,4,True
+USR00267,Ana Garcia,user267@email.com,53,France,Premium,2020-07-25,Smart TV,Ingles,2,True
+USR00268,David Martinez,user268@email.com,21,Chile,Premium,2022-10-23,Desktop,Ingles,2,True
+USR00269,Pedro Martinez,user269@email.com,54,USA,Basico,2023-11-24,Laptop,Ingles,4,True
+USR00270,Juan Rivera,user270@email.com,31,Argentina,Estandar,2021-03-25,Gaming Console,Ingles,4,True
+USR00271,Sofia Lopez,user271@email.com,56,Argentina,Estandar,2020-02-15,Laptop,Español,4,True
+USR00272,Ana Gonzalez,user272@email.com,34,Argentina,Premium,2023-01-22,Mobile,Ingles,5,False
+USR00273,Carlos Garcia,user273@email.com,48,Spain,Estandar,2022-06-17,Gaming Console,Español,4,False
+USR00274,David Torres,user274@email.com,34,USA,Basico,2024-03-31,Smart TV,Español,3,True
+USR00275,Diego Hernandez,user275@email.com,56,France,Premium,2018-07-06,Smart TV,Ingles,5,False
+USR00276,Laura Perez,user276@email.com,60,Peru,Basico,2024-04-10,Smart TV,Español,3,True
+USR00277,Lucia Sanchez,user277@email.com,39,Brazil,Basico,2019-01-03,Tablet,Ingles,2,True
+USR00278,Carlos Hernandez,user278@email.com,20,Spain,Estandar,2021-02-24,Gaming Console,Ingles,4,True
+USR00279,Isabel Gonzalez,user279@email.com,57,Korea,Estandar,2023-10-19,Tablet,Ingles,2,True
+USR00280,David Sanchez,user280@email.com,66,Spain,Premium,2022-12-08,Smart TV,Español,2,True
+USR00281,Juan Martinez,user281@email.com,20,Brazil,Estandar,2019-11-01,Gaming Console,Ingles,4,True
+USR00282,Isabel Sanchez,user282@email.com,20,Brazil,Estandar,2024-04-16,Laptop,Ingles,4,True
+USR00283,Jose Rivera,user283@email.com,27,USA,Estandar,2019-01-19,Mobile,Ingles,2,True
+USR00284,David Ramirez,user284@email.com,70,Colombia,Premium,2024-07-26,Mobile,Español,5,True
+USR00285,Sofia Rodriguez,user285@email.com,33,Japan,Estandar,2019-01-22,Tablet,Español,3,True
+USR00286,Sofia Hernandez,user286@email.com,55,USA,Estandar,2019-09-22,Smart TV,Español,4,False
+USR00287,Diego Flores,user287@email.com,35,Germany,Premium,2018-01-24,Tablet,Español,5,False
+USR00288,Pedro Rivera,user288@email.com,64,Japan,Premium,2019-06-14,Mobile,Español,3,True
+USR00289,Carmen Garcia,user289@email.com,65,USA,Premium,2024-10-02,Laptop,Español,4,True
+USR00290,Maria Lopez,user290@email.com,67,Korea,Estandar,2019-01-01,Smart TV,Español,2,False
+USR00291,Carmen Perez,user291@email.com,36,France,Premium,2019-09-24,Smart TV,Ingles,4,False
+USR00292,David Gonzalez,user292@email.com,61,Germany,Basico,2022-01-10,Gaming Console,Español,3,True
+USR00293,Diego Sanchez,user293@email.com,42,Brazil,Estandar,2024-04-25,Desktop,Ingles,1,False
+USR00294,Carmen Hernandez,user294@email.com,57,Spain,Estandar,2022-10-11,Smart TV,Español,5,True
+USR00295,Diego Flores,user295@email.com,32,France,Premium,2019-09-28,Laptop,Español,3,False
+USR00296,Sofia Rodriguez,user296@email.com,69,Brazil,Estandar,2019-09-01,Mobile,Ingles,2,False
+USR00297,Laura Torres,user297@email.com,21,UK,Basico,2018-07-04,Desktop,Español,5,False
+USR00298,Sofia Rodriguez,user298@email.com,47,France,Premium,2024-05-17,Tablet,Ingles,3,True
+USR00299,Carmen Ramirez,user299@email.com,19,USA,Premium,2023-03-11,Mobile,Español,4,True
+USR00300,Carlos Perez,user300@email.com,63,Colombia,Estandar,2024-08-02,Gaming Console,Ingles,4,True
+USR00301,Pedro Martinez,user301@email.com,31,Spain,Basico,2024-10-10,Tablet,Español,4,True
+USR00302,Ana Perez,user302@email.com,25,Mexico,Basico,2023-05-09,Laptop,Ingles,5,False
+USR00303,Laura Torres,user303@email.com,70,Germany,Estandar,2022-06-06,Tablet,Español,2,True
+USR00304,Ana Lopez,user304@email.com,25,Korea,Basico,2020-02-10,Smart TV,Español,4,True
+USR00305,Elena Lopez,user305@email.com,45,Korea,Premium,2024-01-16,Mobile,Español,3,False
+USR00306,Maria Sanchez,user306@email.com,45,Mexico,Basico,2019-11-12,Mobile,Ingles,4,False
+USR00307,Ana Sanchez,user307@email.com,55,Argentina,Basico,2021-04-22,Desktop,Ingles,1,True
+USR00308,Ana Rodriguez,user308@email.com,58,Korea,Premium,2022-11-04,Laptop,Ingles,5,True
+USR00309,Ana Sanchez,user309@email.com,43,Brazil,Premium,2024-08-17,Gaming Console,Ingles,2,True
+USR00310,Lucia Garcia,user310@email.com,45,Germany,Estandar,2024-03-16,Smart TV,Ingles,4,False
+USR00311,Carlos Sanchez,user311@email.com,57,France,Estandar,2023-01-11,Gaming Console,Ingles,1,True
+USR00312,Laura Rivera,user312@email.com,30,Brazil,Estandar,2022-11-30,Mobile,Español,5,True
+USR00313,Isabel Torres,user313@email.com,63,France,Estandar,2019-06-22,Tablet,Ingles,4,True
+USR00314,Carmen Sanchez,user314@email.com,69,Korea,Basico,2024-12-22,Mobile,Ingles,1,False
+USR00315,Maria Martinez,user315@email.com,30,Spain,Premium,2023-07-09,Smart TV,Ingles,4,True
+USR00316,Juan Lopez,user316@email.com,53,Mexico,Basico,2022-01-09,Tablet,Ingles,2,True
+USR00317,Jose Ramirez,user317@email.com,20,Japan,Basico,2021-10-15,Laptop,Español,5,True
+USR00318,Carlos Ramirez,user318@email.com,32,Brazil,Estandar,2021-10-25,Tablet,Español,5,True
+USR00319,Isabel Martinez,user319@email.com,62,Korea,Premium,2024-10-11,Gaming Console,Español,1,False
+USR00320,Carmen Sanchez,user320@email.com,66,USA,Basico,2024-11-05,Desktop,Español,5,True
+USR00321,Lucia Rodriguez,user321@email.com,28,France,Basico,2020-04-21,Tablet,Español,3,False
+USR00322,Carmen Ramirez,user322@email.com,49,Italy,Basico,2019-09-24,Gaming Console,Ingles,3,True
+USR00323,Carlos Lopez,user323@email.com,46,Chile,Basico,2020-10-01,Laptop,Ingles,3,True
+USR00324,Carlos Gonzalez,user324@email.com,41,Italy,Estandar,2022-01-17,Gaming Console,Español,2,False
+USR00325,Carmen Lopez,user325@email.com,26,Japan,Estandar,2022-08-21,Laptop,Ingles,5,True
+USR00326,Ana Sanchez,user326@email.com,27,Japan,Basico,2023-10-21,Smart TV,Español,3,True
+USR00327,Sofia Martinez,user327@email.com,45,Mexico,Estandar,2018-06-01,Gaming Console,Español,5,True
+USR00328,Elena Rivera,user328@email.com,69,France,Premium,2021-04-26,Laptop,Ingles,5,True
+USR00329,David Rivera,user329@email.com,38,Peru,Basico,2021-02-19,Desktop,Español,4,False
+USR00330,Elena Lopez,user330@email.com,52,Germany,Premium,2022-12-17,Gaming Console,Ingles,4,True
+USR00331,Isabel Gonzalez,user331@email.com,23,Mexico,Premium,2021-10-02,Laptop,Español,5,True
+USR00332,Juan Rodriguez,user332@email.com,50,UK,Estandar,2023-11-06,Tablet,Español,1,True
+USR00333,Isabel Ramirez,user333@email.com,55,Colombia,Basico,2021-05-29,Gaming Console,Ingles,5,True
+USR00334,David Garcia,user334@email.com,41,Colombia,Premium,2023-09-10,Tablet,Español,1,True
+USR00335,Diego Gonzalez,user335@email.com,54,Italy,Basico,2023-01-31,Tablet,Español,5,True
+USR00336,Pedro Gonzalez,user336@email.com,36,France,Premium,2024-06-04,Gaming Console,Español,4,True
+USR00337,Carlos Hernandez,user337@email.com,51,Germany,Basico,2022-01-19,Laptop,Español,2,False
+USR00338,Jose Perez,user338@email.com,23,USA,Basico,2022-10-07,Mobile,Ingles,2,False
+USR00339,Carlos Hernandez,user339@email.com,61,UK,Estandar,2024-08-06,Desktop,Ingles,3,False
+USR00340,Elena Perez,user340@email.com,46,Italy,Estandar,2022-09-04,Mobile,Español,5,True
+USR00341,Diego Rivera,user341@email.com,47,Spain,Premium,2023-10-04,Desktop,Español,2,False
+USR00342,Diego Garcia,user342@email.com,65,Spain,Premium,2022-02-21,Smart TV,Ingles,1,True
+USR00343,Pedro Torres,user343@email.com,36,Mexico,Premium,2019-09-20,Smart TV,Ingles,3,True
+USR00344,Laura Gonzalez,user344@email.com,49,Mexico,Basico,2019-08-06,Desktop,Ingles,1,True
+USR00345,Isabel Gonzalez,user345@email.com,31,Spain,Premium,2023-06-26,Smart TV,Español,5,True
+USR00346,Carlos Garcia,user346@email.com,44,Brazil,Premium,2021-06-22,Desktop,Ingles,3,False
+USR00347,Diego Rivera,user347@email.com,56,Spain,Basico,2023-08-30,Gaming Console,Ingles,4,False
+USR00348,Maria Rivera,user348@email.com,38,USA,Premium,2024-12-29,Laptop,Ingles,2,False
+USR00349,Pedro Ramirez,user349@email.com,20,France,Estandar,2021-02-10,Gaming Console,Español,2,True
+USR00350,Miguel Flores,user350@email.com,68,Japan,Premium,2021-06-19,Desktop,Español,5,True
+USR00351,Juan Torres,user351@email.com,52,Germany,Basico,2024-05-24,Desktop,Español,4,True
+USR00352,Carlos Flores,user352@email.com,52,Spain,Basico,2021-01-31,Mobile,Español,5,False
+USR00353,Carlos Ramirez,user353@email.com,56,Peru,Estandar,2024-08-09,Smart TV,Ingles,1,True
+USR00354,Sofia Martinez,user354@email.com,44,Mexico,Premium,2021-07-23,Laptop,Ingles,1,True
+USR00355,Carlos Ramirez,user355@email.com,28,Colombia,Basico,2020-01-19,Tablet,Español,2,True
+USR00356,Sofia Flores,user356@email.com,28,Mexico,Premium,2021-08-25,Mobile,Español,1,True
+USR00357,Sofia Rodriguez,user357@email.com,38,Spain,Estandar,2021-08-20,Tablet,Ingles,1,True
+USR00358,Juan Lopez,user358@email.com,66,Germany,Premium,2020-08-26,Laptop,Ingles,1,True
+USR00359,Ana Hernandez,user359@email.com,47,UK,Estandar,2018-09-26,Laptop,Español,4,True
+USR00360,Isabel Garcia,user360@email.com,35,UK,Premium,2019-02-20,Mobile,Español,3,False
+USR00361,Diego Rodriguez,user361@email.com,58,UK,Basico,2019-08-07,Tablet,Español,2,False
+USR00362,Isabel Ramirez,user362@email.com,46,Mexico,Basico,2023-03-19,Desktop,Ingles,2,True
+USR00363,Ana Sanchez,user363@email.com,35,Germany,Estandar,2022-04-07,Tablet,Español,5,True
+USR00364,Ana Martinez,user364@email.com,65,UK,Premium,2018-10-14,Tablet,Español,4,True
+USR00365,Jose Martinez,user365@email.com,64,UK,Estandar,2022-11-05,Mobile,Ingles,3,True
+USR00366,Carmen Rivera,user366@email.com,46,Colombia,Basico,2021-08-10,Tablet,Español,4,True
+USR00367,Ana Rivera,user367@email.com,26,France,Basico,2024-10-29,Laptop,Español,1,True
+USR00368,Sofia Ramirez,user368@email.com,62,Italy,Estandar,2022-05-28,Desktop,Español,1,True
+USR00369,Isabel Flores,user369@email.com,46,France,Basico,2021-12-16,Laptop,Ingles,4,True
+USR00370,Jose Rivera,user370@email.com,18,USA,Estandar,2022-02-26,Mobile,Ingles,1,True
+USR00371,David Garcia,user371@email.com,66,Colombia,Premium,2022-01-05,Mobile,Español,5,True
+USR00372,Carmen Rivera,user372@email.com,32,Argentina,Estandar,2022-01-26,Smart TV,Ingles,4,True
+USR00373,Ana Lopez,user373@email.com,70,France,Estandar,2019-03-31,Tablet,Ingles,2,True
+USR00374,Elena Rivera,user374@email.com,54,France,Premium,2024-10-05,Desktop,Español,1,True
+USR00375,David Rodriguez,user375@email.com,26,Colombia,Premium,2020-07-22,Desktop,Ingles,2,True
+USR00376,David Flores,user376@email.com,52,Germany,Estandar,2024-04-13,Laptop,Español,4,True
+USR00377,Jose Hernandez,user377@email.com,45,Korea,Estandar,2021-01-27,Smart TV,Ingles,4,True
+USR00378,Lucia Garcia,user378@email.com,64,Argentina,Basico,2021-02-12,Laptop,Ingles,3,True
+USR00379,Sofia Lopez,user379@email.com,39,USA,Premium,2018-04-14,Gaming Console,Español,4,True
+USR00380,Isabel Lopez,user380@email.com,30,Spain,Estandar,2021-06-27,Smart TV,Español,1,False
+USR00381,Sofia Garcia,user381@email.com,55,Japan,Premium,2021-10-01,Tablet,Español,1,False
+USR00382,Juan Hernandez,user382@email.com,21,Korea,Estandar,2023-10-30,Mobile,Español,5,False
+USR00383,Carmen Rodriguez,user383@email.com,58,Brazil,Premium,2019-05-27,Smart TV,Español,1,False
+USR00384,Pedro Rivera,user384@email.com,22,Japan,Basico,2018-09-11,Laptop,Español,3,False
+USR00385,Carlos Rodriguez,user385@email.com,61,Mexico,Premium,2018-08-02,Tablet,Ingles,4,True
+USR00386,Miguel Perez,user386@email.com,32,Korea,Premium,2024-12-30,Smart TV,Ingles,4,False
+USR00387,Carmen Perez,user387@email.com,57,Germany,Basico,2021-10-23,Gaming Console,Español,4,True
+USR00388,Miguel Lopez,user388@email.com,24,USA,Basico,2024-09-03,Gaming Console,Español,5,True
+USR00389,Isabel Torres,user389@email.com,26,France,Premium,2020-11-15,Tablet,Ingles,4,False
+USR00390,Maria Lopez,user390@email.com,26,Japan,Basico,2018-09-05,Mobile,Ingles,5,False
+USR00391,Lucia Flores,user391@email.com,66,Peru,Estandar,2024-07-18,Desktop,Español,2,False
+USR00392,Laura Torres,user392@email.com,39,Colombia,Estandar,2018-02-03,Desktop,Español,1,True
+USR00393,Lucia Ramirez,user393@email.com,21,Chile,Estandar,2020-03-11,Mobile,Español,1,True
+USR00394,Juan Flores,user394@email.com,48,Italy,Premium,2023-03-30,Desktop,Ingles,5,True
+USR00395,Miguel Gonzalez,user395@email.com,44,Peru,Basico,2019-03-06,Laptop,Español,4,True
+USR00396,Isabel Garcia,user396@email.com,58,Argentina,Premium,2020-08-01,Laptop,Español,2,False
+USR00397,David Hernandez,user397@email.com,69,Italy,Estandar,2020-04-20,Laptop,Español,1,True
+USR00398,Ana Rodriguez,user398@email.com,40,Mexico,Premium,2019-04-17,Mobile,Ingles,4,True
+USR00399,Elena Torres,user399@email.com,66,Peru,Basico,2018-05-02,Mobile,Español,3,True
+USR00400,Juan Gonzalez,user400@email.com,64,Spain,Estandar,2024-03-21,Mobile,Español,2,True
+USR00401,Maria Gonzalez,user401@email.com,24,Mexico,Premium,2019-07-17,Laptop,Español,3,True
+USR00402,Laura Sanchez,user402@email.com,33,Peru,Estandar,2019-12-03,Desktop,Ingles,1,True
+USR00403,Maria Martinez,user403@email.com,68,Argentina,Basico,2023-12-22,Laptop,Ingles,3,False
+USR00404,Elena Lopez,user404@email.com,20,Japan,Premium,2024-08-02,Mobile,Ingles,2,True
+USR00405,Juan Garcia,user405@email.com,58,Japan,Estandar,2019-06-02,Desktop,Ingles,2,True
+USR00406,Carmen Sanchez,user406@email.com,68,France,Premium,2018-09-23,Mobile,Ingles,5,True
+USR00407,Diego Ramirez,user407@email.com,47,Spain,Estandar,2022-03-12,Desktop,Ingles,4,False
+USR00408,Laura Torres,user408@email.com,43,France,Premium,2018-05-30,Mobile,Español,2,False
+USR00409,Jose Lopez,user409@email.com,43,Argentina,Estandar,2022-10-07,Laptop,Español,3,True
+USR00410,Lucia Rodriguez,user410@email.com,26,Japan,Basico,2021-04-23,Laptop,Ingles,2,True
+USR00411,Diego Ramirez,user411@email.com,57,Peru,Estandar,2023-01-22,Laptop,Ingles,4,True
+USR00412,Carmen Sanchez,user412@email.com,38,Colombia,Estandar,2018-04-12,Mobile,Ingles,2,True
+USR00413,Elena Rodriguez,user413@email.com,40,USA,Estandar,2023-08-18,Desktop,Español,3,True
+USR00414,Carlos Rodriguez,user414@email.com,22,Peru,Basico,2024-02-15,Mobile,Ingles,2,True
+USR00415,Laura Gonzalez,user415@email.com,65,Korea,Premium,2021-01-29,Mobile,Español,5,True
+USR00416,Ana Gonzalez,user416@email.com,36,Korea,Estandar,2022-07-13,Laptop,Español,4,True
+USR00417,Jose Perez,user417@email.com,32,Argentina,Premium,2020-05-09,Laptop,Español,5,False
+USR00418,David Sanchez,user418@email.com,39,Japan,Basico,2021-07-06,Mobile,Ingles,4,True
+USR00419,Diego Sanchez,user419@email.com,53,Mexico,Estandar,2019-07-24,Desktop,Español,3,True
+USR00420,Diego Flores,user420@email.com,40,Peru,Basico,2022-09-13,Laptop,Ingles,5,True
+USR00421,Pedro Torres,user421@email.com,19,Germany,Basico,2019-07-24,Mobile,Ingles,5,False
+USR00422,Sofia Lopez,user422@email.com,43,USA,Premium,2022-05-02,Mobile,Ingles,1,True
+USR00423,Miguel Sanchez,user423@email.com,58,Colombia,Basico,2019-12-04,Smart TV,Español,1,False
+USR00424,Ana Martinez,user424@email.com,30,USA,Estandar,2021-03-08,Mobile,Español,3,True
+USR00425,Diego Garcia,user425@email.com,41,UK,Basico,2019-12-05,Tablet,Ingles,4,True
+USR00426,Carlos Martinez,user426@email.com,52,Chile,Estandar,2018-10-09,Laptop,Español,2,True
+USR00427,Laura Perez,user427@email.com,70,Italy,Premium,2023-04-29,Mobile,Ingles,5,True
+USR00428,Lucia Rivera,user428@email.com,61,Brazil,Estandar,2020-04-06,Smart TV,Español,4,True
+USR00429,Jose Perez,user429@email.com,56,Japan,Basico,2023-11-24,Tablet,Ingles,4,False
+USR00430,Miguel Garcia,user430@email.com,65,USA,Estandar,2023-02-13,Tablet,Ingles,4,True
+USR00431,Sofia Lopez,user431@email.com,29,Germany,Premium,2022-11-05,Laptop,Ingles,2,True
+USR00432,Sofia Rivera,user432@email.com,20,Argentina,Basico,2021-01-26,Gaming Console,Ingles,1,True
+USR00433,Isabel Sanchez,user433@email.com,44,Japan,Premium,2019-05-12,Tablet,Español,1,True
+USR00434,Sofia Sanchez,user434@email.com,28,Colombia,Basico,2023-09-04,Smart TV,Ingles,1,True
+USR00435,Elena Rivera,user435@email.com,61,Italy,Estandar,2022-04-11,Tablet,Ingles,2,False
+USR00436,Ana Garcia,user436@email.com,34,USA,Premium,2019-07-14,Tablet,Ingles,4,False
+USR00437,Carlos Rodriguez,user437@email.com,53,France,Basico,2022-11-28,Mobile,Ingles,3,True
+USR00438,Maria Garcia,user438@email.com,56,USA,Basico,2021-04-19,Smart TV,Ingles,2,True
+USR00439,Elena Garcia,user439@email.com,61,Colombia,Basico,2022-12-10,Tablet,Español,2,True
+USR00440,Isabel Flores,user440@email.com,52,Argentina,Estandar,2018-07-15,Gaming Console,Español,4,True
+USR00441,Diego Garcia,user441@email.com,56,Mexico,Basico,2022-03-26,Mobile,Español,3,True
+USR00442,Juan Rodriguez,user442@email.com,19,Chile,Basico,2018-03-01,Tablet,Español,1,True
+USR00443,Isabel Rodriguez,user443@email.com,69,Korea,Premium,2019-11-19,Gaming Console,Español,1,False
+USR00444,Lucia Rodriguez,user444@email.com,70,Peru,Estandar,2024-04-21,Gaming Console,Español,5,True
+USR00445,Isabel Ramirez,user445@email.com,43,Chile,Basico,2020-08-09,Mobile,Español,3,True
+USR00446,Maria Garcia,user446@email.com,43,France,Estandar,2018-02-19,Laptop,Español,4,True
+USR00447,Carlos Flores,user447@email.com,70,Colombia,Premium,2024-12-30,Tablet,Español,1,True
+USR00448,Sofia Gonzalez,user448@email.com,67,Germany,Estandar,2019-02-22,Gaming Console,Español,3,True
+USR00449,Miguel Hernandez,user449@email.com,58,Italy,Estandar,2019-06-29,Tablet,Español,3,False
+USR00450,Carlos Hernandez,user450@email.com,19,Germany,Premium,2023-01-13,Laptop,Español,5,True
+USR00451,Juan Garcia,user451@email.com,57,Japan,Basico,2021-06-19,Mobile,Ingles,2,True
+USR00452,Ana Martinez,user452@email.com,41,Brazil,Estandar,2020-04-07,Mobile,Ingles,2,True
+USR00453,Juan Rivera,user453@email.com,56,Brazil,Premium,2021-09-08,Mobile,Ingles,3,True
+USR00454,Lucia Perez,user454@email.com,59,Korea,Estandar,2018-04-08,Mobile,Ingles,3,True
+USR00455,Juan Ramirez,user455@email.com,21,France,Basico,2020-06-30,Desktop,Ingles,5,True
+USR00456,Maria Sanchez,user456@email.com,58,Mexico,Basico,2023-07-07,Smart TV,Español,1,True
+USR00457,Juan Martinez,user457@email.com,23,Spain,Premium,2024-02-27,Mobile,Español,5,True
+USR00458,Sofia Rivera,user458@email.com,47,Colombia,Basico,2020-03-20,Mobile,Ingles,2,True
+USR00459,Laura Gonzalez,user459@email.com,54,Brazil,Premium,2020-04-04,Tablet,Ingles,1,True
+USR00460,Sofia Perez,user460@email.com,28,Brazil,Estandar,2022-09-28,Desktop,Ingles,2,False
+USR00461,Ana Perez,user461@email.com,45,Korea,Basico,2021-05-14,Desktop,Español,5,True
+USR00462,Laura Perez,user462@email.com,47,Colombia,Estandar,2021-03-06,Laptop,Ingles,1,True
+USR00463,Maria Rivera,user463@email.com,48,Argentina,Basico,2020-02-16,Smart TV,Español,5,True
+USR00464,Diego Perez,user464@email.com,44,Chile,Premium,2022-03-09,Laptop,Ingles,3,True
+USR00465,Sofia Garcia,user465@email.com,25,Chile,Premium,2019-10-28,Mobile,Ingles,3,True
+USR00466,Lucia Rivera,user466@email.com,49,France,Premium,2022-02-17,Gaming Console,Español,4,False
+USR00467,David Lopez,user467@email.com,33,Brazil,Basico,2022-01-20,Gaming Console,Español,2,True
+USR00468,Miguel Sanchez,user468@email.com,61,Spain,Estandar,2020-10-10,Desktop,Español,1,True
+USR00469,Carmen Rodriguez,user469@email.com,59,Italy,Estandar,2022-06-17,Gaming Console,Español,5,True
+USR00470,Isabel Perez,user470@email.com,28,Korea,Estandar,2020-11-01,Gaming Console,Ingles,5,False
+USR00471,Miguel Gonzalez,user471@email.com,64,Chile,Premium,2018-12-31,Smart TV,Ingles,2,True
+USR00472,David Lopez,user472@email.com,65,Chile,Premium,2021-06-15,Smart TV,Español,4,True
+USR00473,Carlos Rodriguez,user473@email.com,67,Italy,Estandar,2023-11-21,Laptop,Ingles,4,True
+USR00474,Maria Hernandez,user474@email.com,29,Italy,Basico,2020-03-22,Laptop,Español,5,True
+USR00475,Diego Torres,user475@email.com,70,Argentina,Basico,2020-04-03,Smart TV,Español,2,True
+USR00476,Isabel Perez,user476@email.com,46,France,Premium,2019-03-24,Gaming Console,Español,1,True
+USR00477,Carlos Perez,user477@email.com,25,Colombia,Basico,2021-11-02,Smart TV,Español,4,False
+USR00478,Elena Rodriguez,user478@email.com,18,Mexico,Estandar,2018-01-30,Gaming Console,Español,1,True
+USR00479,Lucia Garcia,user479@email.com,42,Germany,Premium,2020-12-24,Laptop,Ingles,3,False
+USR00480,Pedro Hernandez,user480@email.com,61,Peru,Estandar,2020-09-08,Tablet,Ingles,4,True
+USR00481,Pedro Hernandez,user481@email.com,69,USA,Basico,2023-02-15,Gaming Console,Ingles,2,True
+USR00482,Miguel Rodriguez,user482@email.com,51,Colombia,Premium,2020-10-15,Tablet,Ingles,5,False
+USR00483,Lucia Perez,user483@email.com,60,Argentina,Basico,2021-08-12,Smart TV,Ingles,1,True
+USR00484,Elena Sanchez,user484@email.com,32,Germany,Estandar,2022-06-28,Gaming Console,Español,3,False
+USR00485,Isabel Sanchez,user485@email.com,60,Korea,Premium,2019-02-16,Gaming Console,Ingles,3,True
+USR00486,David Martinez,user486@email.com,51,Germany,Premium,2023-08-29,Smart TV,Español,4,True
+USR00487,Laura Flores,user487@email.com,53,Korea,Estandar,2019-11-20,Laptop,Español,4,True
+USR00488,Juan Lopez,user488@email.com,28,Japan,Premium,2019-01-02,Smart TV,Ingles,1,True
+USR00489,Isabel Hernandez,user489@email.com,42,Japan,Estandar,2020-06-21,Gaming Console,Ingles,4,True
+USR00490,Elena Martinez,user490@email.com,52,France,Premium,2023-07-09,Smart TV,Ingles,2,True
+USR00491,Elena Hernandez,user491@email.com,42,Italy,Premium,2022-04-13,Gaming Console,Ingles,2,True
+USR00492,Laura Rodriguez,user492@email.com,36,USA,Basico,2019-01-01,Tablet,Español,1,True
+USR00493,Maria Hernandez,user493@email.com,42,Germany,Premium,2018-01-07,Tablet,Español,5,True
+USR00494,Jose Perez,user494@email.com,45,Peru,Estandar,2019-06-02,Desktop,Español,1,False
+USR00495,Ana Ramirez,user495@email.com,47,Peru,Basico,2021-04-30,Mobile,Ingles,4,True
+USR00496,Miguel Gonzalez,user496@email.com,27,Italy,Premium,2018-05-21,Desktop,Ingles,3,True
+USR00497,Laura Rivera,user497@email.com,54,Brazil,Premium,2020-06-02,Laptop,Ingles,4,True
+USR00498,Carmen Hernandez,user498@email.com,27,Korea,Premium,2020-05-12,Gaming Console,Español,1,True
+USR00499,Jose Sanchez,user499@email.com,64,Chile,Estandar,2019-10-15,Smart TV,Ingles,3,False
+USR00500,Elena Sanchez,user500@email.com,40,Japan,Estandar,2022-05-21,Smart TV,Ingles,3,True
+USR00501,David Ramirez,user501@email.com,43,USA,Basico,2021-08-17,Desktop,Español,3,False
+USR00502,Elena Martinez,user502@email.com,54,Spain,Estandar,2023-05-31,Tablet,Español,2,True
+USR00503,Carmen Rivera,user503@email.com,30,Italy,Premium,2018-02-07,Tablet,Español,2,False
+USR00504,Sofia Flores,user504@email.com,28,Mexico,Basico,2021-12-27,Laptop,Español,1,True
+USR00505,Lucia Flores,user505@email.com,39,Germany,Estandar,2019-09-01,Gaming Console,Ingles,2,True
+USR00506,Carlos Lopez,user506@email.com,43,Brazil,Estandar,2024-09-07,Mobile,Ingles,1,False
+USR00507,Jose Flores,user507@email.com,42,Colombia,Premium,2022-12-29,Tablet,Español,1,True
+USR00508,Carlos Rodriguez,user508@email.com,49,France,Premium,2023-09-19,Mobile,Español,5,False
+USR00509,Laura Rivera,user509@email.com,65,USA,Premium,2020-01-12,Laptop,Ingles,4,True
+USR00510,Miguel Martinez,user510@email.com,24,Peru,Basico,2024-01-11,Mobile,Ingles,1,False
+USR00511,Lucia Ramirez,user511@email.com,68,Japan,Premium,2023-06-25,Smart TV,Español,2,True
+USR00512,Maria Torres,user512@email.com,62,Spain,Basico,2024-03-22,Laptop,Ingles,1,True
+USR00513,Maria Torres,user513@email.com,31,France,Basico,2018-12-26,Desktop,Ingles,1,True
+USR00514,Carlos Ramirez,user514@email.com,37,Peru,Premium,2019-12-04,Laptop,Español,2,True
+USR00515,Ana Ramirez,user515@email.com,68,Colombia,Premium,2023-12-28,Laptop,Español,5,False
+USR00516,David Hernandez,user516@email.com,51,Peru,Premium,2024-01-14,Desktop,Español,1,True
+USR00517,Juan Garcia,user517@email.com,30,Spain,Estandar,2020-05-31,Mobile,Español,5,True
+USR00518,Laura Martinez,user518@email.com,64,Germany,Estandar,2018-11-01,Desktop,Ingles,3,False
+USR00519,Elena Martinez,user519@email.com,43,Brazil,Basico,2020-11-07,Gaming Console,Ingles,2,True
+USR00520,Carlos Flores,user520@email.com,64,Colombia,Premium,2020-02-29,Gaming Console,Ingles,5,True
+USR00521,Sofia Martinez,user521@email.com,38,Japan,Estandar,2022-04-02,Smart TV,Español,1,True
+USR00522,Carlos Ramirez,user522@email.com,25,France,Premium,2022-07-25,Smart TV,Ingles,1,True
+USR00523,Isabel Hernandez,user523@email.com,67,Colombia,Basico,2020-07-13,Tablet,Español,1,False
+USR00524,Juan Perez,user524@email.com,24,Japan,Basico,2019-12-21,Desktop,Ingles,5,False
+USR00525,Carlos Ramirez,user525@email.com,40,Italy,Premium,2021-03-01,Desktop,Ingles,5,True
+USR00526,Isabel Garcia,user526@email.com,28,Peru,Estandar,2020-01-11,Tablet,Ingles,4,True
+USR00527,Laura Garcia,user527@email.com,61,UK,Premium,2019-09-29,Gaming Console,Español,2,False
+USR00528,Miguel Rivera,user528@email.com,35,Mexico,Premium,2022-02-25,Gaming Console,Español,5,False
+USR00529,David Sanchez,user529@email.com,29,Brazil,Estandar,2023-04-04,Desktop,Ingles,3,False
+USR00530,Lucia Rivera,user530@email.com,70,Argentina,Estandar,2018-12-23,Tablet,Ingles,3,True
+USR00531,Elena Rodriguez,user531@email.com,22,Italy,Basico,2019-01-19,Mobile,Español,1,True
+USR00532,Lucia Sanchez,user532@email.com,69,Korea,Basico,2022-10-03,Gaming Console,Español,4,False
+USR00533,Lucia Flores,user533@email.com,61,UK,Premium,2019-05-26,Laptop,Español,5,True
+USR00534,Isabel Rivera,user534@email.com,18,Italy,Estandar,2023-12-29,Gaming Console,Ingles,2,True
+USR00535,Miguel Sanchez,user535@email.com,28,France,Premium,2020-07-10,Mobile,Español,3,True
+USR00536,Lucia Hernandez,user536@email.com,21,Chile,Estandar,2022-04-02,Mobile,Ingles,1,True
+USR00537,Isabel Flores,user537@email.com,33,Korea,Premium,2019-04-28,Tablet,Ingles,4,True
+USR00538,Laura Lopez,user538@email.com,18,Italy,Premium,2024-05-18,Laptop,Español,3,True
+USR00539,Isabel Sanchez,user539@email.com,57,Korea,Estandar,2018-08-24,Tablet,Español,5,False
+USR00540,Pedro Gonzalez,user540@email.com,40,USA,Basico,2021-12-03,Gaming Console,Español,4,True
+USR00541,Ana Rodriguez,user541@email.com,45,Brazil,Basico,2018-12-14,Desktop,Español,4,True
+USR00542,Isabel Sanchez,user542@email.com,18,Spain,Premium,2020-10-21,Mobile,Ingles,4,True
+USR00543,Laura Hernandez,user543@email.com,45,Spain,Premium,2021-01-08,Smart TV,Ingles,4,True
+USR00544,Maria Hernandez,user544@email.com,65,Chile,Basico,2022-01-11,Gaming Console,Español,1,True
+USR00545,Laura Garcia,user545@email.com,26,Chile,Estandar,2021-09-18,Smart TV,Español,2,False
+USR00546,Elena Gonzalez,user546@email.com,25,Chile,Estandar,2024-03-03,Laptop,Español,3,False
+USR00547,Lucia Rivera,user547@email.com,65,Korea,Estandar,2019-06-23,Smart TV,Español,1,True
+USR00548,Maria Hernandez,user548@email.com,50,Mexico,Premium,2020-08-26,Smart TV,Ingles,4,True
+USR00549,Sofia Sanchez,user549@email.com,36,Colombia,Estandar,2018-12-05,Laptop,Español,5,True
+USR00550,David Ramirez,user550@email.com,29,Argentina,Estandar,2019-04-17,Tablet,Español,4,True
+USR00551,Diego Rivera,user551@email.com,68,Japan,Basico,2023-08-20,Desktop,Español,2,True
+USR00552,Juan Rodriguez,user552@email.com,26,Chile,Basico,2021-01-26,Mobile,Español,4,True
+USR00553,Miguel Lopez,user553@email.com,23,Korea,Basico,2022-04-07,Laptop,Ingles,2,True
+USR00554,Pedro Perez,user554@email.com,48,Mexico,Premium,2022-10-16,Gaming Console,Español,3,True
+USR00555,Laura Hernandez,user555@email.com,35,Peru,Premium,2022-09-09,Mobile,Ingles,1,True
+USR00556,Ana Garcia,user556@email.com,21,France,Premium,2021-08-10,Mobile,Ingles,4,True
+USR00557,Isabel Torres,user557@email.com,24,Chile,Basico,2020-10-30,Laptop,Ingles,3,True
+USR00558,Carlos Rodriguez,user558@email.com,60,Mexico,Premium,2024-03-10,Mobile,Ingles,3,True
+USR00559,David Torres,user559@email.com,51,Germany,Estandar,2020-09-02,Gaming Console,Ingles,2,False
+USR00560,Carlos Rodriguez,user560@email.com,26,France,Premium,2024-10-01,Smart TV,Español,5,True
+USR00561,Juan Rivera,user561@email.com,46,USA,Basico,2024-02-17,Desktop,Ingles,3,False
+USR00562,Carmen Lopez,user562@email.com,52,Italy,Basico,2018-06-29,Mobile,Español,4,True
+USR00563,Isabel Ramirez,user563@email.com,40,Peru,Estandar,2019-04-26,Laptop,Español,4,False
+USR00564,Lucia Ramirez,user564@email.com,68,Mexico,Basico,2024-09-20,Tablet,Español,3,True
+USR00565,Miguel Garcia,user565@email.com,68,Italy,Basico,2022-06-17,Laptop,Español,2,False
+USR00566,Carmen Ramirez,user566@email.com,42,UK,Estandar,2022-06-30,Desktop,Ingles,2,True
+USR00567,Ana Martinez,user567@email.com,54,Argentina,Premium,2018-02-06,Desktop,Ingles,5,True
+USR00568,Laura Lopez,user568@email.com,36,Italy,Estandar,2024-03-11,Smart TV,Español,2,True
+USR00569,Lucia Lopez,user569@email.com,36,Mexico,Premium,2019-08-30,Tablet,Español,3,True
+USR00570,Elena Lopez,user570@email.com,70,Argentina,Premium,2019-04-21,Smart TV,Ingles,5,True
+USR00571,Pedro Rodriguez,user571@email.com,63,UK,Estandar,2019-07-02,Laptop,Ingles,3,True
+USR00572,Elena Garcia,user572@email.com,70,Peru,Basico,2021-02-19,Mobile,Ingles,1,True
+USR00573,David Rivera,user573@email.com,62,Chile,Premium,2020-11-20,Gaming Console,Español,4,True
+USR00574,Pedro Gonzalez,user574@email.com,31,Germany,Premium,2022-06-08,Mobile,Ingles,2,False
+USR00575,Pedro Martinez,user575@email.com,48,USA,Estandar,2020-01-14,Laptop,Español,2,True
+USR00576,Miguel Sanchez,user576@email.com,64,Spain,Premium,2021-03-01,Smart TV,Ingles,2,True
+USR00577,Jose Perez,user577@email.com,61,Germany,Basico,2018-10-12,Mobile,Español,4,True
+USR00578,Diego Flores,user578@email.com,43,USA,Premium,2023-11-28,Mobile,Español,5,True
+USR00579,Sofia Perez,user579@email.com,19,USA,Basico,2018-06-29,Mobile,Español,1,True
+USR00580,Maria Flores,user580@email.com,56,Mexico,Basico,2019-03-12,Desktop,Ingles,1,True
+USR00581,Maria Sanchez,user581@email.com,66,Germany,Estandar,2019-10-31,Tablet,Ingles,4,True
+USR00582,Juan Garcia,user582@email.com,52,Italy,Estandar,2024-02-05,Smart TV,Español,1,True
+USR00583,Lucia Gonzalez,user583@email.com,24,UK,Estandar,2019-08-04,Smart TV,Español,1,True
+USR00584,Sofia Perez,user584@email.com,27,Peru,Premium,2021-03-20,Mobile,Ingles,1,False
+USR00585,Maria Rodriguez,user585@email.com,32,USA,Estandar,2022-01-03,Smart TV,Ingles,1,True
+USR00586,Isabel Rodriguez,user586@email.com,20,Germany,Basico,2019-12-31,Laptop,Ingles,5,True
+USR00587,Elena Perez,user587@email.com,27,France,Premium,2021-05-20,Desktop,Ingles,3,True
+USR00588,Laura Sanchez,user588@email.com,60,Peru,Estandar,2018-11-09,Smart TV,Español,2,True
+USR00589,Maria Perez,user589@email.com,46,Italy,Estandar,2018-10-03,Smart TV,Ingles,3,True
+USR00590,Carlos Hernandez,user590@email.com,26,Spain,Estandar,2021-12-15,Tablet,Ingles,4,False
+USR00591,David Perez,user591@email.com,56,Japan,Premium,2021-09-27,Mobile,Español,4,False
+USR00592,Lucia Sanchez,user592@email.com,52,UK,Estandar,2023-12-22,Desktop,Español,4,True
+USR00593,Miguel Rivera,user593@email.com,44,UK,Premium,2020-06-17,Gaming Console,Español,2,True
+USR00594,Ana Lopez,user594@email.com,19,Peru,Premium,2023-04-26,Mobile,Español,1,True
+USR00595,Pedro Martinez,user595@email.com,36,Brazil,Basico,2024-03-08,Laptop,Español,2,True
+USR00596,Ana Rivera,user596@email.com,26,USA,Premium,2019-08-10,Laptop,Español,4,True
+USR00597,Ana Rivera,user597@email.com,24,France,Premium,2018-10-30,Laptop,Español,1,True
+USR00598,Pedro Martinez,user598@email.com,23,Argentina,Basico,2018-02-21,Desktop,Ingles,2,True
+USR00599,Diego Rivera,user599@email.com,26,Italy,Premium,2021-05-11,Laptop,Ingles,3,False
+USR00600,Carmen Flores,user600@email.com,62,Mexico,Estandar,2019-04-01,Mobile,Español,1,True
+USR00601,Lucia Martinez,user601@email.com,18,Chile,Estandar,2023-02-04,Desktop,Ingles,5,True
+USR00602,David Lopez,user602@email.com,45,Spain,Estandar,2019-01-12,Desktop,Ingles,2,True
+USR00603,Sofia Torres,user603@email.com,21,Argentina,Estandar,2020-01-23,Gaming Console,Español,4,False
+USR00604,Pedro Flores,user604@email.com,59,Chile,Estandar,2019-11-07,Smart TV,Ingles,4,True
+USR00605,Laura Rodriguez,user605@email.com,24,USA,Estandar,2024-10-06,Tablet,Español,2,True
+USR00606,Maria Ramirez,user606@email.com,24,USA,Basico,2024-09-11,Smart TV,Ingles,2,True
+USR00607,Elena Garcia,user607@email.com,33,Colombia,Basico,2024-05-24,Desktop,Español,5,False
+USR00608,Ana Garcia,user608@email.com,38,USA,Estandar,2018-02-04,Tablet,Ingles,4,True
+USR00609,Pedro Perez,user609@email.com,64,Peru,Basico,2019-02-03,Tablet,Ingles,5,True
+USR00610,Lucia Martinez,user610@email.com,19,Germany,Estandar,2023-05-08,Desktop,Español,3,True
+USR00611,Maria Flores,user611@email.com,47,USA,Premium,2019-01-18,Gaming Console,Español,2,True
+USR00612,Carmen Rivera,user612@email.com,28,UK,Premium,2024-10-29,Gaming Console,Ingles,4,True
+USR00613,Pedro Gonzalez,user613@email.com,41,Germany,Estandar,2018-06-13,Gaming Console,Ingles,2,True
+USR00614,Miguel Torres,user614@email.com,22,Spain,Premium,2023-07-31,Smart TV,Español,2,True
+USR00615,Lucia Rodriguez,user615@email.com,49,USA,Estandar,2021-07-08,Mobile,Ingles,2,True
+USR00616,Laura Torres,user616@email.com,41,Peru,Basico,2018-10-19,Mobile,Ingles,3,False
+USR00617,Laura Sanchez,user617@email.com,59,Spain,Basico,2024-05-18,Laptop,Español,3,True
+USR00618,Sofia Perez,user618@email.com,57,France,Basico,2022-12-11,Tablet,Ingles,3,True
+USR00619,Elena Perez,user619@email.com,50,Brazil,Estandar,2018-06-24,Desktop,Español,2,True
+USR00620,Maria Rodriguez,user620@email.com,36,Chile,Basico,2024-05-24,Laptop,Español,2,False
+USR00621,Jose Sanchez,user621@email.com,60,USA,Estandar,2023-03-24,Laptop,Ingles,1,True
+USR00622,Maria Rivera,user622@email.com,24,Chile,Estandar,2020-03-28,Laptop,Ingles,1,True
+USR00623,Pedro Torres,user623@email.com,49,Argentina,Premium,2023-05-05,Smart TV,Ingles,4,True
+USR00624,Lucia Martinez,user624@email.com,48,Spain,Premium,2020-05-24,Tablet,Español,5,False
+USR00625,Ana Hernandez,user625@email.com,68,Chile,Estandar,2020-05-24,Smart TV,Español,1,False
+USR00626,Laura Gonzalez,user626@email.com,58,Spain,Basico,2019-08-04,Smart TV,Ingles,4,True
+USR00627,Laura Rivera,user627@email.com,46,Korea,Estandar,2023-11-20,Mobile,Ingles,2,True
+USR00628,Carlos Perez,user628@email.com,39,Japan,Estandar,2019-11-05,Mobile,Ingles,4,False
+USR00629,Diego Ramirez,user629@email.com,62,Japan,Basico,2022-11-25,Tablet,Ingles,1,True
+USR00630,Carlos Rivera,user630@email.com,60,Germany,Premium,2019-08-16,Tablet,Ingles,1,True
+USR00631,Isabel Sanchez,user631@email.com,27,Brazil,Estandar,2019-04-11,Gaming Console,Ingles,3,True
+USR00632,Diego Martinez,user632@email.com,58,Brazil,Premium,2024-06-27,Smart TV,Español,2,True
+USR00633,Sofia Rivera,user633@email.com,52,Japan,Basico,2024-09-27,Laptop,Español,3,True
+USR00634,Juan Flores,user634@email.com,54,Mexico,Estandar,2022-01-30,Smart TV,Ingles,3,True
+USR00635,David Sanchez,user635@email.com,59,Brazil,Estandar,2022-08-08,Tablet,Ingles,5,False
+USR00636,Lucia Hernandez,user636@email.com,25,Spain,Estandar,2022-10-21,Tablet,Español,5,True
+USR00637,Lucia Perez,user637@email.com,42,Colombia,Premium,2022-11-27,Gaming Console,Ingles,5,True
+USR00638,Carlos Rodriguez,user638@email.com,23,France,Basico,2024-11-29,Laptop,Español,4,True
+USR00639,Elena Sanchez,user639@email.com,50,Germany,Basico,2021-04-02,Laptop,Español,2,False
+USR00640,Lucia Perez,user640@email.com,25,Argentina,Estandar,2019-05-25,Tablet,Ingles,4,False
+USR00641,Ana Hernandez,user641@email.com,68,Argentina,Premium,2021-03-07,Tablet,Ingles,3,False
+USR00642,Elena Lopez,user642@email.com,18,Chile,Basico,2018-03-05,Smart TV,Español,3,True
+USR00643,Pedro Martinez,user643@email.com,54,Chile,Basico,2024-03-26,Laptop,Español,5,False
+USR00644,Jose Garcia,user644@email.com,69,Germany,Estandar,2019-06-12,Gaming Console,Ingles,2,False
+USR00645,Isabel Hernandez,user645@email.com,51,Spain,Estandar,2020-08-04,Smart TV,Español,5,True
+USR00646,Elena Torres,user646@email.com,68,Chile,Premium,2020-12-01,Desktop,Español,3,True
+USR00647,Carlos Rodriguez,user647@email.com,19,Chile,Basico,2024-08-27,Mobile,Español,5,True
+USR00648,Miguel Perez,user648@email.com,19,Italy,Premium,2019-06-19,Laptop,Ingles,2,True
+USR00649,Elena Lopez,user649@email.com,37,Argentina,Premium,2020-10-01,Gaming Console,Ingles,3,True
+USR00650,Laura Rodriguez,user650@email.com,27,France,Basico,2024-07-01,Smart TV,Español,4,True
+USR00651,Carlos Martinez,user651@email.com,36,Colombia,Basico,2019-01-16,Smart TV,Ingles,3,True
+USR00652,Sofia Rodriguez,user652@email.com,49,Japan,Basico,2022-08-22,Smart TV,Ingles,1,True
+USR00653,Elena Perez,user653@email.com,42,Peru,Premium,2023-01-21,Mobile,Español,3,True
+USR00654,Isabel Martinez,user654@email.com,60,Germany,Premium,2024-10-20,Smart TV,Español,3,True
+USR00655,Diego Torres,user655@email.com,56,UK,Basico,2019-10-11,Desktop,Ingles,1,True
+USR00656,Miguel Garcia,user656@email.com,52,Mexico,Premium,2023-09-28,Mobile,Español,3,True
+USR00657,Isabel Lopez,user657@email.com,19,Peru,Basico,2020-06-19,Smart TV,Español,3,True
+USR00658,Diego Lopez,user658@email.com,23,Peru,Premium,2024-03-08,Gaming Console,Ingles,4,False
+USR00659,Sofia Ramirez,user659@email.com,43,Argentina,Estandar,2019-12-10,Mobile,Ingles,4,True
+USR00660,Miguel Torres,user660@email.com,37,Spain,Basico,2023-06-22,Laptop,Ingles,4,True
+USR00661,Jose Hernandez,user661@email.com,57,USA,Premium,2022-04-18,Laptop,Español,5,True
+USR00662,Pedro Flores,user662@email.com,70,USA,Estandar,2019-11-17,Smart TV,Ingles,5,False
+USR00663,Laura Torres,user663@email.com,70,France,Premium,2021-12-13,Laptop,Español,1,True
+USR00664,Carmen Hernandez,user664@email.com,45,Japan,Basico,2022-01-05,Mobile,Español,2,True
+USR00665,Pedro Martinez,user665@email.com,67,Peru,Basico,2018-02-09,Tablet,Español,3,True
+USR00666,Diego Torres,user666@email.com,68,Peru,Basico,2024-04-19,Smart TV,Ingles,3,True
+USR00667,Lucia Lopez,user667@email.com,24,UK,Estandar,2024-10-25,Gaming Console,Español,5,False
+USR00668,Elena Perez,user668@email.com,38,Korea,Estandar,2020-03-22,Mobile,Español,4,False
+USR00669,Ana Gonzalez,user669@email.com,44,USA,Basico,2023-01-29,Mobile,Ingles,5,False
+USR00670,Juan Torres,user670@email.com,19,Colombia,Basico,2024-06-16,Smart TV,Ingles,3,True
+USR00671,Jose Perez,user671@email.com,20,UK,Premium,2018-06-10,Tablet,Español,1,False
+USR00672,Carlos Perez,user672@email.com,64,Colombia,Estandar,2021-07-23,Tablet,Ingles,1,True
+USR00673,Diego Torres,user673@email.com,21,Chile,Estandar,2023-02-05,Laptop,Español,3,True
+USR00674,Ana Lopez,user674@email.com,21,Korea,Basico,2019-07-23,Smart TV,Ingles,4,True
+USR00675,Maria Rodriguez,user675@email.com,30,Italy,Estandar,2024-01-11,Smart TV,Español,3,True
+USR00676,Carlos Garcia,user676@email.com,37,USA,Estandar,2021-09-10,Gaming Console,Ingles,3,True
+USR00677,Isabel Martinez,user677@email.com,55,Brazil,Basico,2019-06-02,Tablet,Español,5,False
+USR00678,Elena Sanchez,user678@email.com,60,USA,Premium,2023-12-02,Mobile,Ingles,4,True
+USR00679,Pedro Rivera,user679@email.com,48,Argentina,Basico,2020-12-16,Tablet,Español,3,True
+USR00680,Elena Flores,user680@email.com,65,Korea,Basico,2018-11-16,Smart TV,Ingles,1,True
+USR00681,Ana Flores,user681@email.com,31,Brazil,Estandar,2020-02-09,Laptop,Español,3,True
+USR00682,Jose Torres,user682@email.com,66,UK,Premium,2021-07-07,Tablet,Ingles,2,True
+USR00683,Isabel Martinez,user683@email.com,32,Peru,Estandar,2023-01-28,Desktop,Español,4,True
+USR00684,Carlos Gonzalez,user684@email.com,45,Spain,Premium,2021-06-12,Desktop,Español,2,False
+USR00685,Isabel Rodriguez,user685@email.com,65,USA,Basico,2018-03-09,Laptop,Español,3,True
+USR00686,Diego Flores,user686@email.com,51,Brazil,Estandar,2020-12-23,Smart TV,Español,3,False
+USR00687,Juan Martinez,user687@email.com,43,UK,Estandar,2023-09-12,Tablet,Español,4,True
+USR00688,Pedro Rodriguez,user688@email.com,21,France,Estandar,2022-09-27,Mobile,Ingles,2,False
+USR00689,Maria Torres,user689@email.com,35,UK,Premium,2023-07-15,Desktop,Ingles,1,True
+USR00690,Elena Lopez,user690@email.com,25,Argentina,Basico,2018-08-06,Smart TV,Ingles,2,True
+USR00691,Lucia Rodriguez,user691@email.com,35,Argentina,Premium,2022-07-16,Laptop,Ingles,1,True
+USR00692,David Rivera,user692@email.com,35,Brazil,Basico,2019-12-02,Mobile,Ingles,3,True
+USR00693,David Garcia,user693@email.com,24,Spain,Premium,2024-12-23,Laptop,Ingles,2,True
+USR00694,Pedro Flores,user694@email.com,22,Spain,Basico,2021-09-22,Laptop,Español,1,False
+USR00695,Sofia Hernandez,user695@email.com,19,Spain,Estandar,2018-11-12,Mobile,Español,5,True
+USR00696,Diego Torres,user696@email.com,18,Brazil,Basico,2023-04-20,Smart TV,Español,1,True
+USR00697,Jose Lopez,user697@email.com,51,UK,Basico,2019-08-24,Smart TV,Español,3,True
+USR00698,Diego Sanchez,user698@email.com,65,Peru,Premium,2020-11-20,Gaming Console,Ingles,3,True
+USR00699,Diego Garcia,user699@email.com,70,Peru,Estandar,2021-09-28,Desktop,Ingles,1,True
+USR00700,Elena Ramirez,user700@email.com,64,France,Basico,2019-08-29,Laptop,Español,2,True
+USR00701,Diego Garcia,user701@email.com,33,Germany,Premium,2022-10-31,Tablet,Español,1,True
+USR00702,Isabel Perez,user702@email.com,58,USA,Estandar,2024-02-10,Laptop,Español,3,True
+USR00703,Isabel Hernandez,user703@email.com,43,Germany,Estandar,2021-02-05,Tablet,Español,1,True
+USR00704,Jose Torres,user704@email.com,25,Chile,Estandar,2024-05-10,Tablet,Ingles,1,True
+USR00705,Diego Flores,user705@email.com,27,Brazil,Premium,2019-09-08,Desktop,Ingles,5,True
+USR00706,Laura Sanchez,user706@email.com,36,USA,Estandar,2018-03-05,Laptop,Español,2,True
+USR00707,Jose Torres,user707@email.com,25,Mexico,Estandar,2021-06-06,Smart TV,Ingles,3,True
+USR00708,Ana Gonzalez,user708@email.com,26,Peru,Estandar,2023-08-19,Gaming Console,Español,1,True
+USR00709,Maria Rivera,user709@email.com,30,Chile,Premium,2018-11-27,Tablet,Español,1,False
+USR00710,Isabel Hernandez,user710@email.com,33,Japan,Premium,2022-05-02,Laptop,Ingles,1,True
+USR00711,Isabel Gonzalez,user711@email.com,56,Colombia,Basico,2024-04-28,Laptop,Ingles,5,True
+USR00712,Elena Lopez,user712@email.com,34,Spain,Estandar,2024-03-20,Mobile,Ingles,3,True
+USR00713,Laura Torres,user713@email.com,58,Brazil,Premium,2020-01-22,Laptop,Ingles,1,True
+USR00714,Lucia Sanchez,user714@email.com,62,Peru,Premium,2022-01-04,Laptop,Ingles,4,False
+USR00715,Sofia Perez,user715@email.com,47,Mexico,Premium,2018-04-19,Laptop,Español,2,True
+USR00716,Carmen Lopez,user716@email.com,55,UK,Estandar,2019-06-06,Desktop,Ingles,1,False
+USR00717,Maria Perez,user717@email.com,60,Mexico,Estandar,2023-10-23,Laptop,Español,1,True
+USR00718,Laura Flores,user718@email.com,24,Peru,Premium,2019-02-03,Tablet,Ingles,3,True
+USR00719,Carlos Rivera,user719@email.com,55,France,Premium,2018-08-06,Gaming Console,Español,5,True
+USR00720,Lucia Rivera,user720@email.com,49,Spain,Basico,2019-09-26,Tablet,Ingles,1,False
+USR00721,Miguel Rivera,user721@email.com,30,USA,Basico,2018-01-01,Mobile,Español,5,True
+USR00722,Juan Lopez,user722@email.com,24,Brazil,Basico,2023-09-03,Laptop,Ingles,1,True
+USR00723,Laura Perez,user723@email.com,48,Spain,Basico,2024-02-18,Tablet,Ingles,5,True
+USR00724,Sofia Martinez,user724@email.com,58,Mexico,Basico,2019-08-04,Gaming Console,Español,2,True
+USR00725,Diego Sanchez,user725@email.com,36,Colombia,Premium,2019-02-14,Desktop,Ingles,3,True
+USR00726,Sofia Perez,user726@email.com,62,Japan,Basico,2023-03-16,Laptop,Ingles,2,True
+USR00727,Laura Sanchez,user727@email.com,25,Germany,Estandar,2018-02-15,Desktop,Ingles,1,False
+USR00728,Ana Hernandez,user728@email.com,26,Brazil,Premium,2023-02-21,Tablet,Español,2,True
+USR00729,Lucia Ramirez,user729@email.com,31,Peru,Premium,2023-11-21,Laptop,Español,2,True
+USR00730,Pedro Flores,user730@email.com,64,Germany,Estandar,2023-02-26,Gaming Console,Español,3,True
+USR00731,Isabel Perez,user731@email.com,22,Korea,Premium,2023-06-05,Laptop,Ingles,5,True
+USR00732,Miguel Rivera,user732@email.com,50,Japan,Premium,2023-11-23,Tablet,Español,3,True
+USR00733,Miguel Torres,user733@email.com,43,USA,Basico,2018-05-01,Gaming Console,Español,2,True
+USR00734,Elena Rodriguez,user734@email.com,49,France,Estandar,2021-08-18,Mobile,Español,1,True
+USR00735,David Perez,user735@email.com,66,Chile,Basico,2018-09-11,Desktop,Ingles,1,True
+USR00736,Jose Rivera,user736@email.com,22,Brazil,Estandar,2024-10-20,Gaming Console,Español,2,True
+USR00737,Carlos Rivera,user737@email.com,46,Chile,Basico,2024-06-08,Desktop,Español,2,True
+USR00738,Diego Sanchez,user738@email.com,61,Colombia,Basico,2020-04-04,Gaming Console,Español,4,True
+USR00739,Carlos Torres,user739@email.com,19,France,Premium,2019-01-30,Mobile,Español,2,True
+USR00740,Pedro Perez,user740@email.com,54,UK,Basico,2021-10-27,Mobile,Ingles,2,True
+USR00741,Miguel Sanchez,user741@email.com,50,Peru,Estandar,2024-12-08,Desktop,Español,1,False
+USR00742,Sofia Flores,user742@email.com,42,Korea,Basico,2024-05-20,Smart TV,Español,5,True
+USR00743,Carlos Rodriguez,user743@email.com,49,Argentina,Basico,2024-09-29,Desktop,Ingles,1,True
+USR00744,Jose Gonzalez,user744@email.com,34,Chile,Premium,2022-01-05,Smart TV,Español,3,True
+USR00745,Lucia Torres,user745@email.com,33,Korea,Premium,2024-11-08,Desktop,Ingles,4,True
+USR00746,Lucia Rivera,user746@email.com,25,Germany,Estandar,2020-12-13,Gaming Console,Español,1,True
+USR00747,Sofia Gonzalez,user747@email.com,30,Peru,Basico,2019-07-25,Mobile,Ingles,1,True
+USR00748,Diego Rodriguez,user748@email.com,69,Germany,Premium,2018-05-25,Tablet,Español,4,True
+USR00749,Isabel Ramirez,user749@email.com,48,Spain,Estandar,2018-06-20,Smart TV,Español,4,True
+USR00750,Elena Hernandez,user750@email.com,45,Brazil,Estandar,2020-07-21,Smart TV,Español,1,True
+USR00751,Lucia Torres,user751@email.com,42,France,Premium,2018-03-16,Desktop,Ingles,1,False
+USR00752,Carmen Perez,user752@email.com,62,Spain,Estandar,2022-10-15,Desktop,Español,1,False
+USR00753,Carlos Torres,user753@email.com,41,Peru,Basico,2021-11-06,Laptop,Español,2,True
+USR00754,Carlos Torres,user754@email.com,18,Argentina,Estandar,2024-01-06,Desktop,Español,1,True
+USR00755,Jose Garcia,user755@email.com,22,Mexico,Basico,2022-12-02,Mobile,Ingles,1,True
+USR00756,Pedro Torres,user756@email.com,59,Argentina,Estandar,2019-06-16,Desktop,Ingles,4,True
+USR00757,Elena Rodriguez,user757@email.com,22,Colombia,Premium,2020-04-23,Laptop,Ingles,2,False
+USR00758,David Gonzalez,user758@email.com,41,Japan,Premium,2021-04-13,Gaming Console,Español,5,True
+USR00759,Pedro Rivera,user759@email.com,52,UK,Basico,2018-08-10,Tablet,Ingles,5,False
+USR00760,Laura Rodriguez,user760@email.com,31,Spain,Premium,2020-08-02,Tablet,Español,1,True
+USR00761,David Martinez,user761@email.com,20,Argentina,Premium,2022-12-09,Gaming Console,Ingles,1,True
+USR00762,Diego Garcia,user762@email.com,35,Colombia,Premium,2022-04-23,Tablet,Español,1,True
+USR00763,Jose Torres,user763@email.com,42,Brazil,Basico,2022-04-17,Laptop,Ingles,1,True
+USR00764,Juan Perez,user764@email.com,29,France,Estandar,2023-12-22,Smart TV,Ingles,1,True
+USR00765,Isabel Garcia,user765@email.com,56,Japan,Estandar,2020-12-11,Desktop,Español,1,True
+USR00766,David Torres,user766@email.com,45,Korea,Estandar,2018-08-22,Smart TV,Ingles,3,False
+USR00767,Sofia Torres,user767@email.com,64,Germany,Premium,2020-12-01,Mobile,Ingles,4,True
+USR00768,Maria Garcia,user768@email.com,35,Japan,Premium,2021-01-28,Smart TV,Español,5,True
+USR00769,Pedro Torres,user769@email.com,43,Mexico,Premium,2021-01-28,Tablet,Ingles,3,True
+USR00770,Carlos Gonzalez,user770@email.com,54,France,Estandar,2020-12-19,Mobile,Ingles,4,True
+USR00771,Diego Garcia,user771@email.com,47,Mexico,Estandar,2023-05-21,Gaming Console,Español,4,True
+USR00772,Miguel Rodriguez,user772@email.com,35,Germany,Premium,2021-07-10,Smart TV,Ingles,2,True
+USR00773,Carmen Gonzalez,user773@email.com,34,Korea,Estandar,2019-06-06,Mobile,Español,2,True
+USR00774,Juan Rodriguez,user774@email.com,59,Mexico,Basico,2023-09-07,Laptop,Ingles,1,True
+USR00775,Ana Rivera,user775@email.com,34,Colombia,Basico,2021-12-18,Desktop,Español,5,True
+USR00776,Pedro Rodriguez,user776@email.com,22,UK,Estandar,2019-04-09,Desktop,Español,2,True
+USR00777,Pedro Torres,user777@email.com,41,Korea,Premium,2022-08-31,Smart TV,Ingles,3,True
+USR00778,Ana Hernandez,user778@email.com,56,Japan,Estandar,2021-10-04,Laptop,Ingles,4,True
+USR00779,Miguel Garcia,user779@email.com,28,Peru,Basico,2021-04-06,Mobile,Español,1,True
+USR00780,Carmen Hernandez,user780@email.com,50,Italy,Premium,2023-09-13,Desktop,Ingles,2,False
+USR00781,Jose Torres,user781@email.com,20,France,Premium,2019-09-07,Laptop,Español,1,True
+USR00782,Miguel Ramirez,user782@email.com,54,France,Premium,2022-09-09,Desktop,Español,5,True
+USR00783,Miguel Sanchez,user783@email.com,60,UK,Premium,2022-12-12,Tablet,Ingles,2,True
+USR00784,Isabel Lopez,user784@email.com,39,Argentina,Estandar,2020-08-03,Laptop,Ingles,1,True
+USR00785,Diego Rivera,user785@email.com,44,Peru,Basico,2021-12-12,Desktop,Español,3,False
+USR00786,Miguel Lopez,user786@email.com,46,Japan,Estandar,2020-07-30,Desktop,Español,5,True
+USR00787,Carmen Perez,user787@email.com,61,Germany,Premium,2019-07-20,Desktop,Ingles,3,True
+USR00788,Pedro Rodriguez,user788@email.com,23,Chile,Estandar,2023-08-31,Mobile,Ingles,2,True
+USR00789,Isabel Sanchez,user789@email.com,18,Spain,Basico,2022-09-11,Tablet,Ingles,1,True
+USR00790,Jose Garcia,user790@email.com,45,Mexico,Premium,2019-11-15,Smart TV,Español,5,False
+USR00791,Isabel Perez,user791@email.com,40,Spain,Estandar,2024-03-31,Mobile,Ingles,1,True
+USR00792,Isabel Hernandez,user792@email.com,55,Germany,Premium,2019-03-18,Gaming Console,Español,1,True
+USR00793,Diego Perez,user793@email.com,58,Brazil,Premium,2022-11-20,Tablet,Ingles,2,True
+USR00794,David Torres,user794@email.com,70,UK,Basico,2019-09-16,Smart TV,Ingles,4,False
+USR00795,Pedro Sanchez,user795@email.com,29,UK,Premium,2024-08-05,Tablet,Español,2,True
+USR00796,Diego Hernandez,user796@email.com,21,Germany,Premium,2023-11-22,Desktop,Ingles,3,True
+USR00797,Sofia Hernandez,user797@email.com,66,Spain,Basico,2018-06-21,Gaming Console,Español,4,True
+USR00798,Miguel Torres,user798@email.com,38,USA,Estandar,2021-03-12,Mobile,Español,3,True
+USR00799,Diego Sanchez,user799@email.com,32,Spain,Estandar,2020-11-28,Desktop,Español,2,True
+USR00800,Maria Rodriguez,user800@email.com,31,UK,Premium,2019-11-23,Smart TV,Español,5,True
+USR00801,Ana Sanchez,user801@email.com,70,Mexico,Estandar,2020-04-12,Tablet,Ingles,4,True
+USR00802,Jose Sanchez,user802@email.com,36,USA,Premium,2019-05-07,Laptop,Ingles,4,True
+USR00803,Carlos Martinez,user803@email.com,35,Italy,Premium,2019-04-23,Tablet,Español,2,True
+USR00804,Pedro Martinez,user804@email.com,50,Peru,Estandar,2023-02-01,Gaming Console,Español,3,True
+USR00805,Sofia Rodriguez,user805@email.com,63,Japan,Premium,2021-07-24,Mobile,Español,1,True
+USR00806,Maria Torres,user806@email.com,42,Korea,Basico,2020-03-12,Tablet,Ingles,2,False
+USR00807,Jose Martinez,user807@email.com,64,Brazil,Estandar,2019-06-24,Mobile,Español,5,True
+USR00808,Ana Perez,user808@email.com,22,Brazil,Premium,2024-11-08,Mobile,Español,1,False
+USR00809,David Gonzalez,user809@email.com,57,Chile,Premium,2024-07-19,Mobile,Ingles,4,True
+USR00810,Isabel Gonzalez,user810@email.com,32,Colombia,Premium,2023-06-10,Laptop,Ingles,5,True
+USR00811,Lucia Sanchez,user811@email.com,36,USA,Basico,2019-04-06,Tablet,Ingles,4,True
+USR00812,Juan Flores,user812@email.com,45,USA,Basico,2023-03-19,Tablet,Español,3,False
+USR00813,David Martinez,user813@email.com,67,Brazil,Estandar,2024-09-27,Laptop,Español,1,True
+USR00814,Laura Ramirez,user814@email.com,31,Korea,Estandar,2018-09-07,Desktop,Ingles,3,True
+USR00815,Sofia Perez,user815@email.com,69,Brazil,Estandar,2022-06-21,Tablet,Español,3,False
+USR00816,David Lopez,user816@email.com,39,France,Basico,2021-06-17,Laptop,Ingles,2,True
+USR00817,Lucia Lopez,user817@email.com,67,France,Basico,2024-11-17,Desktop,Ingles,2,True
+USR00818,David Garcia,user818@email.com,69,Chile,Basico,2021-09-27,Tablet,Español,1,True
+USR00819,Pedro Ramirez,user819@email.com,30,Spain,Premium,2022-06-09,Gaming Console,Español,3,True
+USR00820,Isabel Hernandez,user820@email.com,39,Chile,Basico,2024-03-14,Gaming Console,Español,1,True
+USR00821,Jose Garcia,user821@email.com,66,UK,Basico,2023-08-17,Laptop,Ingles,1,True
+USR00822,Laura Gonzalez,user822@email.com,19,Argentina,Premium,2020-10-09,Smart TV,Ingles,1,False
+USR00823,Elena Perez,user823@email.com,26,Korea,Premium,2021-01-10,Smart TV,Español,1,False
+USR00824,Ana Garcia,user824@email.com,65,Korea,Premium,2024-10-13,Mobile,Español,5,False
+USR00825,Juan Torres,user825@email.com,37,Japan,Estandar,2022-10-08,Desktop,Español,3,True
+USR00826,Diego Lopez,user826@email.com,24,Colombia,Premium,2024-06-18,Laptop,Ingles,3,False
+USR00827,Carlos Lopez,user827@email.com,44,UK,Estandar,2023-06-03,Tablet,Español,4,True
+USR00828,Diego Rivera,user828@email.com,43,Peru,Premium,2019-03-20,Laptop,Español,5,True
+USR00829,Sofia Lopez,user829@email.com,46,Peru,Estandar,2024-04-25,Smart TV,Ingles,3,True
+USR00830,Carmen Flores,user830@email.com,23,USA,Premium,2019-11-25,Mobile,Ingles,5,True
+USR00831,Carlos Martinez,user831@email.com,43,Germany,Estandar,2023-11-14,Gaming Console,Español,1,False
+USR00832,Laura Perez,user832@email.com,37,Italy,Estandar,2019-09-09,Smart TV,Ingles,5,False
+USR00833,Jose Garcia,user833@email.com,35,Italy,Basico,2024-04-22,Laptop,Ingles,3,True
+USR00834,Pedro Sanchez,user834@email.com,63,Brazil,Premium,2024-03-22,Gaming Console,Español,1,False
+USR00835,David Rodriguez,user835@email.com,42,Spain,Basico,2019-10-26,Desktop,Español,2,True
+USR00836,Diego Rodriguez,user836@email.com,20,Chile,Estandar,2019-12-01,Gaming Console,Ingles,2,False
+USR00837,Sofia Garcia,user837@email.com,36,USA,Estandar,2021-04-20,Gaming Console,Ingles,5,True
+USR00838,Miguel Hernandez,user838@email.com,54,France,Basico,2019-08-03,Tablet,Español,5,True
+USR00839,Lucia Torres,user839@email.com,34,Brazil,Estandar,2020-05-12,Tablet,Español,2,False
+USR00840,Ana Hernandez,user840@email.com,44,Spain,Basico,2023-04-12,Smart TV,Español,3,True
+USR00841,Juan Rivera,user841@email.com,24,UK,Estandar,2021-09-17,Smart TV,Español,5,False
+USR00842,Miguel Martinez,user842@email.com,22,Peru,Premium,2024-04-09,Mobile,Ingles,1,True
+USR00843,Laura Gonzalez,user843@email.com,70,Korea,Estandar,2024-07-21,Gaming Console,Ingles,3,False
+USR00844,Isabel Gonzalez,user844@email.com,53,UK,Premium,2020-04-09,Smart TV,Español,1,True
+USR00845,Laura Martinez,user845@email.com,34,Germany,Basico,2019-06-03,Desktop,Ingles,3,True
+USR00846,Carmen Rivera,user846@email.com,57,France,Estandar,2020-05-07,Mobile,Español,2,True
+USR00847,Carlos Torres,user847@email.com,27,Spain,Basico,2023-05-02,Smart TV,Ingles,1,True
+USR00848,Maria Ramirez,user848@email.com,69,Brazil,Estandar,2023-04-17,Tablet,Ingles,5,True
+USR00849,Juan Ramirez,user849@email.com,43,Chile,Estandar,2023-04-28,Tablet,Ingles,5,True
+USR00850,Lucia Rodriguez,user850@email.com,56,Korea,Basico,2019-11-12,Gaming Console,Ingles,2,False
+USR00851,Lucia Sanchez,user851@email.com,49,Italy,Estandar,2019-05-08,Desktop,Ingles,3,True
+USR00852,Ana Hernandez,user852@email.com,47,Japan,Premium,2021-11-18,Gaming Console,Ingles,2,True
+USR00853,Sofia Hernandez,user853@email.com,29,Italy,Basico,2020-03-13,Laptop,Ingles,5,True
+USR00854,Ana Torres,user854@email.com,37,Peru,Basico,2022-02-19,Tablet,Español,5,True
+USR00855,Ana Flores,user855@email.com,35,France,Estandar,2022-06-20,Smart TV,Ingles,3,True
+USR00856,Miguel Garcia,user856@email.com,63,Brazil,Premium,2023-02-05,Laptop,Español,4,True
+USR00857,Ana Hernandez,user857@email.com,19,Germany,Premium,2019-09-20,Gaming Console,Español,2,True
+USR00858,Sofia Rodriguez,user858@email.com,21,Brazil,Premium,2018-09-13,Tablet,Español,5,True
+USR00859,Jose Lopez,user859@email.com,59,Germany,Premium,2018-03-10,Tablet,Ingles,2,True
+USR00860,Lucia Garcia,user860@email.com,60,Chile,Estandar,2018-09-09,Smart TV,Español,5,True
+USR00861,David Gonzalez,user861@email.com,23,Spain,Estandar,2018-07-02,Tablet,Español,5,False
+USR00862,Maria Flores,user862@email.com,65,Korea,Basico,2021-06-28,Tablet,Ingles,1,True
+USR00863,Diego Torres,user863@email.com,62,USA,Premium,2023-03-12,Smart TV,Español,1,True
+USR00864,David Rodriguez,user864@email.com,29,Peru,Premium,2018-03-24,Mobile,Español,2,True
+USR00865,Diego Rodriguez,user865@email.com,64,Argentina,Estandar,2020-02-22,Gaming Console,Español,3,True
+USR00866,Sofia Rivera,user866@email.com,36,Spain,Estandar,2019-07-30,Desktop,Ingles,4,True
+USR00867,Jose Lopez,user867@email.com,35,Argentina,Basico,2021-04-23,Tablet,Ingles,3,True
+USR00868,Diego Hernandez,user868@email.com,55,Peru,Estandar,2023-11-13,Laptop,Español,1,False
+USR00869,Maria Ramirez,user869@email.com,54,Argentina,Premium,2022-11-13,Tablet,Ingles,2,True
+USR00870,David Ramirez,user870@email.com,53,Korea,Premium,2021-01-06,Smart TV,Español,3,True
+USR00871,Diego Gonzalez,user871@email.com,20,USA,Premium,2020-02-03,Laptop,Español,4,True
+USR00872,Pedro Torres,user872@email.com,42,France,Premium,2018-05-19,Tablet,Español,3,True
+USR00873,Maria Perez,user873@email.com,48,Peru,Estandar,2019-02-15,Mobile,Ingles,3,True
+USR00874,Diego Ramirez,user874@email.com,29,Japan,Basico,2022-12-04,Desktop,Ingles,5,False
+USR00875,David Perez,user875@email.com,48,Korea,Basico,2020-10-31,Gaming Console,Ingles,5,True
+USR00876,Diego Flores,user876@email.com,43,Colombia,Basico,2020-08-17,Desktop,Español,4,False
+USR00877,Carmen Gonzalez,user877@email.com,54,Chile,Premium,2018-04-27,Mobile,Español,3,True
+USR00878,Miguel Martinez,user878@email.com,26,France,Estandar,2018-08-09,Smart TV,Ingles,2,True
+USR00879,Diego Perez,user879@email.com,28,Brazil,Basico,2019-08-28,Mobile,Español,3,True
+USR00880,Carlos Martinez,user880@email.com,33,Korea,Basico,2022-11-24,Smart TV,Español,2,True
+USR00881,Ana Sanchez,user881@email.com,28,Peru,Basico,2023-04-13,Desktop,Ingles,2,False
+USR00882,Elena Perez,user882@email.com,47,Italy,Basico,2019-01-28,Laptop,Español,3,True
+USR00883,Sofia Hernandez,user883@email.com,36,Korea,Premium,2022-10-06,Desktop,Ingles,5,True
+USR00884,Pedro Sanchez,user884@email.com,60,Italy,Premium,2018-04-21,Mobile,Español,2,True
+USR00885,Pedro Hernandez,user885@email.com,50,Korea,Basico,2024-11-05,Desktop,Ingles,1,True
+USR00886,Maria Sanchez,user886@email.com,30,Mexico,Basico,2021-05-21,Laptop,Español,3,False
+USR00887,Elena Martinez,user887@email.com,45,Spain,Estandar,2021-06-28,Laptop,Ingles,1,True
+USR00888,Sofia Martinez,user888@email.com,28,Chile,Premium,2023-10-21,Smart TV,Ingles,1,True
+USR00889,Elena Rivera,user889@email.com,24,France,Estandar,2018-02-20,Mobile,Ingles,2,False
+USR00890,Elena Sanchez,user890@email.com,18,Brazil,Premium,2022-07-04,Laptop,Español,3,False
+USR00891,Laura Rivera,user891@email.com,58,USA,Premium,2023-01-19,Desktop,Ingles,4,True
+USR00892,Jose Ramirez,user892@email.com,41,USA,Basico,2022-10-03,Desktop,Ingles,1,True
+USR00893,Ana Hernandez,user893@email.com,63,Germany,Estandar,2020-03-20,Desktop,Ingles,4,True
+USR00894,Diego Gonzalez,user894@email.com,20,USA,Estandar,2023-03-01,Tablet,Español,5,True
+USR00895,Laura Perez,user895@email.com,39,France,Estandar,2018-04-07,Desktop,Ingles,2,True
+USR00896,Pedro Perez,user896@email.com,19,Brazil,Estandar,2021-05-04,Gaming Console,Español,5,True
+USR00897,Pedro Rivera,user897@email.com,20,UK,Premium,2022-06-11,Mobile,Español,1,True
+USR00898,Maria Rivera,user898@email.com,27,France,Estandar,2022-11-01,Tablet,Ingles,4,True
+USR00899,Isabel Rivera,user899@email.com,70,UK,Premium,2023-02-21,Smart TV,Español,3,True
+USR00900,Ana Martinez,user900@email.com,56,Italy,Premium,2019-02-19,Laptop,Español,3,True
+USR00901,Sofia Perez,user901@email.com,19,Spain,Premium,2020-11-18,Gaming Console,Español,4,True
+USR00902,Carmen Lopez,user902@email.com,54,Colombia,Estandar,2024-11-26,Desktop,Español,1,True
+USR00903,Miguel Sanchez,user903@email.com,31,Japan,Estandar,2021-01-30,Gaming Console,Español,3,True
+USR00904,Miguel Perez,user904@email.com,29,France,Estandar,2021-01-21,Smart TV,Ingles,2,True
+USR00905,Carmen Perez,user905@email.com,60,Spain,Estandar,2020-12-29,Laptop,Ingles,1,True
+USR00906,Juan Garcia,user906@email.com,63,Peru,Basico,2018-09-19,Desktop,Ingles,5,False
+USR00907,Miguel Perez,user907@email.com,58,Germany,Estandar,2024-01-27,Laptop,Ingles,5,True
+USR00908,Pedro Hernandez,user908@email.com,38,Peru,Estandar,2019-09-14,Laptop,Ingles,2,True
+USR00909,Elena Perez,user909@email.com,34,Chile,Basico,2024-05-29,Smart TV,Ingles,5,True
+USR00910,Carlos Lopez,user910@email.com,65,UK,Estandar,2021-05-30,Tablet,Ingles,4,False
+USR00911,Ana Martinez,user911@email.com,57,Germany,Basico,2024-12-31,Tablet,Ingles,4,True
+USR00912,Carmen Gonzalez,user912@email.com,53,Italy,Estandar,2020-08-19,Laptop,Español,4,True
+USR00913,Carlos Perez,user913@email.com,31,Argentina,Basico,2024-05-26,Tablet,Español,2,False
+USR00914,Lucia Perez,user914@email.com,40,Japan,Basico,2022-09-09,Desktop,Ingles,3,True
+USR00915,Elena Rodriguez,user915@email.com,60,France,Premium,2021-07-25,Desktop,Ingles,2,False
+USR00916,Diego Sanchez,user916@email.com,36,Korea,Estandar,2019-10-05,Mobile,Ingles,3,True
+USR00917,Lucia Hernandez,user917@email.com,66,Brazil,Premium,2019-12-07,Gaming Console,Español,4,False
+USR00918,Sofia Perez,user918@email.com,30,France,Basico,2024-12-09,Mobile,Español,5,True
+USR00919,Miguel Torres,user919@email.com,64,Chile,Basico,2021-08-24,Desktop,Español,2,False
+USR00920,Elena Rodriguez,user920@email.com,41,Mexico,Premium,2024-09-29,Gaming Console,Ingles,5,True
+USR00921,Jose Martinez,user921@email.com,47,Peru,Premium,2020-09-07,Mobile,Ingles,2,True
+USR00922,Maria Gonzalez,user922@email.com,22,Mexico,Basico,2024-06-23,Laptop,Ingles,2,False
+USR00923,Juan Martinez,user923@email.com,47,UK,Premium,2019-04-01,Desktop,Ingles,2,True
+USR00924,Diego Rivera,user924@email.com,22,Mexico,Premium,2018-05-13,Gaming Console,Ingles,5,False
+USR00925,Jose Perez,user925@email.com,22,Japan,Estandar,2020-12-01,Gaming Console,Español,5,True
+USR00926,Diego Sanchez,user926@email.com,70,Italy,Basico,2021-04-14,Laptop,Español,3,False
+USR00927,David Ramirez,user927@email.com,58,France,Estandar,2022-10-22,Smart TV,Español,2,True
+USR00928,Carmen Torres,user928@email.com,66,Japan,Basico,2019-11-24,Tablet,Ingles,3,True
+USR00929,Isabel Lopez,user929@email.com,68,Brazil,Basico,2020-12-19,Smart TV,Ingles,1,False
+USR00930,Isabel Rivera,user930@email.com,49,Japan,Basico,2020-11-30,Tablet,Ingles,4,True
+USR00931,Carmen Sanchez,user931@email.com,62,Colombia,Premium,2021-02-01,Desktop,Español,2,True
+USR00932,Lucia Gonzalez,user932@email.com,19,Argentina,Estandar,2024-04-27,Tablet,Ingles,3,True
+USR00933,Miguel Flores,user933@email.com,37,Brazil,Premium,2022-12-07,Gaming Console,Ingles,2,True
+USR00934,Maria Torres,user934@email.com,36,Korea,Estandar,2020-11-19,Gaming Console,Español,1,True
+USR00935,Miguel Gonzalez,user935@email.com,27,Germany,Basico,2020-11-28,Tablet,Ingles,4,True
+USR00936,Pedro Flores,user936@email.com,27,Germany,Premium,2021-07-11,Desktop,Ingles,4,False
+USR00937,Elena Martinez,user937@email.com,51,Brazil,Basico,2023-06-06,Laptop,Español,1,True
+USR00938,Juan Gonzalez,user938@email.com,31,Argentina,Basico,2021-02-13,Desktop,Español,2,True
+USR00939,Diego Sanchez,user939@email.com,54,France,Basico,2023-11-17,Mobile,Español,3,True
+USR00940,Sofia Flores,user940@email.com,24,Peru,Premium,2018-10-03,Tablet,Español,1,False
+USR00941,Miguel Ramirez,user941@email.com,33,Argentina,Estandar,2020-01-19,Gaming Console,Español,2,False
+USR00942,Maria Garcia,user942@email.com,56,Colombia,Premium,2021-02-10,Smart TV,Español,1,True
+USR00943,Lucia Gonzalez,user943@email.com,21,Argentina,Basico,2020-09-26,Desktop,Ingles,4,True
+USR00944,Lucia Garcia,user944@email.com,38,Japan,Premium,2018-10-27,Mobile,Ingles,1,False
+USR00945,Carlos Sanchez,user945@email.com,30,USA,Premium,2024-08-11,Mobile,Ingles,3,True
+USR00946,Miguel Perez,user946@email.com,25,Italy,Estandar,2020-03-08,Desktop,Ingles,1,True
+USR00947,Carmen Perez,user947@email.com,56,Colombia,Estandar,2019-12-25,Tablet,Ingles,5,True
+USR00948,Elena Gonzalez,user948@email.com,34,Korea,Premium,2020-10-16,Tablet,Ingles,5,True
+USR00949,Elena Sanchez,user949@email.com,25,Japan,Basico,2023-06-21,Smart TV,Ingles,5,False
+USR00950,Diego Martinez,user950@email.com,29,USA,Estandar,2021-06-01,Smart TV,Ingles,3,True
+USR00951,Juan Rodriguez,user951@email.com,66,Argentina,Basico,2021-06-12,Desktop,Ingles,3,False
+USR00952,Carlos Flores,user952@email.com,37,Germany,Basico,2024-05-27,Gaming Console,Español,3,True
+USR00953,Juan Perez,user953@email.com,68,Spain,Basico,2024-11-04,Gaming Console,Español,3,False
+USR00954,Elena Torres,user954@email.com,68,Chile,Premium,2021-01-08,Mobile,Ingles,4,True
+USR00955,Pedro Martinez,user955@email.com,37,Peru,Premium,2021-12-20,Gaming Console,Ingles,4,True
+USR00956,Sofia Torres,user956@email.com,43,Japan,Estandar,2018-01-24,Laptop,Español,4,True
+USR00957,Elena Martinez,user957@email.com,47,Japan,Estandar,2018-03-21,Gaming Console,Español,2,True
+USR00958,Laura Hernandez,user958@email.com,19,Peru,Estandar,2022-04-16,Tablet,Español,2,False
+USR00959,Jose Gonzalez,user959@email.com,24,USA,Basico,2019-10-20,Tablet,Ingles,5,False
+USR00960,Ana Flores,user960@email.com,42,Italy,Premium,2023-06-18,Mobile,Ingles,5,False
+USR00961,Ana Rodriguez,user961@email.com,21,France,Estandar,2021-02-04,Desktop,Ingles,4,True
+USR00962,Carlos Sanchez,user962@email.com,26,Italy,Basico,2021-08-22,Gaming Console,Ingles,2,True
+USR00963,Miguel Gonzalez,user963@email.com,54,Argentina,Premium,2018-12-27,Laptop,Español,3,True
+USR00964,Lucia Ramirez,user964@email.com,70,Colombia,Premium,2018-03-31,Mobile,Español,3,True
+USR00965,Isabel Sanchez,user965@email.com,65,Argentina,Basico,2021-08-08,Laptop,Español,4,True
+USR00966,Pedro Lopez,user966@email.com,61,Italy,Estandar,2020-11-11,Desktop,Español,2,True
+USR00967,Elena Perez,user967@email.com,45,Chile,Estandar,2018-07-16,Desktop,Español,5,True
+USR00968,Ana Torres,user968@email.com,45,Mexico,Premium,2021-09-01,Desktop,Ingles,3,True
+USR00969,Elena Rodriguez,user969@email.com,65,USA,Premium,2019-01-13,Desktop,Español,5,True
+USR00970,Carmen Ramirez,user970@email.com,23,Germany,Estandar,2024-11-03,Gaming Console,Español,1,False
+USR00971,Jose Gonzalez,user971@email.com,47,Brazil,Premium,2019-09-16,Gaming Console,Ingles,1,True
+USR00972,Elena Torres,user972@email.com,39,Brazil,Premium,2022-11-07,Smart TV,Ingles,5,True
+USR00973,Ana Torres,user973@email.com,42,Mexico,Basico,2020-07-11,Tablet,Ingles,2,True
+USR00974,Jose Lopez,user974@email.com,55,France,Estandar,2023-12-21,Laptop,Español,5,True
+USR00975,Isabel Rivera,user975@email.com,54,Spain,Basico,2019-08-31,Mobile,Ingles,2,True
+USR00976,Ana Ramirez,user976@email.com,56,Korea,Basico,2019-06-06,Desktop,Ingles,1,True
+USR00977,Jose Hernandez,user977@email.com,32,France,Basico,2020-04-06,Tablet,Español,4,True
+USR00978,Juan Lopez,user978@email.com,67,Peru,Basico,2019-07-17,Laptop,Español,4,True
+USR00979,Diego Rivera,user979@email.com,65,Argentina,Estandar,2018-07-21,Laptop,Ingles,4,True
+USR00980,Juan Perez,user980@email.com,55,Korea,Basico,2019-01-16,Mobile,Español,2,True
+USR00981,Carlos Sanchez,user981@email.com,65,Germany,Estandar,2021-07-21,Laptop,Español,2,True
+USR00982,Carmen Ramirez,user982@email.com,41,Brazil,Estandar,2023-09-15,Smart TV,Ingles,1,True
+USR00983,Sofia Perez,user983@email.com,43,Korea,Basico,2021-12-23,Tablet,Ingles,1,False
+USR00984,Jose Flores,user984@email.com,37,Argentina,Premium,2018-12-12,Gaming Console,Ingles,4,True
+USR00985,Laura Rivera,user985@email.com,59,Peru,Basico,2019-07-31,Mobile,Español,5,True
+USR00986,Maria Ramirez,user986@email.com,27,Spain,Premium,2023-04-09,Smart TV,Español,5,True
+USR00987,Jose Rivera,user987@email.com,60,Colombia,Estandar,2024-12-04,Laptop,Español,4,True
+USR00988,Maria Ramirez,user988@email.com,27,Italy,Premium,2020-01-14,Tablet,Español,2,True
+USR00989,Diego Lopez,user989@email.com,37,Chile,Premium,2022-03-09,Tablet,Ingles,1,True
+USR00990,Pedro Garcia,user990@email.com,48,Mexico,Premium,2019-08-15,Laptop,Español,5,False
+USR00991,Carmen Torres,user991@email.com,64,UK,Basico,2019-10-10,Smart TV,Español,3,True
+USR00992,Carlos Perez,user992@email.com,22,USA,Estandar,2023-03-18,Laptop,Ingles,2,True
+USR00993,Laura Sanchez,user993@email.com,48,Colombia,Basico,2021-08-15,Gaming Console,Ingles,5,True
+USR00994,Diego Sanchez,user994@email.com,65,Korea,Premium,2020-03-14,Mobile,Español,5,True
+USR00995,Carmen Martinez,user995@email.com,32,France,Basico,2019-01-24,Gaming Console,Ingles,3,True
+USR00996,Juan Lopez,user996@email.com,34,Spain,Premium,2021-05-18,Tablet,Ingles,5,True
+USR00997,Carmen Martinez,user997@email.com,38,Chile,Estandar,2019-08-18,Desktop,Español,4,True
+USR00998,Carmen Lopez,user998@email.com,29,Mexico,Basico,2018-05-20,Mobile,Español,4,True
+USR00999,Ana Torres,user999@email.com,48,Brazil,Estandar,2020-02-09,Gaming Console,Ingles,4,True
+USR01000,Diego Torres,user1000@email.com,34,UK,Estandar,2019-04-28,Gaming Console,Ingles,5,True

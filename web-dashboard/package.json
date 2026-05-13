@@ -1,7 +1,7 @@
 {
   "name": "netflix-analytics-dashboard",
-  "version": "1.0.0",
-  "description": "Dashboard para visualizar datos del ecosistema Big Data Netflix Analytics",
+  "version": "2.0.0",
+  "description": "Dashboard Big Data Netflix Analytics - Integrado con Kafka y MongoDB",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,6 +10,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongodb": "^6.3.0",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.0"
   }
 }

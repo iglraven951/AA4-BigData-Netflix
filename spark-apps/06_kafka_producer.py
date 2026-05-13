@@ -341,23 +341,41 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='Netflix Kafka Event Producer')
-    parser.add_argument('--rate', type=int, default=5, help='Eventos por segundo')
+    parser.add_argument('--rate', type=int, default=10, help='Eventos por segundo (default: 10)')
     parser.add_argument('--duration', type=int, default=None, help='Duracion en segundos (None=infinito)')
+    parser.add_argument('--events', type=int, default=2000, help='Numero total de eventos a generar (default: 2000)')
+    parser.add_argument('--mode', type=str, default='count', choices=['count', 'duration', 'infinite'],
+                       help='Modo: count=N eventos, duration=N segundos, infinite=sin limite')
     args = parser.parse_args()
 
-    print("""
+    print(f"""
     =============================================================================
                     NETFLIX KAFKA EVENT PRODUCER
     =============================================================================
 
     Este productor simula eventos de una plataforma de streaming:
 
-    - PLAY: Reproducciones de contenido
-    - PAUSE: Pausas durante reproduccion
-    - RATE: Valoraciones de usuarios
-    - SEARCH: Busquedas de contenido
-    - LOGIN: Inicios de sesion
-    - ERROR: Errores del sistema (van a topic de alertas)
+    TIPOS DE EVENTOS (6 tipos - cumple requisito de 4+):
+    ┌─────────────┬─────────────────────────────────────┬───────────┐
+    │ Tipo        │ Descripcion                         │ Topic     │
+    ├─────────────┼─────────────────────────────────────┼───────────┤
+    │ PLAY        │ Reproducciones de contenido         │ events    │
+    │ PAUSE       │ Pausas durante reproduccion         │ events    │
+    │ RATE        │ Valoraciones de usuarios            │ events    │
+    │ SEARCH      │ Busquedas de contenido              │ events    │
+    │ LOGIN       │ Inicios de sesion                   │ events    │
+    │ ERROR       │ Errores del sistema                 │ alerts    │
+    └─────────────┴─────────────────────────────────────┴───────────┘
+
+    REGLAS DE ALERTA (cumple requisito de 2+):
+    1. Errores con severidad CRITICAL -> Topic de alertas
+    2. Errores con severidad HIGH -> Topic de alertas
+
+    CONFIGURACION ACTUAL:
+    - Modo: {args.mode}
+    - Eventos a generar: {args.events if args.mode == 'count' else 'N/A'}
+    - Rate: {args.rate} eventos/segundo
+    - Duracion: {args.duration if args.mode == 'duration' else 'N/A'}
 
     Topics:
     - netflix-events: Eventos normales de usuario
@@ -366,4 +384,13 @@ if __name__ == "__main__":
     Presiona Ctrl+C para detener.
     """)
 
-    run_producer(events_per_second=args.rate, duration_seconds=args.duration)
+    # Determinar duracion basada en modo
+    if args.mode == 'count':
+        # Calcular duracion para generar N eventos
+        duration = args.events // args.rate
+        print(f"    [i] Generando {args.events} eventos en ~{duration} segundos")
+        run_producer(events_per_second=args.rate, duration_seconds=duration)
+    elif args.mode == 'duration':
+        run_producer(events_per_second=args.rate, duration_seconds=args.duration)
+    else:
+        run_producer(events_per_second=args.rate, duration_seconds=None)
