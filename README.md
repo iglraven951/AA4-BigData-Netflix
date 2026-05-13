@@ -160,11 +160,11 @@ docker-compose down
 
 ## Autores
 
-- Integrante 1
-- Integrante 2
-- Integrante 3
-- Integrante 4
-- Integrante 5
+- Edwin Tataje
+- Anderson Arias
+- Cristian arratia
+- Fabian heredia
+- Martha
 
 ## Institucion
 
